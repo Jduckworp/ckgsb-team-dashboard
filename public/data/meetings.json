@@ -1,55 +1,441 @@
 {
   "lastUpdated": "2026-03-02",
-  "summary": "The team is currently navigating a busy period with multiple concurrent priorities: finalizing the remaining £43k marketing budget allocation across AsiaStar (£28k), custom programs (£15k), and preparing for the new campus move in May 2026. They're pushing to complete several overdue video projects with Blue Carrot while managing ongoing LinkedIn and Google advertising campaigns, particularly focusing on high-performing markets in Southeast Asia. The team is also preparing for major visual identity presentations from six agencies on March 4th and working to consolidate their content strategy around four key themes: AI/technology, China going global, leadership, and digital transformation.",
+  "summary": "The team is currently navigating a busy period with multiple concurrent priorities: finalizing the remaining \u00a343k marketing budget allocation across AsiaStar (\u00a328k), custom programs (\u00a315k), and preparing for the new campus move in May 2026. They're pushing to complete several overdue video projects with Blue Carrot while managing ongoing LinkedIn and Google advertising campaigns, particularly focusing on high-performing markets in Southeast Asia. The team is also preparing for major visual identity presentations from six agencies on March 4th and working to consolidate their content strategy around four key themes: AI/technology, China going global, leadership, and digital transformation.",
+  "summaryDetail": "Budget and spend: The remaining \u00a343k marketing budget is being allocated across three main areas: \u00a328k to the AsiaStar campaign (with geographic focus on Jakarta, Ho Chi Minh City, and Kuala Lumpur), \u00a310k to custom programs, and \u00a35.3k for brand awareness. Campaign strategy has shifted to a 90/10 split between LinkedIn and Instagram (from 80/20).\n\nVideo and production: Several video projects with Blue Carrot are overdue; the team is chasing responses and prioritising completion of the CSP video before launching display ads. A final video brief is due by Friday to unblock production.\n\nContent and VI: The team is preparing for visual identity (VI) presentations from six agencies on March 4th; Flo's meetings are being moved to Friday to free up the week. Content strategy is being consolidated around four themes: AI/technology, China going global, leadership, and digital transformation. The CDP CEO interview format is to be decided within two days, with Joseph checking value with the Knowledge team and Julie reviewing the CEO profile and interview angles.\n\nOther: Knowledge and global websites will stay separate (not merged). The UN Global Compact report will use a minimal-effort approach (existing Chinese report, new cover). The team is also preparing for the new campus move in May 2026.",
   "meetings": [
-    { "id": "f7dd08df-9f68-4297-a683-df400a2262b9", "title": "Benefits points redemption walkthrough with colleague", "date": "2026-03-02", "attendees": ["Joseph Duckworth"] },
-    { "id": "2992b053-9113-4bc3-a725-354283ada05f", "title": "LinkedIn marketing campaign budget allocation and performance review", "date": "2026-03-02", "attendees": ["Joseph Duckworth"] },
-    { "id": "cc3d8049-540f-43da-a1d8-f15475556a61", "title": "New note", "date": "2026-03-02", "attendees": ["Joseph Duckworth"] },
-    { "id": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca", "title": "Digital marketing strategy review for Europe and global markets", "date": "2026-02-26", "attendees": ["Joseph Duckworth"] },
-    { "id": "00582c26-6bbe-4882-bbf2-48f242f1c9fc", "title": "New note", "date": "2026-02-24", "attendees": ["Joseph Duckworth"] },
-    { "id": "74862588-118c-4402-b0b4-6bccbd79aae1", "title": "Knowledge website design research and content strategy review", "date": "2026-02-05", "attendees": ["Joseph Duckworth"] },
-    { "id": "a61236fc-aecb-4d28-8788-2404e41123bb", "title": "Meeting with Felix in two reports", "date": "2026-02-05", "attendees": ["Joseph Duckworth"] },
-    { "id": "c73be628-fe6b-421d-b335-4f5a4255bfc4", "title": "CKGSB global positioning and strategic insights overview", "date": "2026-02-05", "attendees": ["Joseph Duckworth"] },
-    { "id": "b53d0414-2093-4f9d-b30c-2c8f4d0fccda", "title": "Marketing content frequency and brand consistency review", "date": "2026-02-04", "attendees": ["Joseph Duckworth"] },
-    { "id": "d3b6c413-db29-4832-a45c-5e51a3ee45a8", "title": "South China Morning Post and CKGSB collaboration on Chinese companies going global index", "date": "2026-02-04", "attendees": ["Joseph Duckworth"] },
-    { "id": "9c39b866-d846-429c-8893-05762626819b", "title": "SEO performance and campaign optimization review with Daisy", "date": "2026-02-03", "attendees": ["Joseph Duckworth"] },
-    { "id": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "title": "Project priorities and marketing campaign planning before holiday break", "date": "2026-02-02", "attendees": ["Joseph Duckworth"] },
-    { "id": "021704ea-a58a-4914-a523-16272bc4c512", "title": "New note", "date": "2026-01-31", "attendees": ["Joseph Duckworth"] }
+    {
+      "id": "f7dd08df-9f68-4297-a683-df400a2262b9",
+      "title": "Benefits points redemption walkthrough with colleague",
+      "date": "2026-03-02",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "2992b053-9113-4bc3-a725-354283ada05f",
+      "title": "LinkedIn marketing campaign budget allocation and performance review",
+      "date": "2026-03-02",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "title": "New note",
+      "date": "2026-03-02",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca",
+      "title": "Digital marketing strategy review for Europe and global markets",
+      "date": "2026-02-26",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "00582c26-6bbe-4882-bbf2-48f242f1c9fc",
+      "title": "New note",
+      "date": "2026-02-24",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "74862588-118c-4402-b0b4-6bccbd79aae1",
+      "title": "Knowledge website design research and content strategy review",
+      "date": "2026-02-05",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "a61236fc-aecb-4d28-8788-2404e41123bb",
+      "title": "Meeting with Felix in two reports",
+      "date": "2026-02-05",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "c73be628-fe6b-421d-b335-4f5a4255bfc4",
+      "title": "CKGSB global positioning and strategic insights overview",
+      "date": "2026-02-05",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "b53d0414-2093-4f9d-b30c-2c8f4d0fccda",
+      "title": "Marketing content frequency and brand consistency review",
+      "date": "2026-02-04",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "d3b6c413-db29-4832-a45c-5e51a3ee45a8",
+      "title": "South China Morning Post and CKGSB collaboration on Chinese companies going global index",
+      "date": "2026-02-04",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "9c39b866-d846-429c-8893-05762626819b",
+      "title": "SEO performance and campaign optimization review with Daisy",
+      "date": "2026-02-03",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
+      "title": "Project priorities and marketing campaign planning before holiday break",
+      "date": "2026-02-02",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "021704ea-a58a-4914-a523-16272bc4c512",
+      "title": "New note",
+      "date": "2026-01-31",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    }
   ],
   "actionItems": [
-    { "id": "ai1", "text": "Move Flo meetings to Friday for VI presentations", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Joseph", "status": "open" },
-    { "id": "ai2", "text": "Check with Knowledge team on CDP CEO interview value", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Joseph", "status": "open" },
-    { "id": "ai3", "text": "Review CDP CEO profile and brainstorm interview approach", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Julie", "status": "open" },
-    { "id": "ai4", "text": "Coordinate on afternoon alignment meeting (after 5pm today)", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Joseph & Julie", "status": "open" },
-    { "id": "ai5", "text": "Push Blue Carrot for video project response", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Team", "status": "open" },
-    { "id": "ai6", "text": "Decide on CDP interview format within 2 days", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Team", "status": "open" },
-    { "id": "ai7", "text": "Compile Google, YouTube, and website performance data for 2025", "meetingId": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca", "meetingTitle": "Digital marketing strategy review for Europe and global markets", "owner": "Joseph", "status": "open" },
-    { "id": "ai8", "text": "Gather LinkedIn and Instagram results, include ad examples", "meetingId": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca", "meetingTitle": "Digital marketing strategy review for Europe and global markets", "owner": "Julie", "status": "open" },
-    { "id": "ai9", "text": "Evaluate purpose chapter via ChatGPT for translation viability", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "owner": "Joseph", "status": "open" },
-    { "id": "ai10", "text": "Prioritize CSP video completion, then display ads launch", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "owner": "Joseph", "status": "open" },
-    { "id": "ai11", "text": "Final video brief by Friday", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "owner": "Joseph", "status": "open" },
-    { "id": "ai12", "text": "Asia Start LinkedIn campaign updates", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "owner": "Julie", "status": "open" },
-    { "id": "ai13", "text": "Follow-up on MediaMinds contract and Instagram placement", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "owner": "Julie", "status": "open" },
-    { "id": "ai14", "text": "Schedule meeting for Feb 24-25 or week of March 2", "meetingId": "74862588-118c-4402-b0b4-6bccbd79aae1", "meetingTitle": "Knowledge website design research and content strategy review", "owner": "Joseph", "status": "open" },
-    { "id": "ai15", "text": "Review both Chinese reports shared via chat", "meetingId": "a61236fc-aecb-4d28-8788-2404e41123bb", "meetingTitle": "Meeting with Felix in two reports", "owner": "Joseph", "status": "open" }
+    {
+      "id": "ai1",
+      "text": "Move Flo meetings to Friday for VI presentations",
+      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "date": "2026-03-02",
+      "meetingTitle": "New note",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "What it involves: Reschedule any meetings currently involving Flo so they fall on Friday instead of earlier in the week. Reason: Six agencies are presenting visual identity (VI) work on March 4th and the team needs those days clear to prepare and attend. Check calendars, propose new Friday slots, and send updated invites."
+    },
+    {
+      "id": "ai2",
+      "text": "Check with Knowledge team on CDP CEO interview value",
+      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "date": "2026-03-02",
+      "meetingTitle": "New note",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "What it involves: Reach out to the Knowledge team to confirm whether a CDP CEO interview fits their content priorities and what value they see in it (e.g. thought leadership, report tie-in). Get their view on format and timing before the team locks in the interview approach. This unblocks the parallel tasks on format and profile review."
+    },
+    {
+      "id": "ai3",
+      "text": "Review CDP CEO profile and brainstorm interview approach",
+      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "date": "2026-03-02",
+      "meetingTitle": "New note",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "What it involves: Review the CDP CEO's profile (background, expertise, recent work) and brainstorm 3\u20135 strong interview angles or themes that would work for our audience. Share with the team so the format decision (within 2 days) can be informed by concrete options. Coordinate with Joseph's check to Knowledge team on value."
+    },
+    {
+      "id": "ai4",
+      "text": "Coordinate on afternoon alignment meeting (after 5pm today)",
+      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "date": "2026-03-02",
+      "meetingTitle": "New note",
+      "owner": "Joseph & Julie",
+      "status": "open",
+      "detail": "What it involves: Schedule and hold a short alignment meeting between Joseph and Julie after 5pm (same day as the source meeting). Agenda: align on next steps for CDP interview, Blue Carrot follow-up, and VI presentation prep. Confirm owners and timelines so both can execute without overlap or gaps."
+    },
+    {
+      "id": "ai5",
+      "text": "Push Blue Carrot for video project response",
+      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "date": "2026-03-02",
+      "meetingTitle": "New note",
+      "owner": "Team",
+      "status": "open",
+      "detail": "What it involves: Proactively chase Blue Carrot (agency/vendor) for their response or deliverables on the video project(s). The projects are overdue; the goal is to get a clear reply (timeline, next steps, or blockers) so the team can unstick production. Anyone on the team can lead the follow-up; coordinate so it's one clear push."
+    },
+    {
+      "id": "ai6",
+      "text": "Decide on CDP interview format within 2 days",
+      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "date": "2026-03-02",
+      "meetingTitle": "New note",
+      "owner": "Team",
+      "status": "open",
+      "detail": "What it involves: As a team, decide the format for the CDP CEO interview within 2 days\u2014e.g. written Q&A, short thought-leadership piece, or video. Consider Julie's proposed angles and Joseph's Knowledge team feedback. Once format is set, Joseph (value check) and Julie (profile/angles) can complete their tasks and production can be briefed."
+    },
+    {
+      "id": "ai7",
+      "text": "Compile Google, YouTube, and website performance data for 2025",
+      "meetingId": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca",
+      "date": "2026-02-26",
+      "meetingTitle": "Digital marketing strategy review for Europe and global markets",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "What it involves: Compile 2025 performance data from three channels: Google (e.g. Ads, Analytics), YouTube (e.g. views, engagement), and the website (e.g. traffic, conversions). Pull into a single summary (metrics, trends) so the team can use it for the Europe/global digital marketing strategy review and any reporting. Aim for clarity and consistency so it can sit alongside Julie's social data."
+    },
+    {
+      "id": "ai8",
+      "text": "Gather LinkedIn and Instagram results, include ad examples",
+      "meetingId": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca",
+      "date": "2026-02-26",
+      "meetingTitle": "Digital marketing strategy review for Europe and global markets",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "What it involves: Gather LinkedIn and Instagram performance results for 2025 (or the relevant period)—metrics, top posts/campaigns, and 2–3 concrete ad examples (creative plus short performance note). Format so it can sit alongside Joseph's Google, YouTube, and website data in the Europe/global digital marketing review. Include any spend or ROI figures if available."
+    },
+    {
+      "id": "ai9",
+      "text": "Evaluate purpose chapter via ChatGPT for translation viability",
+      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
+      "date": "2026-02-02",
+      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "What it involves: The team agreed to test whether the purpose chapter (from the report/content set) can be translated effectively using ChatGPT or similar tools. Your task is to run that evaluation\u2014e.g. run a sample through the tool, check quality and consistency, and report back on viability. This will inform whether we use AI-assisted translation for the full chapter. Context: Discussed in project priorities and marketing campaign planning before the holiday break."
+    },
+    {
+      "id": "ai10",
+      "text": "Prioritize CSP video completion, then display ads launch",
+      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
+      "date": "2026-02-02",
+      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "What it involves: Stick to this order\u2014(1) Complete the CSP video project first; (2) Then launch the display ads. Do not start display ads in parallel. Part of pre-holiday campaign planning so the team has a clear sequence and can track progress on each."
+    },
+    {
+      "id": "ai11",
+      "text": "Final video brief by Friday",
+      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
+      "date": "2026-02-02",
+      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "What it involves: Finalise the video brief (scope, key messages, format, timeline) and lock it by Friday so production can start. This brief feeds into the CSP video and other video work; getting it done unblocks the team and external partners."
+    },
+    {
+      "id": "ai12",
+      "text": "Asia Start LinkedIn campaign updates",
+      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
+      "date": "2026-02-02",
+      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "What it involves: Prepare and share updates on the Asia Start LinkedIn campaign\u2014status, spend vs budget (\u00a328k allocated), and performance in key markets (Jakarta, Ho Chi Minh City, Kuala Lumpur). Keep the team informed so decisions on timing and next phases can be made."
+    },
+    {
+      "id": "ai13",
+      "text": "Follow-up on MediaMinds contract and Instagram placement",
+      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
+      "date": "2026-02-02",
+      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "What it involves: Follow up with MediaMinds on the contract (terms, timeline, sign-off) and on the Instagram placement(s)\u2014confirm specs, dates, and creative. This sits under the 90/10 LinkedIn/Instagram budget split; closing these items keeps the campaign on track."
+    },
+    {
+      "id": "ai14",
+      "text": "Schedule meeting for Feb 24-25 or week of March 2",
+      "meetingId": "74862588-118c-4402-b0b4-6bccbd79aae1",
+      "date": "2026-02-05",
+      "meetingTitle": "Knowledge website design research and content strategy review",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "What it involves: Schedule a follow-up meeting for the knowledge website design and content strategy work. Target window: Feb 24\u201325 or the week of March 2. Invite the relevant people, set an agenda (e.g. next steps from the last session), and send the invite so the workstream keeps moving."
+    },
+    {
+      "id": "ai15",
+      "text": "Review both Chinese reports shared via chat",
+      "meetingId": "a61236fc-aecb-4d28-8788-2404e41123bb",
+      "date": "2026-02-05",
+      "meetingTitle": "Meeting with Felix in two reports",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "What it involves: Review both Chinese reports that Felix shared in chat (read for content, quality, and fit with our strategy). Then provide clear feedback to Felix\u2014what works, what to adjust, and how they tie into the two-reports plan and broader content strategy. Keeps the Felix collaboration and report pipeline aligned."
+    },
+    {
+      "id": "ai16",
+      "text": "Check with MediaMinds about budget figure discrepancy (reported vs actual spend)",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "date": "2026-03-02",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "LinkedIn backend shows one figure (e.g. 28.9) but MediaMinds report showed a different spend\u2014affects how much we allocate to new campaigns. Need to align and get clarity from MediaMinds on how they calculate reported spend."
+    },
+    {
+      "id": "ai17",
+      "text": "Ask MediaMinds how to lower cost per click for custom program message ads",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "date": "2026-03-02",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "Message ads for custom program are expensive per website visit (\u00a3250 per click mentioned). Get MediaMinds\u2019 advice on improving cost effectiveness (e.g. extending period, narrowing audience, creative tweaks)."
+    },
+    {
+      "id": "ai18",
+      "text": "Turn custom program contact into a form (region picker \u2192 right person)",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "date": "2026-03-02",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "owner": "Team",
+      "status": "open",
+      "detail": "Add a form on the custom program page so visitors pick region (Americas/Europe/Asia); form submission goes to the right sales manager. Captures leads and improves tracking vs. current contact links."
+    },
+    {
+      "id": "ai19",
+      "text": "Develop boosting formula with MediaMinds (how many posts/month, budget per post)",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "date": "2026-03-02",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "Make boosted posts a regular process: identify post types that perform (knowledge, faculty, etc.), agree with MediaMinds how many to boost per month and budget per post, so they proactively boost without weekly nudges."
+    },
+    {
+      "id": "ai20",
+      "text": "Joseph: ask Mara about Sydney program leads and sales conversion",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "date": "2026-03-02",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "Follow up with Mara on leads and conversion from the Sydney/Regis Summit campaign so we can report ROI and inform future custom program spend."
+    },
+    {
+      "id": "ai21",
+      "text": "Proactively ask Mara, Bo, regional leads for campaign ROI and lead feedback",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "date": "2026-03-02",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "owner": "Team",
+      "status": "open",
+      "detail": "Regularly follow up with regional sales (Mara, Bo, etc.) on leads from custom program and Asia Star campaigns so we can report results to leadership and optimize spend."
+    },
+    {
+      "id": "ai22",
+      "text": "Prepare short summary for Flo on the two POs (design and care) so he can approve",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "date": "2026-03-02",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "Flo needs a brief synopsis of what the two POs are for (design and care) before he approves\u2014so he can justify if asked. Provide that so he can sign off without delay."
+    },
+    {
+      "id": "ai23",
+      "text": "Ask MediaMinds why dynamic/follower acquisition ads haven\u2019t started (assets provided)",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "date": "2026-03-02",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "Follow up with MediaMinds: text/assets were provided for dynamic/follower acquisition ads; get timeline or blockers for launching them."
+    }
   ],
   "decisions": [
-    { "id": "d1", "text": "Minimal effort approach for UN Global Compact report - use existing Chinese report, change cover", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "date": "2026-03" },
-    { "id": "d2", "text": "Keep knowledge and global websites separate (not merged)", "meetingId": "74862588-118c-4402-b0b4-6bccbd79aae1", "meetingTitle": "Knowledge website design research and content strategy review", "date": "2026-02" },
-    { "id": "d3", "text": "Budget allocation: £28k to AsiaStar campaign, £10k to custom programs, £5.3k for brand awareness", "meetingId": "2992b053-9113-4bc3-a725-354283ada05f", "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review", "date": "2026-03" },
-    { "id": "d4", "text": "Focus on 2-3 reports maximum (did 4 in prior year, too many)", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "date": "2026-02" },
-    { "id": "d5", "text": "Campaign strategy: Shift to 90/10 budget split (LinkedIn/Instagram) from 80/20", "meetingId": "2992b053-9113-4bc3-a725-354283ada05f", "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review", "date": "2026-02" },
-    { "id": "d6", "text": "Geographic focus for Asia Start: Jakarta, Ho Chi Minh City, Kuala Lumpur", "meetingId": "2992b053-9113-4bc3-a725-354283ada05f", "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review", "date": "2026-02" }
-  ],
-  "topics": [
-    { "name": "Marketing Campaign Management", "meetingIds": ["2992b053-9113-4bc3-a725-354283ada05f", "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca", "f0a45410-66c0-4b7a-bdd9-e72b3c03099b"], "summary": "LinkedIn, Instagram, Google Ads performance and budget allocation" },
-    { "name": "Program Promotion", "meetingIds": ["2992b053-9113-4bc3-a725-354283ada05f"], "summary": "Asia Start, Custom Programs, Sydney program marketing" },
-    { "name": "Content Creation", "meetingIds": ["74862588-118c-4402-b0b4-6bccbd79aae1", "cc3d8049-540f-43da-a1d8-f15475556a61"], "summary": "Reports, white papers, videos, articles, knowledge content" },
-    { "name": "Budget Management", "meetingIds": ["2992b053-9113-4bc3-a725-354283ada05f", "f0a45410-66c0-4b7a-bdd9-e72b3c03099b"], "summary": "Contract negotiations, vendor payments, campaign spend tracking" },
-    { "name": "Website Development", "meetingIds": ["74862588-118c-4402-b0b4-6bccbd79aae1", "9c39b866-d846-429c-8893-05762626819b"], "summary": "SEO, design updates, technical improvements" },
-    { "name": "Partnership Development", "meetingIds": ["d3b6c413-db29-4832-a45c-5e51a3ee45a8"], "summary": "Media collaborations, academic partnerships, event planning" },
-    { "name": "Video Production", "meetingIds": ["cc3d8049-540f-43da-a1d8-f15475556a61", "f0a45410-66c0-4b7a-bdd9-e72b3c03099b"], "summary": "Blue Carrot projects, testimonials, program videos" },
-    { "name": "Event Planning", "meetingIds": [], "summary": "Women in Leadership forum, campus events, conferences" },
-    { "name": "Content strategy themes", "meetingIds": ["2992b053-9113-4bc3-a725-354283ada05f", "cc3d8049-540f-43da-a1d8-f15475556a61"], "summary": "AI/technology, China going global, leadership, digital transformation" }
+    {
+      "id": "d1",
+      "text": "Minimal effort approach for UN Global Compact report - use existing Chinese report, change cover",
+      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "meetingTitle": "New note",
+      "date": "2026-03",
+      "detail": "Rather than producing new content for the UN Global Compact report, the team agreed to reuse the existing Chinese report and only change the cover. This reduces workload and aligns with the decision to focus on 2\u20133 reports maximum. Saves time for other priorities like the CDP interview and video work."
+    },
+    {
+      "id": "d2",
+      "text": "Keep knowledge and global websites separate (not merged)",
+      "meetingId": "74862588-118c-4402-b0b4-6bccbd79aae1",
+      "meetingTitle": "Knowledge website design research and content strategy review",
+      "date": "2026-02",
+      "detail": "After reviewing the knowledge website and content strategy, the team decided not to merge the knowledge and global websites into one. Keeping them separate preserves distinct audiences and content flows, and avoids a large migration. Follow-up meetings were planned for Feb 24\u201325 or the week of March 2."
+    },
+    {
+      "id": "d3",
+      "text": "Budget allocation: \u00a328k to AsiaStar campaign, \u00a310k to custom programs, \u00a35.3k for brand awareness",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "date": "2026-03",
+      "detail": "The remaining \u00a343k marketing budget is split three ways: \u00a328k for the AsiaStar LinkedIn campaign (focus markets: Jakarta, Ho Chi Minh City, Kuala Lumpur), \u00a310k for custom programs, and \u00a35.3k for brand awareness. This sits within the broader 90/10 LinkedIn/Instagram campaign strategy."
+    },
+    {
+      "id": "d4",
+      "text": "Focus on 2-3 reports maximum (did 4 in prior year, too many)",
+      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
+      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
+      "date": "2026-02",
+      "detail": "The team reflected that doing four reports in the prior year was too many and diluted quality. Going forward, cap at 2\u20133 reports so each gets proper attention. This also supports the minimal-effort approach for the UN Global Compact report (reuse existing Chinese report)."
+    },
+    {
+      "id": "d5",
+      "text": "Campaign strategy: Shift to 90/10 budget split (LinkedIn/Instagram) from 80/20",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "date": "2026-02",
+      "detail": "LinkedIn performance justified shifting more spend there: from an 80/20 split (LinkedIn/Instagram) to 90/10. Instagram remains in the mix but at a smaller share. Julie is following up on MediaMinds contract and Instagram placement within this new split."
+    },
+    {
+      "id": "d6",
+      "text": "Geographic focus for Asia Start: Jakarta, Ho Chi Minh City, Kuala Lumpur",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "date": "2026-02",
+      "detail": "Asia Start campaign focus is narrowed to three high-potential markets: Jakarta, Ho Chi Minh City, and Kuala Lumpur. This concentrates the \u00a328k AsiaStar budget and makes measurement and optimisation more manageable. Julie is responsible for Asia Start LinkedIn campaign updates."
+    },
+    {
+      "id": "d7",
+      "text": "Consolidate content strategy around four key themes: AI/technology, China going global, leadership, and digital transformation",
+      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "meetingTitle": "New note",
+      "date": "2026-03",
+      "detail": "To give content a clear direction, the team agreed on four overarching themes: AI/technology, China going global, leadership, and digital transformation. New reports, articles, and the CDP CEO interview should align with these. Reduces fragmentation and helps position CKGSB consistently."
+    },
+    {
+      "id": "d8",
+      "text": "Complete CSP video before launching display ads (strict order of operations)",
+      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
+      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
+      "date": "2026-02",
+      "detail": "The team agreed a strict sequence: (1) finish the CSP video project, then (2) launch display ads. No parallel work on display ads until CSP is done. Joseph is prioritising the video brief by Friday so production can proceed. This avoids spreading capacity too thin before the holiday break."
+    },
+    {
+      "id": "d9",
+      "text": "CDP CEO interview format to be decided within two days to unblock Joseph and Julie's tasks",
+      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "meetingTitle": "New note",
+      "date": "2026-03",
+      "detail": "A two-day deadline was set to decide the CDP CEO interview format (e.g. Q&A, thought-leadership piece, or video). Once format is fixed, Joseph can complete the value check with the Knowledge team and Julie can finalise the profile review and interview angles. The team will consider both inputs when deciding."
+    },
+    {
+      "id": "d10",
+      "text": "Move Flo's meetings to Friday to free up the week for VI agency presentations on March 4th",
+      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
+      "meetingTitle": "New note",
+      "date": "2026-03",
+      "detail": "Six agencies are presenting visual identity (VI) work on March 4th. To keep that week clear for prep and attendance, any meetings involving Flo are to be moved to Friday. Joseph is responsible for rescheduling and sending updated invites."
+    },
+    {
+      "id": "d11",
+      "text": "Include boosted posts in ongoing LinkedIn strategy; get budget number from MediaMinds",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "date": "2026-03",
+      "detail": "Team agreed to make boosted posts a regular part of the campaign (not just on request). Julie to work with MediaMinds on how many posts per month and how much budget per boosted post; use best-performing organic content (knowledge, faculty posts) as the basis."
+    },
+    {
+      "id": "d12",
+      "text": "Renew with MediaMinds but simultaneously look for other agencies (procurement)",
+      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
+      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
+      "date": "2026-03",
+      "detail": "Continue contract renewal with MediaMinds (they are not terrible and 20% is standard) but in parallel explore other agencies, especially those focused on Chinese companies going global, as procurement has suggested. If a better option emerges, can switch in \u201927."
+    }
   ]
 }

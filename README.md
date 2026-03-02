@@ -24,7 +24,7 @@ The dashboard reads from **`public/data/meetings.json`**. You can fill it in two
    - **lastUpdated**: today’s date (YYYY-MM-DD)
    - **summary**: string (the paragraph)
    - **meetings**: array of { **id**, **title**, **date**, **attendees** (array), **summary** (optional) }
-   - **actionItems**: array of { **id**, **text**, **meetingId**, **meetingTitle** (optional), **owner** (optional), **due** (optional), **status** (optional: "open" or "done") }
+   - **actionItems**: array of { **id**, **text**, **meetingId**, **meetingTitle** (optional), **owner** (optional), **due** (optional), **status** (optional: "open" or "done"), **detail** (optional: 1–2 sentences of context from the meeting note) }
    - **decisions**: array of { **id**, **text**, **meetingId**, **meetingTitle** (optional), **date** (optional) }
    - **topics**: array of { **name**, **meetingIds** (array), **summary** (optional) }
    **Use simple string ids (e.g. "1", "2") and only valid JSON.”**
@@ -47,7 +47,50 @@ Whenever you upload new meeting notes to Granola and want the dashboard to refle
 3. The AI will call Granola (list meetings + query for action items, decisions, summary), filter out personal meetings, and overwrite **`public/data/meetings.json`**.
 4. **Refresh the dashboard** in your browser (or reload the page).
 
-No need to copy/paste JSON yourself when you use this flow. You can run it whenever you’ve added new meetings to Granola.
+**Display rules (apply every time):** The dashboard app applies the same logic every time it loads, no matter when you last updated the data. So whenever you refresh from Granola and reload the page, you get: **Action items** — only from the past two weeks; **Decisions** — only from the past 7 days, up to 10 shown (newest first; no per-day cap so a busy day can show many). Decision note dates use the meeting date when available. You don’t need to do anything extra for these rules; they run automatically on whatever is in `meetings.json`.
+
+No need to copy/paste JSON yourself when you use this flow. When refreshing, you can also ask for a short "detail" (1–2 sentences of context from the meeting) for each action item so the dashboard shows it when you click an item. You can run it whenever you’ve added new meetings to Granola.
+
+### How the dashboard “analyzes” Granola (transcript vs summary)
+
+The dashboard **does not call or analyze Granola** at runtime. It only reads **`public/data/meetings.json`**. Whatever appears on the dashboard is exactly what was written into that file.
+
+What goes into `meetings.json` is controlled by the **refresh step in Cursor** (with Granola MCP). Typically that uses Granola’s **notes/summary** (the summary Granola creates for each meeting). So by default you’re seeing **the notes summary Granola creates**, not the full transcript.
+
+**Full transcripts:** Granola’s MCP exposes a **`get_meeting_transcript`** tool that returns the **raw verbatim transcript** for a meeting (by meeting ID). That tool is **only available on paid Granola tiers** (not Basic/Free). If you’re on a paid plan, when you ask Cursor to refresh the dashboard you can say: *“Use `get_meeting_transcript` for each meeting and extract all action items and decisions from the full transcript.”* That can surface more items than the notes summary alone. Otherwise the refresh uses **notes/summary** (and tools like `get_meetings` or `query_granola_meetings`).
+
+**Refresh using full transcripts (recommended for richer data):** The dashboard data has been enriched once using full transcripts: for each CKGSB meeting, the AI called **`get_meeting_transcript`**, read the verbatim text, and extracted additional action items and decisions that weren’t in the notes summary. To do this again in future, in Cursor (with Granola MCP connected) ask: *“Refresh the CKGSB dashboard using full transcripts: for each meeting in public/data/meetings.json, call get_meeting_transcript, then extract every action item and decision from the transcript and merge them into meetings.json (CKGSB/work meetings only).”* You’ll get more granular follow-ups (e.g. “Ask MediaMinds how to lower cost per click”, “Prepare summary for Flo on the two POs”) that the summary alone often misses.
+
+## Deploy with Vercel or Netlify
+
+Connect the GitHub repo so every push deploys automatically. Your repo is already at [github.com/Jduckworp/ckgsb-team-dashboard](https://github.com/Jduckworp/ckgsb-team-dashboard).
+
+### Vercel
+
+1. Go to [vercel.com](https://vercel.com) and sign in (use **Continue with GitHub**).
+2. Click **Add New…** → **Project**.
+3. **Import** the `Jduckworp/ckgsb-team-dashboard` repo (search or pick it from the list).
+4. Leave the defaults, but confirm:
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist`
+   - **Install Command:** `npm install`
+5. Click **Deploy**. In about a minute you’ll get a URL like `ckgsb-team-dashboard.vercel.app`.
+6. **Later:** When you update `public/data/meetings.json` and push to `main`, Vercel will redeploy automatically.
+
+### Netlify
+
+1. Go to [netlify.com](https://netlify.com) and sign in (use **Sign up with GitHub** or **Log in with GitHub**).
+2. Click **Add new site** → **Import an existing project**.
+3. Choose **GitHub** and authorize Netlify if asked.
+4. Select the **Jduckworp/ckgsb-team-dashboard** repository.
+5. Set:
+   - **Build command:** `npm run build`
+   - **Publish directory:** `dist`
+   - **Base directory:** (leave empty)
+6. Click **Deploy site**. You’ll get a URL like `something-random.netlify.app` (you can change it in Site settings → Domain management).
+7. **Later:** Pushing to `main` (including updates to `public/data/meetings.json`) triggers a new deploy.
+
+---
 
 ## Sharing with your team
 
@@ -55,18 +98,7 @@ To let teammates view the dashboard (without running it locally), deploy it so e
 
 ### 1. Deploy the app
 
-The dashboard is a static site: after `npm run build`, the `dist/` folder contains everything. Deploy that folder to any static host.
-
-**Vercel (good default)**  
-- Push the project to GitHub, then go to [vercel.com](https://vercel.com) → Import your repo.  
-- Build command: `npm run build`  
-- Output directory: `dist`  
-- Deploy. Teammates use the URL Vercel gives you (e.g. `ckgsb-dashboard.vercel.app`).
-
-**Netlify**  
-- Push to GitHub, then [netlify.com](https://netlify.com) → Add new site → Import from Git.  
-- Build command: `npm run build`  
-- Publish directory: `dist`
+The dashboard is a static site: after `npm run build`, the `dist/` folder contains everything. Use **Vercel** or **Netlify** (steps above), or any static host.
 
 **GitHub Pages**  
 - In the repo: Settings → Pages → Source: GitHub Actions (or deploy the `dist/` folder via a workflow).  

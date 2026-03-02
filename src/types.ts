@@ -15,6 +15,10 @@ export interface ActionItem {
   owner?: string
   due?: string
   status?: 'open' | 'done'
+  /** Extra context from the meeting note (from Granola) */
+  detail?: string
+  /** Date of the note/meeting (YYYY-MM-DD or YYYY-MM) for sorting and display */
+  date?: string
 }
 
 export interface Decision {
@@ -23,19 +27,16 @@ export interface Decision {
   meetingId: string
   meetingTitle?: string
   date?: string
-}
-
-export interface Topic {
-  name: string
-  meetingIds: string[]
-  summary?: string
+  /** Extra context shown when user expands the decision */
+  detail?: string
 }
 
 export interface TeamDashboardData {
   lastUpdated: string
   summary: string
+  /** Longer version shown when user expands "What's going on" */
+  summaryDetail?: string
   meetings: Meeting[]
   actionItems: ActionItem[]
   decisions: Decision[]
-  topics: Topic[]
 }

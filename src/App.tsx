@@ -1,10 +1,8 @@
 import { useEffect, useState } from 'react'
 import type { TeamDashboardData } from './types'
 import { SummarySection } from './components/SummarySection'
-import { MeetingsSection } from './components/MeetingsSection'
 import { ActionItemsSection } from './components/ActionItemsSection'
 import { DecisionsSection } from './components/DecisionsSection'
-import { TopicsSection } from './components/TopicsSection'
 
 function App() {
   const [data, setData] = useState<TeamDashboardData | null>(null)
@@ -56,11 +54,9 @@ function App() {
       </header>
 
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-8 space-y-10">
-        <SummarySection summary={data.summary} />
+        <SummarySection summary={data.summary} summaryDetail={data.summaryDetail} />
         <ActionItemsSection items={data.actionItems} />
-        <MeetingsSection meetings={data.meetings} />
-        <DecisionsSection decisions={data.decisions} />
-        <TopicsSection topics={data.topics} />
+        <DecisionsSection decisions={data.decisions} meetings={data.meetings} />
       </main>
     </div>
   )
