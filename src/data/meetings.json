@@ -1,0 +1,8 @@
+{
+  "lastUpdated": "2026-03-02",
+  "summary": "Load your Granola meeting notes to see a live summary here. In Cursor (with Granola MCP connected), ask: \"Summarize everything going on across my recent meetings: action items, decisions, and key topics for the team.\" Then paste the summary and meeting data into this file or use the data loader.",
+  "meetings": [],
+  "actionItems": [],
+  "decisions": [],
+  "topics": []
+}

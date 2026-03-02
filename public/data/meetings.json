@@ -1,0 +1,55 @@
+{
+  "lastUpdated": "2026-03-02",
+  "summary": "The team is currently navigating a busy period with multiple concurrent priorities: finalizing the remaining £43k marketing budget allocation across AsiaStar (£28k), custom programs (£15k), and preparing for the new campus move in May 2026. They're pushing to complete several overdue video projects with Blue Carrot while managing ongoing LinkedIn and Google advertising campaigns, particularly focusing on high-performing markets in Southeast Asia. The team is also preparing for major visual identity presentations from six agencies on March 4th and working to consolidate their content strategy around four key themes: AI/technology, China going global, leadership, and digital transformation.",
+  "meetings": [
+    { "id": "f7dd08df-9f68-4297-a683-df400a2262b9", "title": "Benefits points redemption walkthrough with colleague", "date": "2026-03-02", "attendees": ["Joseph Duckworth"] },
+    { "id": "2992b053-9113-4bc3-a725-354283ada05f", "title": "LinkedIn marketing campaign budget allocation and performance review", "date": "2026-03-02", "attendees": ["Joseph Duckworth"] },
+    { "id": "cc3d8049-540f-43da-a1d8-f15475556a61", "title": "New note", "date": "2026-03-02", "attendees": ["Joseph Duckworth"] },
+    { "id": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca", "title": "Digital marketing strategy review for Europe and global markets", "date": "2026-02-26", "attendees": ["Joseph Duckworth"] },
+    { "id": "00582c26-6bbe-4882-bbf2-48f242f1c9fc", "title": "New note", "date": "2026-02-24", "attendees": ["Joseph Duckworth"] },
+    { "id": "74862588-118c-4402-b0b4-6bccbd79aae1", "title": "Knowledge website design research and content strategy review", "date": "2026-02-05", "attendees": ["Joseph Duckworth"] },
+    { "id": "a61236fc-aecb-4d28-8788-2404e41123bb", "title": "Meeting with Felix in two reports", "date": "2026-02-05", "attendees": ["Joseph Duckworth"] },
+    { "id": "c73be628-fe6b-421d-b335-4f5a4255bfc4", "title": "CKGSB global positioning and strategic insights overview", "date": "2026-02-05", "attendees": ["Joseph Duckworth"] },
+    { "id": "b53d0414-2093-4f9d-b30c-2c8f4d0fccda", "title": "Marketing content frequency and brand consistency review", "date": "2026-02-04", "attendees": ["Joseph Duckworth"] },
+    { "id": "d3b6c413-db29-4832-a45c-5e51a3ee45a8", "title": "South China Morning Post and CKGSB collaboration on Chinese companies going global index", "date": "2026-02-04", "attendees": ["Joseph Duckworth"] },
+    { "id": "9c39b866-d846-429c-8893-05762626819b", "title": "SEO performance and campaign optimization review with Daisy", "date": "2026-02-03", "attendees": ["Joseph Duckworth"] },
+    { "id": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "title": "Project priorities and marketing campaign planning before holiday break", "date": "2026-02-02", "attendees": ["Joseph Duckworth"] },
+    { "id": "021704ea-a58a-4914-a523-16272bc4c512", "title": "New note", "date": "2026-01-31", "attendees": ["Joseph Duckworth"] }
+  ],
+  "actionItems": [
+    { "id": "ai1", "text": "Move Flo meetings to Friday for VI presentations", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Joseph", "status": "open" },
+    { "id": "ai2", "text": "Check with Knowledge team on CDP CEO interview value", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Joseph", "status": "open" },
+    { "id": "ai3", "text": "Review CDP CEO profile and brainstorm interview approach", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Julie", "status": "open" },
+    { "id": "ai4", "text": "Coordinate on afternoon alignment meeting (after 5pm today)", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Joseph & Julie", "status": "open" },
+    { "id": "ai5", "text": "Push Blue Carrot for video project response", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Team", "status": "open" },
+    { "id": "ai6", "text": "Decide on CDP interview format within 2 days", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "owner": "Team", "status": "open" },
+    { "id": "ai7", "text": "Compile Google, YouTube, and website performance data for 2025", "meetingId": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca", "meetingTitle": "Digital marketing strategy review for Europe and global markets", "owner": "Joseph", "status": "open" },
+    { "id": "ai8", "text": "Gather LinkedIn and Instagram results, include ad examples", "meetingId": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca", "meetingTitle": "Digital marketing strategy review for Europe and global markets", "owner": "Julie", "status": "open" },
+    { "id": "ai9", "text": "Evaluate purpose chapter via ChatGPT for translation viability", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "owner": "Joseph", "status": "open" },
+    { "id": "ai10", "text": "Prioritize CSP video completion, then display ads launch", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "owner": "Joseph", "status": "open" },
+    { "id": "ai11", "text": "Final video brief by Friday", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "owner": "Joseph", "status": "open" },
+    { "id": "ai12", "text": "Asia Start LinkedIn campaign updates", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "owner": "Julie", "status": "open" },
+    { "id": "ai13", "text": "Follow-up on MediaMinds contract and Instagram placement", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "owner": "Julie", "status": "open" },
+    { "id": "ai14", "text": "Schedule meeting for Feb 24-25 or week of March 2", "meetingId": "74862588-118c-4402-b0b4-6bccbd79aae1", "meetingTitle": "Knowledge website design research and content strategy review", "owner": "Joseph", "status": "open" },
+    { "id": "ai15", "text": "Review both Chinese reports shared via chat", "meetingId": "a61236fc-aecb-4d28-8788-2404e41123bb", "meetingTitle": "Meeting with Felix in two reports", "owner": "Joseph", "status": "open" }
+  ],
+  "decisions": [
+    { "id": "d1", "text": "Minimal effort approach for UN Global Compact report - use existing Chinese report, change cover", "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61", "meetingTitle": "New note", "date": "2026-03" },
+    { "id": "d2", "text": "Keep knowledge and global websites separate (not merged)", "meetingId": "74862588-118c-4402-b0b4-6bccbd79aae1", "meetingTitle": "Knowledge website design research and content strategy review", "date": "2026-02" },
+    { "id": "d3", "text": "Budget allocation: £28k to AsiaStar campaign, £10k to custom programs, £5.3k for brand awareness", "meetingId": "2992b053-9113-4bc3-a725-354283ada05f", "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review", "date": "2026-03" },
+    { "id": "d4", "text": "Focus on 2-3 reports maximum (did 4 in prior year, too many)", "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b", "meetingTitle": "Project priorities and marketing campaign planning before holiday break", "date": "2026-02" },
+    { "id": "d5", "text": "Campaign strategy: Shift to 90/10 budget split (LinkedIn/Instagram) from 80/20", "meetingId": "2992b053-9113-4bc3-a725-354283ada05f", "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review", "date": "2026-02" },
+    { "id": "d6", "text": "Geographic focus for Asia Start: Jakarta, Ho Chi Minh City, Kuala Lumpur", "meetingId": "2992b053-9113-4bc3-a725-354283ada05f", "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review", "date": "2026-02" }
+  ],
+  "topics": [
+    { "name": "Marketing Campaign Management", "meetingIds": ["2992b053-9113-4bc3-a725-354283ada05f", "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca", "f0a45410-66c0-4b7a-bdd9-e72b3c03099b"], "summary": "LinkedIn, Instagram, Google Ads performance and budget allocation" },
+    { "name": "Program Promotion", "meetingIds": ["2992b053-9113-4bc3-a725-354283ada05f"], "summary": "Asia Start, Custom Programs, Sydney program marketing" },
+    { "name": "Content Creation", "meetingIds": ["74862588-118c-4402-b0b4-6bccbd79aae1", "cc3d8049-540f-43da-a1d8-f15475556a61"], "summary": "Reports, white papers, videos, articles, knowledge content" },
+    { "name": "Budget Management", "meetingIds": ["2992b053-9113-4bc3-a725-354283ada05f", "f0a45410-66c0-4b7a-bdd9-e72b3c03099b"], "summary": "Contract negotiations, vendor payments, campaign spend tracking" },
+    { "name": "Website Development", "meetingIds": ["74862588-118c-4402-b0b4-6bccbd79aae1", "9c39b866-d846-429c-8893-05762626819b"], "summary": "SEO, design updates, technical improvements" },
+    { "name": "Partnership Development", "meetingIds": ["d3b6c413-db29-4832-a45c-5e51a3ee45a8"], "summary": "Media collaborations, academic partnerships, event planning" },
+    { "name": "Video Production", "meetingIds": ["cc3d8049-540f-43da-a1d8-f15475556a61", "f0a45410-66c0-4b7a-bdd9-e72b3c03099b"], "summary": "Blue Carrot projects, testimonials, program videos" },
+    { "name": "Event Planning", "meetingIds": [], "summary": "Women in Leadership forum, campus events, conferences" },
+    { "name": "Content strategy themes", "meetingIds": ["2992b053-9113-4bc3-a725-354283ada05f", "cc3d8049-540f-43da-a1d8-f15475556a61"], "summary": "AI/technology, China going global, leadership, digital transformation" }
+  ]
+}
