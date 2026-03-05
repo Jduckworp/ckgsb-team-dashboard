@@ -1,8 +1,40 @@
 {
-  "lastUpdated": "2026-03-02",
-  "summary": "The team is currently navigating a busy period with multiple concurrent priorities: finalizing the remaining \u00a343k marketing budget allocation across AsiaStar (\u00a328k), custom programs (\u00a315k), and preparing for the new campus move in May 2026. They're pushing to complete several overdue video projects with Blue Carrot while managing ongoing LinkedIn and Google advertising campaigns, particularly focusing on high-performing markets in Southeast Asia. The team is also preparing for major visual identity presentations from six agencies on March 4th and working to consolidate their content strategy around four key themes: AI/technology, China going global, leadership, and digital transformation.",
-  "summaryDetail": "Budget and spend: The remaining \u00a343k marketing budget is being allocated across three main areas: \u00a328k to the AsiaStar campaign (with geographic focus on Jakarta, Ho Chi Minh City, and Kuala Lumpur), \u00a310k to custom programs, and \u00a35.3k for brand awareness. Campaign strategy has shifted to a 90/10 split between LinkedIn and Instagram (from 80/20).\n\nVideo and production: Several video projects with Blue Carrot are overdue; the team is chasing responses and prioritising completion of the CSP video before launching display ads. A final video brief is due by Friday to unblock production.\n\nContent and VI: The team is preparing for visual identity (VI) presentations from six agencies on March 4th; Flo's meetings are being moved to Friday to free up the week. Content strategy is being consolidated around four themes: AI/technology, China going global, leadership, and digital transformation. The CDP CEO interview format is to be decided within two days, with Joseph checking value with the Knowledge team and Julie reviewing the CEO profile and interview angles.\n\nOther: Knowledge and global websites will stay separate (not merged). The UN Global Compact report will use a minimal-effort approach (existing Chinese report, new cover). The team is also preparing for the new campus move in May 2026.",
+  "lastUpdated": "2026-03-04",
+  "summary": "The team is balancing several big tracks at once: tightening the digital marketing strategy and budget (AsiaStar, custom programs, remaining \u00a35k, and a new 2026 plan), pushing toward a clearer content and VI story for the school, and opening up external partnerships that can amplify CKGSB\u2019s brand. MediaMinds are helping refine LinkedIn/SEM/YouTube tactics and reporting, while the team keeps overdue video work and the May campus move on the radar. At the same time, they are exploring a strategic collaboration with Goldman Sachs, clarifying Blue Carrot and agency relationships, and being more disciplined about how many reports and campaigns they run.",
+  "summaryDetail": "Campaigns and budget: Over the past few meetings the team agreed a \u00a343k split across AsiaStar, custom programs and brand awareness, shifted the social budget to a 90/10 LinkedIn/Instagram mix, and narrowed AsiaStar to three priority cities (Jakarta, Ho Chi Minh City, Kuala Lumpur). A fresh conversation with MediaMinds is shaping how to use the remaining \u00a35k (likely via boosted posts and a possible journalist/editor segment) and how to test the custom program video without burning through the \u00a38k.\n\nPerformance and reporting: MediaMinds are correcting a Supermetrics error in the LinkedIn spend report and preparing a more structured 2026 digital plan that covers LinkedIn, SEM and YouTube. Daisy and Joseph are tying campaign data back to leads and enrolments (Asia Start, Sydney 2025) so budget decisions are anchored in actual outcomes rather than just clicks.\n\nContent, VI and product: The team is consolidating content under four themes (AI/technology, China going global, leadership, digital transformation) and capping themselves at 2\u20133 major reports a year, with a minimal-effort approach for the UN Global Compact report. VI work with six agencies and CSP/Blue Carrot video production are running in parallel, with clear sequencing (finish CSP video before launching display ads) and calendar moves (shifting Flo\u2019s meetings around the March 4th pitches) to protect focus.\n\nPartnerships and brand: New conversations with Goldman Sachs open the door to joint events (economic symposium, women in leadership, CEO programs), podcast appearances and curated roundtables in Hong Kong. At the same time, the team is renewing with MediaMinds while testing the market for agencies better aligned to Chinese companies going global, so they have options when the current contract cycle ends.\n\nOperations and foundations: The new campus move in May 2026 remains a looming operational milestone. Across meetings, there is a consistent push to reduce scatter (fewer reports, clearer themes), clean up measurement, and keep decision-making anchored in both budget reality and long-term brand positioning.",
   "meetings": [
+    {
+      "id": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
+      "title": "Digital marketing strategy for remaining budget and video ad testing",
+      "date": "2026-03-04",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "f42e0c36-32d8-479c-82f9-96affbc491a7",
+      "title": "Potential Goldman Sachs and CKGSB collaboration strategies",
+      "date": "2026-03-04",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "85ea49ad-0258-444f-a840-6f2d1c680b69",
+      "title": "New note",
+      "date": "2026-03-04",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
+    {
+      "id": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
+      "title": "SEO and SEM campaign performance review for Asia start 2026",
+      "date": "2026-03-03",
+      "attendees": [
+        "Joseph Duckworth"
+      ]
+    },
     {
       "id": "f7dd08df-9f68-4297-a683-df400a2262b9",
       "title": "Benefits points redemption walkthrough with colleague",
@@ -338,6 +370,160 @@
       "owner": "Julie",
       "status": "open",
       "detail": "Follow up with MediaMinds: text/assets were provided for dynamic/follower acquisition ads; get timeline or blockers for launching them."
+    },
+    {
+      "id": "ai24",
+      "text": "Get a simple written plan from Flow on LLM optimisation for the website (schema, Q&A content, page priorities).",
+      "meetingId": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
+      "date": "2026-03-03",
+      "meetingTitle": "SEO and SEM campaign performance review for Asia start 2026",
+      "owner": "Gontran & Daisy",
+      "status": "open",
+      "detail": "In the Asia Start SEO/SEM review, Gontran outlined three LLM-related priorities (schema, Q&A content, and question-focused optimisation). Next step is for Flow to summarise this into a simple plan for CKGSB (what they will do and what content they need).",
+      "source": "granola"
+    },
+    {
+      "id": "ai25",
+      "text": "Share CKGSB's 2026 digital marketing themes and plan with Flow so they can align SEM/SEO and LLM work.",
+      "meetingId": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
+      "date": "2026-03-03",
+      "meetingTitle": "SEO and SEM campaign performance review for Asia start 2026",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "During the meeting, the team agreed that Flow needs CKGSB's 2026 themes (AI, China going global, economic outlook, etc.) and the overall digital marketing plan so they can propose the right LLM/SEO tactics.",
+      "source": "granola"
+    },
+    {
+      "id": "ai26",
+      "text": "Prepare a short performance summary of Asia Start 2026 campaign for Associate Dean Fu and the Europe program team.",
+      "meetingId": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
+      "date": "2026-03-03",
+      "meetingTitle": "SEO and SEM campaign performance review for Asia start 2026",
+      "owner": "Daisy",
+      "status": "open",
+      "detail": "By Friday, Daisy will compile an overview of the Asia Start 2026 campaign to date (spend, clicks, key conversions by region) so Joseph and Julie can present it at next week's meeting with Associate Dean Fu and the Europe team.",
+      "source": "granola"
+    },
+    {
+      "id": "ai27",
+      "text": "Produce a Sydney 2025 campaign summary comparing performance by region and conversion type, and benchmark it vs Asia Start 2025.",
+      "meetingId": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
+      "date": "2026-03-03",
+      "meetingTitle": "SEO and SEM campaign performance review for Asia start 2026",
+      "owner": "Daisy",
+      "status": "open",
+      "detail": "The team asked Daisy to summarise the Sydney 2025 SEM/SEO campaign: total clicks, leads by region and conversion type, and a comparison with last year's Asia Start campaign so they can judge relative performance.",
+      "source": "granola"
+    },
+    {
+      "id": "ai28",
+      "text": "Ask Sydney program team how many participants came from SEM/SEO campaigns so results can be tied back to leads.",
+      "meetingId": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
+      "date": "2026-03-03",
+      "meetingTitle": "SEO and SEM campaign performance review for Asia start 2026",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "Joseph agreed to follow up with the Sydney program team to find out how many enrolled participants came from the SEM/SEO campaigns, so marketing can link campaign results to actual enrolments.",
+      "source": "granola"
+    },
+    {
+      "id": "ai29",
+      "text": "Goldman to send list of speaker names and topics for economic symposium (June Beijing).",
+      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
+      "date": "2026-03-04",
+      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
+      "owner": "Goldman Sachs",
+      "status": "open",
+      "detail": "Goldman will provide a list of content specialists who can speak (e.g. asset allocation, succession planning, trusts) and the topics they cover, so CKGSB can consider them for the June economic symposium. Best to have them do a short session for CKGSB first to review content.",
+      "source": "granola"
+    },
+    {
+      "id": "ai30",
+      "text": "Follow up with past event info: economic symposium agenda/speakers, women in leadership, CEO program/EMBA details.",
+      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
+      "date": "2026-03-04",
+      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
+      "owner": "Team",
+      "status": "open",
+      "detail": "CKGSB to send Goldman last year's economic symposium agenda and speakers, women in leadership forum info, and more detail on CEO program and EMBA student profile so Goldman can assess fit for collaboration.",
+      "source": "granola"
+    },
+    {
+      "id": "ai31",
+      "text": "Goldman to send annual family office report to CKGSB.",
+      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
+      "date": "2026-03-04",
+      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
+      "owner": "Goldman Sachs",
+      "status": "open",
+      "detail": "Goldman will share their annual family office report to inform topics and content for potential joint events (e.g. asset allocation, digital assets).",
+      "source": "granola"
+    },
+    {
+      "id": "ai32",
+      "text": "Send professor backgrounds for Goldman podcast consideration (Exchanges etc.).",
+      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
+      "date": "2026-03-04",
+      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "Provide Goldman with professor backgrounds and topics they can speak on so Goldman can check with their podcast team (e.g. Exchanges) for potential external speaker slots; focus on insights/topics, not hard sell on the school.",
+      "source": "granola"
+    },
+    {
+      "id": "ai33",
+      "text": "Create WeChat group and share initial info by email; Goldman to send email first then add to group.",
+      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
+      "date": "2026-03-04",
+      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
+      "owner": "Goldman Sachs",
+      "status": "open",
+      "detail": "Day-to-day communication via WeChat; larger materials by email. Goldman to send initial email and create WeChat group with all participants.",
+      "source": "granola"
+    },
+    {
+      "id": "ai34",
+      "text": "MediaMinds to send updated report with corrected LinkedIn spend figures.",
+      "meetingId": "85ea49ad-0258-444f-a840-6f2d1c680b69",
+      "date": "2026-03-04",
+      "meetingTitle": "New note",
+      "owner": "MediaMinds",
+      "status": "open",
+      "detail": "Supermetrics had duplicated a LinkedIn line in the report; headline spend numbers are being corrected. Analysis and findings remain valid. MediaMinds will send the updated report and ensure the issue does not recur.",
+      "source": "granola"
+    },
+    {
+      "id": "ai35",
+      "text": "Sarah and Dave to propose how to allocate the remaining \u00a35k (boosted posts, display, journalist audience test).",
+      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
+      "date": "2026-03-04",
+      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
+      "owner": "Sarah & Dave",
+      "status": "open",
+      "detail": "MediaMinds asked Sarah and Dave to come back with thoughts on how to spend the remaining \u00a35k. Options discussed: boosted posts (program to executives, knowledge to journalists), display ads, or testing journalist/editor audience targeting.",
+      "source": "granola"
+    },
+    {
+      "id": "ai36",
+      "text": "MediaMinds to watch the custom program video and advise on testing it with part of the \u00a38k.",
+      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
+      "date": "2026-03-04",
+      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
+      "owner": "MediaMinds",
+      "status": "open",
+      "detail": "CKGSB want to test the custom program video with ad spend. MediaMinds will review the video and get back with a view on putting a small portion of the \u00a38k into a video test.",
+      "source": "granola"
+    },
+    {
+      "id": "ai37",
+      "text": "MediaMinds to share 2026 digital marketing plan and initial allocation ideas, then arrange a call with CKGSB.",
+      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
+      "date": "2026-03-04",
+      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
+      "owner": "MediaMinds",
+      "status": "open",
+      "detail": "MediaMinds are preparing a detailed plan (LinkedIn, SEM, YouTube ads) for internal management. Once agreed, they will share initial ideas on \u201926 budget allocation and program coverage and set a call to discuss with CKGSB.",
+      "source": "granola"
     }
   ],
   "decisions": [
@@ -436,6 +622,46 @@
       "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
       "date": "2026-03",
       "detail": "Continue contract renewal with MediaMinds (they are not terrible and 20% is standard) but in parallel explore other agencies, especially those focused on Chinese companies going global, as procurement has suggested. If a better option emerges, can switch in \u201927."
+    },
+    {
+      "id": "d13",
+      "text": "Explore CKGSB\u2013Goldman collaboration via economic symposium (June), speakers, Hong Kong roundtable, and podcast.",
+      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
+      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
+      "date": "2026-03-04",
+      "detail": "Both sides agreed to explore collaboration: Goldman content specialists speaking at CKGSB events (e.g. June economic symposium), possible co-created Hong Kong roundtable, and CKGSB faculty on Goldman podcasts. Next steps are speaker lists, past event info, and WeChat/email follow-up."
+    },
+    {
+      "id": "d14",
+      "text": "Do not extend Asia Start campaign on same budget; consider additional funds if extending.",
+      "meetingId": "85ea49ad-0258-444f-a840-6f2d1c680b69",
+      "meetingTitle": "New note",
+      "date": "2026-03-04",
+      "detail": "MediaMinds advised against simply extending the Asia Start campaign with the existing pot\u2014daily budget would drop and hurt ad delivery. They could support an extension with additional funds from this financial year if CKGSB wants to run longer."
+    },
+    {
+      "id": "d15",
+      "text": "Use boosted posts for remaining funds; Sarah and Dave to propose allocation of remaining \u00a35k",
+      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
+      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
+      "date": "2026-03-04",
+      "detail": "For the limited remaining budget, boosted posts are a good option (e.g. program post to executives, knowledge post to journalists). Display ads may consume funds quickly. Sarah and Dave to come back with thoughts on how to allocate the remaining \u00a35k."
+    },
+    {
+      "id": "d16",
+      "text": "Test custom program video with a small part of \u00a38k; English first, then consider localization",
+      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
+      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
+      "date": "2026-03-04",
+      "detail": "Message ads remain primary for the HR/corporate audience; video is secondary. Team agreed to test the custom program video with a portion of the \u00a38k. MediaMinds to review and advise. Test English version first; consider localised subtitles (e.g. Indonesian/English) later based on who engages and which companies they are in."
+    },
+    {
+      "id": "d17",
+      "text": "Consider journalist/editor audience as a targeting strand to build awareness",
+      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
+      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
+      "date": "2026-03-04",
+      "detail": "Cost up and test targeting journalists and editors for a few weeks (e.g. boosted knowledge posts) so they are aware of CKGSB as a source for China business, AI, education content. Part of the thinking for allocating the remaining \u00a35k."
     }
   ]
 }
