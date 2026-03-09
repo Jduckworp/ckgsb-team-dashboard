@@ -46,6 +46,34 @@ interface Props {
   items: ActionItem[]
 }
 
+/** One color per team member; used for owner display only. */
+const OWNER_COLOR: Record<string, string> = {
+  Joseph: 'text-emerald-300',
+  Julie: 'text-sky-300',
+  Kaylee: 'text-pink-300',
+  Xuan: 'text-indigo-300',
+  Ira: 'text-amber-300',
+}
+
+function ownerColorClass(name: string): string {
+  return OWNER_COLOR[name] ?? 'text-slate-300'
+}
+
+/** Split owner string (e.g. "Joseph & Julie") into parts and return spans: each known name in its color, rest in default. */
+function renderOwner(owner: string) {
+  const parts = owner.split(/\s*[&,]\s*|\s+and\s+/i).map((s) => s.trim()).filter(Boolean)
+  return parts.map((part, i) => {
+    const color = ownerColorClass(part)
+    const isLast = i === parts.length - 1
+    return (
+      <span key={i}>
+        <span className={color}>{part}</span>
+        {!isLast && <span className="text-slate-500"> · </span>}
+      </span>
+    )
+  })
+}
+
 interface ActionItemRowProps {
   item: ActionItem
   isOpen: boolean
@@ -78,10 +106,19 @@ function ActionItemRow({ item, isOpen, onToggle, onDismiss }: ActionItemRowProps
           aria-expanded={isOpen}
         >
           <p className="text-slate-200 font-medium">{item.text}</p>
-          <div className="flex flex-wrap gap-x-3 gap-y-1 mt-1 text-xs text-slate-500">
+          <div className="flex flex-wrap gap-x-3 gap-y-1 mt-1 text-xs text-slate-500 items-center">
+            {item.source === 'outlook' && (
+              <span className="rounded bg-sky-900/60 text-sky-300 px-1.5 py-0.5 font-medium">Email</span>
+            )}
+            {item.source === 'events' && (
+              <span className="rounded bg-violet-900/60 text-violet-300 px-1.5 py-0.5 font-medium">Events</span>
+            )}
+            {item.source === 'content' && (
+              <span className="rounded bg-amber-900/60 text-amber-300 px-1.5 py-0.5 font-medium">Content</span>
+            )}
             {noteDate && <span className="text-slate-400">Note date: {noteDate}</span>}
             {item.meetingTitle && <span>{item.meetingTitle}</span>}
-            {item.owner && <span>Owner: {item.owner}</span>}
+            {item.owner && <span>Owner: {renderOwner(item.owner)}</span>}
             {item.due && <span>Due: {item.due}</span>}
           </div>
         </div>

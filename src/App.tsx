@@ -12,9 +12,11 @@ function App() {
     fetch('/data/meetings.json')
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load data')
-        return res.json()
+        return res.json() as Promise<TeamDashboardData>
       })
-      .then(setData)
+      .then((main) => {
+        setData(main)
+      })
       .catch((e) => setError(e instanceof Error ? e.message : 'Could not load dashboard data'))
   }, [])
 

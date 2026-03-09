@@ -61,6 +61,20 @@ What goes into `meetings.json` is controlled by the **refresh step in Cursor** (
 
 **Refresh using full transcripts (recommended for richer data):** The dashboard data has been enriched once using full transcripts: for each CKGSB meeting, the AI called **`get_meeting_transcript`**, read the verbatim text, and extracted additional action items and decisions that weren’t in the notes summary. To do this again in future, in Cursor (with Granola MCP connected) ask: *“Refresh the CKGSB dashboard using full transcripts: for each meeting in public/data/meetings.json, call get_meeting_transcript, then extract every action item and decision from the transcript and merge them into meetings.json (CKGSB/work meetings only).”* You’ll get more granular follow-ups (e.g. “Ask MediaMinds how to lower cost per click”, “Prepare summary for Flo on the two POs”) that the summary alone often misses.
 
+### Outlook emails (action items and decisions)
+
+The dashboard can show **action items and decisions extracted from Outlook emails** alongside Granola meeting data. Items from email are labelled **“Email”**; items from meeting notes are labelled **“Meeting”**.
+
+- **Data source:** The app loads **`public/data/meetings.json`** and, if present, **`public/data/outlook.json`**. The two are merged: `outlook.json` contains only `actionItems` and `decisions` (each with `source: "outlook"`, `meetingId: "outlook"`, `meetingTitle` from the email subject, and a `date` in YYYY-MM-DD). Same display rules apply (e.g. action items from the past two weeks, decisions from the past week).
+- **How to populate outlook.json:**  
+  1. Connect **Microsoft Outlook** to the **Zapier MCP** in Cursor (use the Zapier MCP configuration URL to add a “find email” or “search email” action for Outlook).  
+  2. In Cursor, ask: *“Refresh the CKGSB dashboard including Outlook emails.”*  
+  3. The AI will call Zapier to fetch recent or flagged emails, use AI to decide which emails contain real action items or decisions, extract them (one or more per email), assign **owners** (Joseph, Julie, Team, etc.) from context, and write **`public/data/outlook.json`**. Only emails that clearly contain tasks or decisions are added.
+
+- **Team vs single mailbox:** Right now the AI only has access to **the Outlook account connected to Zapier** (e.g. yours). So we analyze *that* mailbox and extract tasks and decisions from it. When extracting, we assign **owners** (Joseph, Julie, Team, Joseph & Julie, etc.) so the dashboard shows who’s responsible for each item—so the *tasks* apply to the whole team even though the *emails* are from one inbox. To include emails from other team members, they would need to connect their Outlook to the same Zapier MCP (or you’d use a shared team mailbox if you have one).
+
+If `outlook.json` is missing or empty, the dashboard works as before with only Granola data.
+
 ## Deploy with Vercel or Netlify
 
 Connect the GitHub repo so every push deploys automatically. Your repo is already at [github.com/Jduckworp/ckgsb-team-dashboard](https://github.com/Jduckworp/ckgsb-team-dashboard).

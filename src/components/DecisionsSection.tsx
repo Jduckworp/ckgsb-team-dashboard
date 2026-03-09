@@ -50,7 +50,16 @@ function DecisionRow({ decision, noteDateDisplay, isOpen, onToggle }: DecisionRo
           aria-expanded={hasDetail ? isOpen : undefined}
         >
           <p className="text-slate-200 font-medium">{decision.text}</p>
-          <div className="flex flex-wrap gap-x-3 gap-y-1 mt-2 text-xs text-slate-500">
+          <div className="flex flex-wrap gap-x-3 gap-y-1 mt-2 text-xs text-slate-500 items-center">
+            {decision.source === 'outlook' && (
+              <span className="rounded bg-sky-900/60 text-sky-300 px-1.5 py-0.5 font-medium">Email</span>
+            )}
+            {decision.source === 'events' && (
+              <span className="rounded bg-violet-900/60 text-violet-300 px-1.5 py-0.5 font-medium">Events</span>
+            )}
+            {decision.source === 'content' && (
+              <span className="rounded bg-amber-900/60 text-amber-300 px-1.5 py-0.5 font-medium">Content</span>
+            )}
             {noteDateDisplay && <span className="text-slate-400">Note date: {noteDateDisplay}</span>}
             {decision.meetingTitle && <span>{decision.meetingTitle}</span>}
           </div>

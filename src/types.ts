@@ -19,6 +19,8 @@ export interface ActionItem {
   detail?: string
   /** Date of the note/meeting (YYYY-MM-DD or YYYY-MM) for sorting and display */
   date?: string
+  /** When set to 'outlook', item was extracted from an email (Zapier + AI). */
+  source?: 'granola' | 'outlook' | 'events' | 'content'
 }
 
 export interface Decision {
@@ -29,6 +31,8 @@ export interface Decision {
   date?: string
   /** Extra context shown when user expands the decision */
   detail?: string
+  /** When set to 'outlook', decision was extracted from an email (Zapier + AI). */
+  source?: 'granola' | 'outlook' | 'events' | 'content'
 }
 
 export interface TeamDashboardData {
@@ -37,6 +41,12 @@ export interface TeamDashboardData {
   /** Longer version shown when user expands "What's going on" */
   summaryDetail?: string
   meetings: Meeting[]
+  actionItems: ActionItem[]
+  decisions: Decision[]
+}
+
+/** Optional file: action items and decisions extracted from Outlook emails (Zapier + AI). Merged into the dashboard when present. */
+export interface OutlookDashboardData {
   actionItems: ActionItem[]
   decisions: Decision[]
 }
