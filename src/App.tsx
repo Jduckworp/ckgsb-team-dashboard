@@ -3,7 +3,6 @@ import type { TeamDashboardData } from './types'
 import { SummarySection } from './components/SummarySection'
 import { ActionItemsSection } from './components/ActionItemsSection'
 import { DecisionsSection } from './components/DecisionsSection'
-
 function App() {
   const [data, setData] = useState<TeamDashboardData | null>(null)
   const [error, setError] = useState<string | null>(null)

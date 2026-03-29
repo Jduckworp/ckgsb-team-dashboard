@@ -1,0 +1,99 @@
+{
+  "actionItems": [
+    {
+      "id": "outlook-ai-1",
+      "text": "Send Zoom details to Calvin Li for tomorrow's CKGSB & Goldman Sachs collaboration call.",
+      "meetingId": "outlook",
+      "meetingTitle": "Re: CKGSB & Goldman Sachs Collaboration",
+      "owner": "Joseph",
+      "due": "",
+      "status": "open",
+      "detail": "Calvin Li sent a gentle reminder asking for the Zoom details and is looking forward to speaking tomorrow. Make sure the Zoom link and calendar invite are sent or confirmed.",
+      "date": "2026-03-03",
+      "source": "outlook"
+    },
+    {
+      "id": "outlook-ai-2",
+      "text": "Manage Flow more closely on SEM/SEO: feed them the 2026 strategic plan and key themes.",
+      "meetingId": "outlook",
+      "meetingTitle": "SEM/SEO",
+      "owner": "Joseph",
+      "due": "",
+      "status": "open",
+      "detail": "Ira asked that Flow be managed more closely and proactively. First step is to share the strategic plan (including 2026 key themes) so Flow can align SEM/SEO work.",
+      "date": "2026-03-03",
+      "source": "outlook"
+    },
+    {
+      "id": "outlook-ai-3",
+      "text": "Request regular, clear SEM/SEO reports from Flow after each program.",
+      "meetingId": "outlook",
+      "meetingTitle": "SEM/SEO",
+      "owner": "Joseph",
+      "due": "",
+      "status": "open",
+      "detail": "In the SEM/SEO thread, Ira asked that Flow provide regular reporting after each program so CKGSB has visibility on performance.",
+      "date": "2026-03-03",
+      "source": "outlook"
+    },
+    {
+      "id": "outlook-ai-4",
+      "text": "Ask Flow for suggestions on optimizing SEM/SEO strategy for LLM and new search tools.",
+      "meetingId": "outlook",
+      "meetingTitle": "Re: SEM/SEO",
+      "owner": "Joseph",
+      "due": "",
+      "status": "open",
+      "detail": "Joseph's reply to Ira commits to asking Flow for ideas on how to optimize the strategy given LLMs and evolving search behaviour.",
+      "date": "2026-03-03",
+      "source": "outlook"
+    },
+    {
+      "id": "outlook-ai-5",
+      "text": "Review all keywords and ad text in the global SEM/SEO campaign with Flow.",
+      "meetingId": "outlook",
+      "meetingTitle": "Re: SEM/SEO",
+      "owner": "Joseph",
+      "due": "",
+      "status": "open",
+      "detail": "Joseph agreed in email to review all keywords and ad text of the global campaign, as part of tightening Flow's management.",
+      "date": "2026-03-03",
+      "source": "outlook"
+    },
+    {
+      "id": "outlook-ai-6",
+      "text": "Inform Flow or mark yourself in the Lead Management System for program enrollments that came via SEM/SEO campaigns.",
+      "meetingId": "outlook",
+      "meetingTitle": "Re: SEM/SEO",
+      "owner": "Joseph",
+      "due": "",
+      "status": "open",
+      "detail": "Ira asked that Flow be informed, or that Joseph mark himself in the backend, when students enroll via SEM/SEO campaigns so results are traceable.",
+      "date": "2026-03-03",
+      "source": "outlook"
+    },
+    {
+      "id": "outlook-ai-7",
+      "text": "Review Professor Wang Neng's article draft and send consolidated feedback to Ira.",
+      "meetingId": "outlook",
+      "meetingTitle": "Re: Professor Wang Neng's Article",
+      "owner": "Joseph & Julie",
+      "due": "",
+      "status": "open",
+      "detail": "Ira asked Joseph and Julie to share their thoughts on Professor Wang Neng's article so she can send it back to him for confirmation.",
+      "date": "2026-03-03",
+      "source": "outlook"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "outlook-dec-1",
+      "text": "CKGSB will manage Flow more proactively on SEM/SEO, including sharing the 2026 strategic plan and requesting regular reports.",
+      "meetingId": "outlook",
+      "meetingTitle": "SEM/SEO",
+      "date": "2026-03-03",
+      "detail": "In the SEM/SEO email exchange, Ira set expectations that Flow should be managed more closely. Joseph agreed to share the strategic plan and ask for ongoing reporting, signalling a decision to treat Flow as a partner that is actively steered rather than passively briefed.",
+      "source": "outlook"
+    }
+  ]
+}

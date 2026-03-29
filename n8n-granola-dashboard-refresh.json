@@ -1,0 +1,219 @@
+{
+  "name": "CKGSB Dashboard - Daily Granola Refresh",
+  "nodes": [
+    {
+      "id": "a1b2c3d4-0001-0001-0001-000000000001",
+      "name": "Daily 7am",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 24
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-0001-0001-000000000002",
+      "name": "List Granola Meetings",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [500, 300],
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.granola.example.com/meetings",
+        "options": {}
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-0001-0001-000000000003",
+      "name": "Filter Last 14 Days",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [750, 300],
+      "parameters": {
+        "jsCode": "const TWO_WEEKS_MS = 14 * 24 * 60 * 60 * 1000;\nconst cutoff = Date.now() - TWO_WEEKS_MS;\n\nconst meetings = items[0].json.meetings || items[0].json || [];\n\nreturn meetings\n  .filter(m => {\n    if (!m.date) return false;\n    const t = new Date(m.date).getTime();\n    return !isNaN(t) && t >= cutoff;\n  })\n  .map(m => ({ json: m }));"
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-0001-0001-000000000004",
+      "name": "Get Transcripts",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1000, 300],
+      "parameters": {
+        "method": "GET",
+        "url": "=https://api.granola.example.com/meetings/{{ $json.id }}/transcript",
+        "options": {}
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-0001-0001-000000000005",
+      "name": "Combine Meeting and Transcript",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [1250, 300],
+      "parameters": {
+        "jsCode": "return items.map(item => {\n  return {\n    json: {\n      id: item.json.id,\n      title: item.json.title,\n      date: item.json.date,\n      attendees: item.json.attendees || [],\n      transcript: item.json.transcript || item.json.transcriptText || ''\n    }\n  };\n});"
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-0001-0001-000000000006",
+      "name": "Extract via OpenAI",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1500, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_API_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4.1-mini\",\n  \"response_format\": { \"type\": \"json_object\" },\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"You produce a JSON dashboard payload from meeting transcripts. Return ONLY valid JSON.\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"From the following meetings, produce a JSON object with keys: lastUpdated (today YYYY-MM-DD), summary, summaryDetail, meetings (id/title/date/attendees), actionItems (id ai1..aiN, text, meetingId, meetingTitle, owner, status open, detail, date, source granola), decisions (id d1..dN, text, meetingId, meetingTitle, date, detail, source granola). INPUT: {{ JSON.stringify($json) }}\"\n    }\n  ]\n}",
+        "options": {}
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-0001-0001-000000000007",
+      "name": "Build meetings.json",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [1750, 300],
+      "parameters": {
+        "jsCode": "const raw = items[0].json.choices[0].message.content;\nconst payload = JSON.parse(raw);\n\nconst fileContent = JSON.stringify({\n  lastUpdated: payload.lastUpdated,\n  summary: payload.summary,\n  summaryDetail: payload.summaryDetail,\n  meetings: payload.meetings,\n  actionItems: payload.actionItems,\n  decisions: payload.decisions\n}, null, 2);\n\nreturn [{ json: { fileContent } }];"
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-0001-0001-000000000008",
+      "name": "Commit meetings.json",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [2000, 300],
+      "parameters": {
+        "method": "PUT",
+        "url": "https://api.github.com/repos/YOUR_OWNER/YOUR_REPO/contents/public/data/meetings.json",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_GITHUB_TOKEN"
+            },
+            {
+              "name": "Accept",
+              "value": "application/vnd.github+json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"message\": \"chore: auto-refresh meetings.json from Granola\",\n  \"content\": \"{{ Buffer.from($json.fileContent).toString('base64') }}\",\n  \"branch\": \"main\"\n}",
+        "options": {}
+      }
+    }
+  ],
+  "connections": {
+    "Daily 7am": {
+      "main": [
+        [
+          {
+            "node": "List Granola Meetings",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "List Granola Meetings": {
+      "main": [
+        [
+          {
+            "node": "Filter Last 14 Days",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Last 14 Days": {
+      "main": [
+        [
+          {
+            "node": "Get Transcripts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Transcripts": {
+      "main": [
+        [
+          {
+            "node": "Combine Meeting and Transcript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Combine Meeting and Transcript": {
+      "main": [
+        [
+          {
+            "node": "Extract via OpenAI",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract via OpenAI": {
+      "main": [
+        [
+          {
+            "node": "Build meetings.json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build meetings.json": {
+      "main": [
+        [
+          {
+            "node": "Commit meetings.json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2026-03-04T00:00:00.000Z",
+  "versionId": "1"
+}

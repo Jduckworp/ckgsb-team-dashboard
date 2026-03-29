@@ -7,7 +7,9 @@ dist/
 # Env and secrets
 .env
 .env.local
+.env.env.local
 .env.*.local
+*api*key*.env
 
 # OS
 .DS_Store
@@ -20,3 +22,11 @@ Thumbs.db
 
 # Optional
 .specstory/
+
+# --- Safe GitHub (auto-added) ---
+.env.env.local
+.env
+.env.*
+node_modules/
+.specstory/
+.DS_Store
