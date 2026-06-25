@@ -51,8 +51,11 @@ function DecisionRow({ decision, noteDateDisplay, isOpen, onToggle }: DecisionRo
         >
           <p className="text-slate-200 font-medium">{decision.text}</p>
           <div className="flex flex-wrap gap-x-3 gap-y-1 mt-2 text-xs text-slate-500 items-center">
-            {decision.source === 'outlook' && (
+            {(decision.source === 'email' || decision.source === 'outlook') && (
               <span className="rounded bg-sky-900/60 text-sky-300 px-1.5 py-0.5 font-medium">Email</span>
+            )}
+            {(decision.source === 'meeting' || decision.source === 'granola') && (
+              <span className="rounded bg-emerald-900/60 text-emerald-300 px-1.5 py-0.5 font-medium">Meeting</span>
             )}
             {decision.source === 'events' && (
               <span className="rounded bg-violet-900/60 text-violet-300 px-1.5 py-0.5 font-medium">Events</span>
@@ -128,7 +131,7 @@ export function DecisionsSection({ decisions, meetings }: Props) {
         <h2 className="font-display font-semibold text-slate-300 text-sm uppercase tracking-wider mb-3">
           Decisions
         </h2>
-        <p className="text-slate-500 text-sm">No decisions captured yet. Add from Granola to display here.</p>
+        <p className="text-slate-500 text-sm">No decisions captured yet. They populate automatically from your meeting transcripts and global-marcom emails.</p>
       </section>
     )
   }

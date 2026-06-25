@@ -15,12 +15,13 @@ export interface ActionItem {
   owner?: string
   due?: string
   status?: 'open' | 'done'
-  /** Extra context from the meeting note (from Granola) */
+  /** Extra context from the meeting transcript or email */
   detail?: string
   /** Date of the note/meeting (YYYY-MM-DD or YYYY-MM) for sorting and display */
   date?: string
-  /** When set to 'outlook', item was extracted from an email (Zapier + AI). */
-  source?: 'granola' | 'outlook' | 'events' | 'content'
+  /** Origin of the item. 'meeting' = VPS meeting transcript; 'email' = global-marcom email.
+   * Legacy values ('granola'/'outlook') still render for older data. */
+  source?: 'meeting' | 'email' | 'granola' | 'outlook' | 'events' | 'content'
 }
 
 export interface Decision {
@@ -31,8 +32,9 @@ export interface Decision {
   date?: string
   /** Extra context shown when user expands the decision */
   detail?: string
-  /** When set to 'outlook', decision was extracted from an email (Zapier + AI). */
-  source?: 'granola' | 'outlook' | 'events' | 'content'
+  /** Origin of the decision. 'meeting' = VPS meeting transcript; 'email' = global-marcom email.
+   * Legacy values ('granola'/'outlook') still render for older data. */
+  source?: 'meeting' | 'email' | 'granola' | 'outlook' | 'events' | 'content'
 }
 
 export interface TeamDashboardData {

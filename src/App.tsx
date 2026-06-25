@@ -3,6 +3,7 @@ import type { TeamDashboardData } from './types'
 import { SummarySection } from './components/SummarySection'
 import { ActionItemsSection } from './components/ActionItemsSection'
 import { DecisionsSection } from './components/DecisionsSection'
+import { MeetingsSection } from './components/MeetingsSection'
 function App() {
   const [data, setData] = useState<TeamDashboardData | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -58,6 +59,7 @@ function App() {
         <SummarySection summary={data.summary} summaryDetail={data.summaryDetail} />
         <ActionItemsSection items={data.actionItems} />
         <DecisionsSection decisions={data.decisions} meetings={data.meetings} />
+        <MeetingsSection meetings={data.meetings} />
       </main>
     </div>
   )

@@ -20,7 +20,7 @@ export function MeetingsSection({ meetings }: Props) {
         <h2 className="font-display font-semibold text-slate-300 text-sm uppercase tracking-wider mb-3">
           Recent meetings
         </h2>
-        <p className="text-slate-500 text-sm">No meetings loaded. Add data from Granola to see them here.</p>
+        <p className="text-slate-500 text-sm">No meetings loaded yet. They sync automatically from your VPS meeting transcripts.</p>
       </section>
     )
   }

@@ -1,6 +1,19 @@
 # CKGSB Team Dashboard
 
-A single-page dashboard that shows what’s going on for your team using your Granola meeting notes: summary, recent meetings, action items, decisions, and key topics.
+A single-page dashboard that shows what’s going on for your team: summary, recent meetings, action items, and decisions. Data is pulled automatically from **two live sources** — your **VPS meeting transcripts** and your **global-marcom team emails**.
+
+## How data is refreshed (automated pipeline)
+
+The dashboard reads from **`public/data/meetings.json`**. That file is regenerated automatically on the Hermes VPS — you no longer paste anything by hand:
+
+1. **Meetings** — `/root/dashboard-tools/refresh_dashboard.py` reads your meeting transcripts at `/opt/meetings/transcripts/` (the faster-whisper recordings from your Mac mic).
+2. **Emails** — it pulls recent emails addressed to the global-marcom list (`globalmarcom2@ckgsb.edu.cn`) via Microsoft Graph.
+3. **Extraction** — DeepSeek turns both into a team summary, action items, and decisions. Each item is tagged **`source: "meeting"`** or **`source: "email"`** and shown with a coloured **Meeting** / **Email** badge.
+4. **Deploy** — `run.sh` writes the new `meetings.json` into this repo and pushes to GitHub, so Vercel redeploys automatically. A cron runs it twice daily (07:00 & 18:00 Beijing).
+
+To force a refresh now: `ssh root@46.250.225.57 /root/dashboard-tools/run.sh`.
+
+The legacy Granola / Zapier instructions below are kept for reference but are no longer the active flow.
 
 ## Run locally
 
@@ -11,7 +24,7 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173).
 
-## Load your meeting data from Granola
+## (Legacy) Load your meeting data from Granola
 
 The dashboard reads from **`public/data/meetings.json`**. You can fill it in two ways.
 

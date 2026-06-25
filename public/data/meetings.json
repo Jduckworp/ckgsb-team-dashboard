@@ -1,1402 +1,294 @@
 {
-  "lastUpdated": "2026-04-02",
-  "summary": "April sync: treat flagship events as a high-end platform plus program sub-forums (1+N speakers); lock Davos/chamber/paid-partner mechanics after planning; June 17 dean and Li Wei time already held via assistants. H2 includes possible Melbourne (Aug) high-level forum with intl program and Victorian government, Singapore forum talks from May\u2013June, Women\u2019s Leadership Q4. VI follows Apr 3/10/16\u201320 milestones with June 1 on-campus screen moment. Digital: shortlist GEO/SEO vendors (incl. China vs overseas pilot), send performance pack up, co-shape outbound report angles with Li Wei/IE. Standing asks: monthly leadership digest, English campus kit with Michael, clearer program\u2013marketing split on audience ownership.",
-  "summaryDetail": "April 2 planning (EN): Platform events should attract quality traffic, then distribute via parallel program sessions (CEO/DBA/MBA tracks). Clarify paid chamber/partner roles and MOU-style framing for new-campus cooperation; align with Davos once initial plan is set. Wait for early\u2013mid-April dean (Haitao) confirmation before pushing counterpart outreach; explore triangular options (Davos + program + school). Prioritise two anchor VIPs (EU tier; fallback German ambassador, Spain). Dean + Professor Li Wei slots locked for June 17\u2014coordinate invites without premature formal letters. Melbourne August cohort with Victorian government may add a small high-level forum (confirm with program ~next week). Pacific/Singapore forum: reopen negotiation May\u2013June. Women\u2019s forum Q4 (late Oct/early Nov); Kelly leads macro vs women brand split with Xiao Er as backup if overloaded. Marketing supplies speakers, venue, and registration plumbing; programs own pipeline, revenue, and \u201cclosing\u201d conversations. VI: feedback Apr 3, revisions to Apr 10, dean window, Apr 16\u201320 fixes, end-April handoff and screen tests; June 1 ritual may need local AV vendor to map a dean \u201ctrigger\u201d to wall content. Digital: three GEO vendors + add Chinese supplier; compare on service/price/ROI with small pilot; Reddit/Arabic/localisation tests continue; report performance upward; suggest country-specific key messages for China-outbound report with IE Spain; April start on English PPT/brochure/video aligned to Michael. Internal AI related-article linking deployed; team Cursor subscription blocked by finance\u2014monitor. Optional external AI training for staff; monthly progress memo for leadership on domestic/intl/campus alignment.\n\nEvents: HR conference April 17\u2014team agreed ~¥15k tier (booth + logo, no speaking). CES / economic symposium aimed for June 16 or 17 (~¥25k, ~50 participants, 1\u20132 ambassador-level speakers); Joseph and Julie reviewing; email to Goldman with 24\u201325 agenda and women in leadership to go by tomorrow. CCDC joint session late March (briefing or roundtable, align with \u4e24\u4f1a). EMBA Nov 5 event\u2014draft email to Chen Zengchao and program; sales may attend. Sydney next edition and ICM Global (start with worse-performing region) in follow-up. Kaylee sending meeting invite for alignment; Eric to receive materials and campus recommendation by scale/dates.\n\nContent: HBR article pitch one-by-one with 2-day deadline, then FT; Phillips to review. Professor pieces to be pitched exclusively to HBR, FT, NYT, WSJ, Nikkei, CGTN. New campus copy\u2014final text by April 30, design from early May, send to campuses June 1. Chinese companies / politicians piece to be polished, Phillips review, contribute to global report (March) and business conditions index. Blue Carrot ad copy to be sent; CRM/COMB lead system\u2014mark commercial students. Share brand and Asia Start summary with Jim; pull top 20 posts and focus paid/social on best performers. Dean meeting (English)\u2014Joseph to attend with Kerry, take notes and summary. Tool subscriptions: only keep what is used.\n\nCampaigns and budget: \u00a343k split (AsiaStar, custom programs, brand awareness), 90/10 LinkedIn/Instagram, AsiaStar focus cities Jakarta, Ho Chi Minh City, Kuala Lumpur. MediaMinds on remaining \u00a35k, custom program video test, and 2026 digital plan. VI and CSP video sequencing unchanged (finish CSP before display ads). Goldman collaboration via economic symposium, speakers, and podcast. Prioritise employee growth and support problems first; then content and pitching.",
+  "lastUpdated": "2026-06-25",
+  "summary": "Team is deep in content creation and translation for the China going global report and Intelligent China program, with key meetings and campaign launches this week.",
+  "summaryDetail": "We are preparing a one-pager for the president, translating reports and articles, and finalizing press releases. The Asia Start campaign launches with two routes, and we have meetings with Tech in Asia and for the brochure. All final files will be saved to the school's Cloud.",
   "meetings": [
     {
-      "id": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "title": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "date": "2026-04-02",
+      "id": "meeting_2026-06-25_13-01-40",
+      "title": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
       "attendees": [
-        "Joseph Duckworth"
-      ]
+        "Felix",
+        "Julian",
+        "Julie",
+        "Mapping"
+      ],
+      "summary": "Team discusses co-publishing a report on Chinese companies globalizing to Southeast Asia, with contributions from both schools, op-eds, and case studies. Launch planned for September at events in Singapore."
     },
     {
-      "id": "b860973e-a7a6-456b-acb9-ca500e8c0191",
-      "title": "Article pitching and marketing strategy review with Julie",
-      "date": "2026-03-09",
+      "id": "meeting_2026-06-23_15-02-41",
+      "title": "Asia Start & New Program Planning",
+      "date": "2026-06-23",
       "attendees": [
-        "Joseph Duckworth"
-      ]
+        "Daisy",
+        "Contran",
+        "Joseph"
+      ],
+      "summary": "Reviewed Asia Start campaign with two routes (AI vs traditional), discussed new Intelligent China program targeting foreigners with modules in Beijing, Shanghai, Hangzhou, Shenzhen."
     },
     {
-      "id": "985db7aa-2d44-4727-9b32-975149945e44",
-      "title": "Economic symposium planning for June campus event",
-      "date": "2026-03-09",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "59363f50-6585-4197-b8a8-d090bf18ca4c",
-      "title": "Website design and event page optimization with team",
-      "date": "2026-03-06",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "63e44e14-c6d4-48a3-9e2c-8def14ac5fa2",
-      "title": "Website knowledge section redesign and content strategy",
-      "date": "2026-03-06",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "title": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "date": "2026-03-06",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
-      "title": "Digital marketing strategy for remaining budget and video ad testing",
-      "date": "2026-03-04",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "f42e0c36-32d8-479c-82f9-96affbc491a7",
-      "title": "Potential Goldman Sachs and CKGSB collaboration strategies",
-      "date": "2026-03-04",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "85ea49ad-0258-444f-a840-6f2d1c680b69",
-      "title": "New note",
-      "date": "2026-03-04",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
-      "title": "SEO and SEM campaign performance review for Asia start 2026",
-      "date": "2026-03-03",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "f7dd08df-9f68-4297-a683-df400a2262b9",
-      "title": "Benefits points redemption walkthrough with colleague",
-      "date": "2026-03-02",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "2992b053-9113-4bc3-a725-354283ada05f",
-      "title": "LinkedIn marketing campaign budget allocation and performance review",
-      "date": "2026-03-02",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "title": "New note",
-      "date": "2026-03-02",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca",
-      "title": "Digital marketing strategy review for Europe and global markets",
-      "date": "2026-02-26",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "00582c26-6bbe-4882-bbf2-48f242f1c9fc",
-      "title": "New note",
-      "date": "2026-02-24",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "74862588-118c-4402-b0b4-6bccbd79aae1",
-      "title": "Knowledge website design research and content strategy review",
-      "date": "2026-02-05",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "a61236fc-aecb-4d28-8788-2404e41123bb",
-      "title": "Meeting with Felix in two reports",
-      "date": "2026-02-05",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "c73be628-fe6b-421d-b335-4f5a4255bfc4",
-      "title": "CKGSB global positioning and strategic insights overview",
-      "date": "2026-02-05",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "b53d0414-2093-4f9d-b30c-2c8f4d0fccda",
-      "title": "Marketing content frequency and brand consistency review",
-      "date": "2026-02-04",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "d3b6c413-db29-4832-a45c-5e51a3ee45a8",
-      "title": "South China Morning Post and CKGSB collaboration on Chinese companies going global index",
-      "date": "2026-02-04",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "9c39b866-d846-429c-8893-05762626819b",
-      "title": "SEO performance and campaign optimization review with Daisy",
-      "date": "2026-02-03",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
-      "title": "Project priorities and marketing campaign planning before holiday break",
-      "date": "2026-02-02",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
-    },
-    {
-      "id": "021704ea-a58a-4914-a523-16272bc4c512",
-      "title": "New note",
-      "date": "2026-01-31",
-      "attendees": [
-        "Joseph Duckworth"
-      ]
+      "id": "meeting_2026-06-17_16-41-19",
+      "title": "EU-China Cooperation Discussion",
+      "date": "2026-06-17",
+      "attendees": [],
+      "summary": "Discussion on EU-China relations, focusing on geopolitical tensions, de-risking, and the role of companies versus governments in shaping cooperation."
     }
   ],
   "actionItems": [
     {
-      "id": "ai1",
-      "text": "Move Flo meetings to Friday for VI presentations",
-      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "date": "2026-03-02",
-      "meetingTitle": "New note",
-      "owner": "Joseph",
+      "id": "m-ai-1",
+      "text": "Prepare one-pager proposal for president",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Felix",
       "status": "open",
-      "detail": "What it involves: Reschedule any meetings currently involving Flo so they fall on Friday instead of earlier in the week. Reason: Six agencies are presenting visual identity (VI) work on March 4th and the team needs those days clear to prepare and attend. Check calendars, propose new Friday slots, and send updated invites.",
-      "source": "events"
+      "detail": "Outline report structure, title, promotion plan.",
+      "source": "meeting"
     },
     {
-      "id": "ai2",
-      "text": "Check with Knowledge team on CDP CEO interview value",
-      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "date": "2026-03-02",
-      "meetingTitle": "New note",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "What it involves: Reach out to the Knowledge team to confirm whether a CDP CEO interview fits their content priorities and what value they see in it (e.g. thought leadership, report tie-in). Get their view on format and timing before the team locks in the interview approach. This unblocks the parallel tasks on format and profile review.",
-      "source": "content"
-    },
-    {
-      "id": "ai3",
-      "text": "Review CDP CEO profile and brainstorm interview approach",
-      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "date": "2026-03-02",
-      "meetingTitle": "New note",
-      "owner": "Julie",
-      "status": "open",
-      "detail": "What it involves: Review the CDP CEO's profile (background, expertise, recent work) and brainstorm 3\u20135 strong interview angles or themes that would work for our audience. Share with the team so the format decision (within 2 days) can be informed by concrete options. Coordinate with Joseph's check to Knowledge team on value.",
-      "source": "content"
-    },
-    {
-      "id": "ai4",
-      "text": "Coordinate on afternoon alignment meeting (after 5pm today)",
-      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "date": "2026-03-02",
-      "meetingTitle": "New note",
-      "owner": "Joseph & Julie",
-      "status": "open",
-      "detail": "What it involves: Schedule and hold a short alignment meeting between Joseph and Julie after 5pm (same day as the source meeting). Agenda: align on next steps for CDP interview, Blue Carrot follow-up, and VI presentation prep. Confirm owners and timelines so both can execute without overlap or gaps.",
-      "source": "events"
-    },
-    {
-      "id": "ai5",
-      "text": "Push Blue Carrot for video project response",
-      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "date": "2026-03-02",
-      "meetingTitle": "New note",
+      "id": "m-ai-2",
+      "text": "Translate bulk of Chinese report into English",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
       "owner": "Team",
       "status": "open",
-      "detail": "What it involves: Proactively chase Blue Carrot (agency/vendor) for their response or deliverables on the video project(s). The projects are overdue; the goal is to get a clear reply (timeline, next steps, or blockers) so the team can unstick production. Anyone on the team can lead the follow-up; coordinate so it's one clear push.",
-      "source": "content"
+      "detail": "Start translation for review by all parties.",
+      "source": "meeting"
     },
     {
-      "id": "ai6",
-      "text": "Decide on CDP interview format within 2 days",
-      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "date": "2026-03-02",
-      "meetingTitle": "New note",
-      "owner": "Team",
+      "id": "m-ai-3",
+      "text": "Identify op-ed contributors from CKGSB",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Mapping",
       "status": "open",
-      "detail": "What it involves: As a team, decide the format for the CDP CEO interview within 2 days\u2014e.g. written Q&A, short thought-leadership piece, or video. Consider Julie's proposed angles and Joseph's Knowledge team feedback. Once format is set, Joseph (value check) and Julie (profile/angles) can complete their tasks and production can be briefed.",
-      "source": "content"
+      "detail": "Reach out to president Santiago and professor for op-eds.",
+      "source": "meeting"
     },
     {
-      "id": "ai7",
-      "text": "Compile Google, YouTube, and website performance data for 2025",
-      "meetingId": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca",
-      "date": "2026-02-26",
-      "meetingTitle": "Digital marketing strategy review for Europe and global markets",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "What it involves: Compile 2025 performance data from three channels: Google (e.g. Ads, Analytics), YouTube (e.g. views, engagement), and the website (e.g. traffic, conversions). Pull into a single summary (metrics, trends) so the team can use it for the Europe/global digital marketing strategy review and any reporting. Aim for clarity and consistency so it can sit alongside Julie's social data.",
-      "source": "content"
-    },
-    {
-      "id": "ai8",
-      "text": "Gather LinkedIn and Instagram results, include ad examples",
-      "meetingId": "0aa06b1f-5ed2-454c-b952-1a16d5c9d2ca",
-      "date": "2026-02-26",
-      "meetingTitle": "Digital marketing strategy review for Europe and global markets",
+      "id": "m-ai-4",
+      "text": "Find industry perspective content",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
       "owner": "Julie",
       "status": "open",
-      "detail": "What it involves: Gather LinkedIn and Instagram performance results for 2025 (or the relevant period)—metrics, top posts/campaigns, and 2–3 concrete ad examples (creative plus short performance note). Format so it can sit alongside Joseph's Google, YouTube, and website data in the Europe/global digital marketing review. Include any spend or ROI figures if available.",
-      "source": "content"
+      "detail": "Look into WeChat alumni articles or case studies for translation.",
+      "source": "meeting"
     },
     {
-      "id": "ai9",
-      "text": "Evaluate purpose chapter via ChatGPT for translation viability",
-      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
-      "date": "2026-02-02",
-      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
-      "owner": "Joseph",
+      "id": "m-ai-5",
+      "text": "Meet with Tech in Asia and Tyson tomorrow",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Felix",
       "status": "open",
-      "detail": "What it involves: The team agreed to test whether the purpose chapter (from the report/content set) can be translated effectively using ChatGPT or similar tools. Your task is to run that evaluation\u2014e.g. run a sample through the tool, check quality and consistency, and report back on viability. This will inform whether we use AI-assisted translation for the full chapter. Context: Discussed in project priorities and marketing campaign planning before the holiday break.",
-      "source": "content"
+      "detail": "Confirm event themes and possibility of launching report there.",
+      "source": "meeting"
     },
     {
-      "id": "ai10",
-      "text": "Prioritize CSP video completion, then display ads launch",
-      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
-      "date": "2026-02-02",
-      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "What it involves: Stick to this order\u2014(1) Complete the CSP video project first; (2) Then launch the display ads. Do not start display ads in parallel. Part of pre-holiday campaign planning so the team has a clear sequence and can track progress on each.",
-      "source": "content"
-    },
-    {
-      "id": "ai11",
-      "text": "Final video brief by Friday",
-      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
-      "date": "2026-02-02",
-      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "What it involves: Finalise the video brief (scope, key messages, format, timeline) and lock it by Friday so production can start. This brief feeds into the CSP video and other video work; getting it done unblocks the team and external partners.",
-      "source": "content"
-    },
-    {
-      "id": "ai12",
-      "text": "Asia Start LinkedIn campaign updates",
-      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
-      "date": "2026-02-02",
-      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
-      "owner": "Julie",
-      "status": "open",
-      "detail": "What it involves: Prepare and share updates on the Asia Start LinkedIn campaign\u2014status, spend vs budget (\u00a328k allocated), and performance in key markets (Jakarta, Ho Chi Minh City, Kuala Lumpur). Keep the team informed so decisions on timing and next phases can be made.",
-      "source": "content"
-    },
-    {
-      "id": "ai13",
-      "text": "Follow-up on MediaMinds contract and Instagram placement",
-      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
-      "date": "2026-02-02",
-      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
-      "owner": "Julie",
-      "status": "open",
-      "detail": "What it involves: Follow up with MediaMinds on the contract (terms, timeline, sign-off) and on the Instagram placement(s)\u2014confirm specs, dates, and creative. This sits under the 90/10 LinkedIn/Instagram budget split; closing these items keeps the campaign on track.",
-      "source": "content"
-    },
-    {
-      "id": "ai14",
-      "text": "Schedule meeting for Feb 24-25 or week of March 2",
-      "meetingId": "74862588-118c-4402-b0b4-6bccbd79aae1",
-      "date": "2026-02-05",
-      "meetingTitle": "Knowledge website design research and content strategy review",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "What it involves: Schedule a follow-up meeting for the knowledge website design and content strategy work. Target window: Feb 24\u201325 or the week of March 2. Invite the relevant people, set an agenda (e.g. next steps from the last session), and send the invite so the workstream keeps moving.",
-      "source": "events"
-    },
-    {
-      "id": "ai15",
-      "text": "Review both Chinese reports shared via chat",
-      "meetingId": "a61236fc-aecb-4d28-8788-2404e41123bb",
-      "date": "2026-02-05",
-      "meetingTitle": "Meeting with Felix in two reports",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "What it involves: Review both Chinese reports that Felix shared in chat (read for content, quality, and fit with our strategy). Then provide clear feedback to Felix\u2014what works, what to adjust, and how they tie into the two-reports plan and broader content strategy. Keeps the Felix collaboration and report pipeline aligned.",
-      "source": "content"
-    },
-    {
-      "id": "ai16",
-      "text": "Check with MediaMinds about budget figure discrepancy (reported vs actual spend)",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "date": "2026-03-02",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "LinkedIn backend shows one figure (e.g. 28.9) but MediaMinds report showed a different spend\u2014affects how much we allocate to new campaigns. Need to align and get clarity from MediaMinds on how they calculate reported spend.",
-      "source": "content"
-    },
-    {
-      "id": "ai17",
-      "text": "Ask MediaMinds how to lower cost per click for custom program message ads",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "date": "2026-03-02",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "owner": "Julie",
-      "status": "open",
-      "detail": "Message ads for custom program are expensive per website visit (\u00a3250 per click mentioned). Get MediaMinds\u2019 advice on improving cost effectiveness (e.g. extending period, narrowing audience, creative tweaks).",
-      "source": "content"
-    },
-    {
-      "id": "ai18",
-      "text": "Turn custom program contact into a form (region picker \u2192 right person)",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "date": "2026-03-02",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Add a form on the custom program page so visitors pick region (Americas/Europe/Asia); form submission goes to the right sales manager. Captures leads and improves tracking vs. current contact links.",
-      "source": "content"
-    },
-    {
-      "id": "ai19",
-      "text": "Develop boosting formula with MediaMinds (how many posts/month, budget per post)",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "date": "2026-03-02",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "owner": "Julie",
-      "status": "open",
-      "detail": "Make boosted posts a regular process: identify post types that perform (knowledge, faculty, etc.), agree with MediaMinds how many to boost per month and budget per post, so they proactively boost without weekly nudges.",
-      "source": "content"
-    },
-    {
-      "id": "ai20",
-      "text": "Joseph: ask Mara about Sydney program leads and sales conversion",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "date": "2026-03-02",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "Follow up with Mara on leads and conversion from the Sydney/Regis Summit campaign so we can report ROI and inform future custom program spend.",
-      "source": "content"
-    },
-    {
-      "id": "ai21",
-      "text": "Proactively ask Mara, Bo, regional leads for campaign ROI and lead feedback",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "date": "2026-03-02",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Regularly follow up with regional sales (Mara, Bo, etc.) on leads from custom program and Asia Star campaigns so we can report results to leadership and optimize spend.",
-      "source": "content"
-    },
-    {
-      "id": "ai22",
-      "text": "Prepare short summary for Flo on the two POs (design and care) so he can approve",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "date": "2026-03-02",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "Flo needs a brief synopsis of what the two POs are for (design and care) before he approves\u2014so he can justify if asked. Provide that so he can sign off without delay.",
-      "source": "content"
-    },
-    {
-      "id": "ai23",
-      "text": "Ask MediaMinds why dynamic/follower acquisition ads haven\u2019t started (assets provided)",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "date": "2026-03-02",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "owner": "Julie",
-      "status": "open",
-      "detail": "Follow up with MediaMinds: text/assets were provided for dynamic/follower acquisition ads; get timeline or blockers for launching them.",
-      "source": "content"
-    },
-    {
-      "id": "ai24",
-      "text": "Get a simple written plan from Flow on LLM optimisation for the website (schema, Q&A content, page priorities).",
-      "meetingId": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
-      "date": "2026-03-03",
-      "meetingTitle": "SEO and SEM campaign performance review for Asia start 2026",
-      "owner": "Gontran & Daisy",
-      "status": "open",
-      "detail": "In the Asia Start SEO/SEM review, Gontran outlined three LLM-related priorities (schema, Q&A content, and question-focused optimisation). Next step is for Flow to summarise this into a simple plan for CKGSB (what they will do and what content they need).",
-      "source": "content"
-    },
-    {
-      "id": "ai25",
-      "text": "Share CKGSB's 2026 digital marketing themes and plan with Flow so they can align SEM/SEO and LLM work.",
-      "meetingId": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
-      "date": "2026-03-03",
-      "meetingTitle": "SEO and SEM campaign performance review for Asia start 2026",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "During the meeting, the team agreed that Flow needs CKGSB's 2026 themes (AI, China going global, economic outlook, etc.) and the overall digital marketing plan so they can propose the right LLM/SEO tactics.",
-      "source": "content"
-    },
-    {
-      "id": "ai26",
-      "text": "Prepare a short performance summary of Asia Start 2026 campaign for Associate Dean Fu and the Europe program team.",
-      "meetingId": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
-      "date": "2026-03-03",
-      "meetingTitle": "SEO and SEM campaign performance review for Asia start 2026",
+      "id": "m-ai-6",
+      "text": "Launch Asia Start campaign with two routes for first month",
+      "meetingId": "meeting_2026-06-23_15-02-41",
+      "meetingTitle": "Asia Start & New Program Planning",
+      "date": "2026-06-23",
       "owner": "Daisy",
       "status": "open",
-      "detail": "By Friday, Daisy will compile an overview of the Asia Start 2026 campaign to date (spend, clicks, key conversions by region) so Joseph and Julie can present it at next week's meeting with Associate Dean Fu and the Europe team.",
-      "source": "content"
+      "detail": "Daisy to execute traditional strategy, Joseph to use AI route.",
+      "source": "meeting"
     },
     {
-      "id": "ai27",
-      "text": "Produce a Sydney 2025 campaign summary comparing performance by region and conversion type, and benchmark it vs Asia Start 2025.",
-      "meetingId": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
-      "date": "2026-03-03",
-      "meetingTitle": "SEO and SEM campaign performance review for Asia start 2026",
-      "owner": "Daisy",
-      "status": "open",
-      "detail": "The team asked Daisy to summarise the Sydney 2025 SEM/SEO campaign: total clicks, leads by region and conversion type, and a comparison with last year's Asia Start campaign so they can judge relative performance.",
-      "source": "content"
-    },
-    {
-      "id": "ai28",
-      "text": "Ask Sydney program team how many participants came from SEM/SEO campaigns so results can be tied back to leads.",
-      "meetingId": "34d89ebf-c667-4523-8ee6-d55c2c6bc8e7",
-      "date": "2026-03-03",
-      "meetingTitle": "SEO and SEM campaign performance review for Asia start 2026",
+      "id": "m-ai-7",
+      "text": "Get website for Intelligent China program ready",
+      "meetingId": "meeting_2026-06-23_15-02-41",
+      "meetingTitle": "Asia Start & New Program Planning",
+      "date": "2026-06-23",
       "owner": "Joseph",
       "status": "open",
-      "detail": "Joseph agreed to follow up with the Sydney program team to find out how many enrolled participants came from the SEM/SEO campaigns, so marketing can link campaign results to actual enrolments.",
-      "source": "content"
+      "detail": "Joseph to work with team on website, nearly ready.",
+      "source": "meeting"
     },
     {
-      "id": "ai29",
-      "text": "Goldman to send list of speaker names and topics for economic symposium (June Beijing).",
-      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
-      "date": "2026-03-04",
-      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
-      "owner": "Goldman Sachs",
-      "status": "open",
-      "detail": "Goldman will provide a list of content specialists who can speak (e.g. asset allocation, succession planning, trusts) and the topics they cover, so CKGSB can consider them for the June economic symposium. Best to have them do a short session for CKGSB first to review content.",
-      "source": "events"
-    },
-    {
-      "id": "ai30",
-      "text": "Follow up with past event info: economic symposium agenda/speakers, women in leadership, CEO program/EMBA details.",
-      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
-      "date": "2026-03-04",
-      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
+      "id": "m-ai-8",
+      "text": "Start SCM campaign for Intelligent China program after webpage is done",
+      "meetingId": "meeting_2026-06-23_15-02-41",
+      "meetingTitle": "Asia Start & New Program Planning",
+      "date": "2026-06-23",
       "owner": "Team",
       "status": "open",
-      "detail": "CKGSB to send Goldman last year's economic symposium agenda and speakers, women in leadership forum info, and more detail on CEO program and EMBA student profile so Goldman can assess fit for collaboration.",
-      "source": "events"
+      "detail": "Decide on route (AI or traditional) for the program.",
+      "source": "meeting"
     },
     {
-      "id": "ai31",
-      "text": "Goldman to send annual family office report to CKGSB.",
-      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
-      "date": "2026-03-04",
-      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
-      "owner": "Goldman Sachs",
+      "id": "e-ai-9",
+      "text": "Translate Prof Li Wei's FT Chinese article on China going global report",
+      "meetingId": "email",
+      "meetingTitle": "FW: 长江商学院媒体监测日报2026-6-25",
+      "date": "2026-06-25",
+      "owner": "Joseph Luke Duckworth",
       "status": "open",
-      "detail": "Goldman will share their annual family office report to inform topics and content for potential joint events (e.g. asset allocation, digital assets).",
-      "source": "content"
+      "detail": "Ira suggested translating Prof Li Wei's article published on FT Chinese as it relates to a CKGSB report.",
+      "source": "email"
     },
     {
-      "id": "ai32",
-      "text": "Send professor backgrounds for Goldman podcast consideration (Exchanges etc.).",
-      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
-      "date": "2026-03-04",
-      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
-      "owner": "Joseph",
+      "id": "e-ai-10",
+      "text": "Finalize press release for Prof Sun Tianshu at Summer Davos 2026",
+      "meetingId": "email",
+      "meetingTitle": "Re: press release - Sun Tianshu at Summer Davos 2026",
+      "date": "2026-06-24",
+      "owner": "Ira ZAKA",
       "status": "open",
-      "detail": "Provide Goldman with professor backgrounds and topics they can speak on so Goldman can check with their podcast team (e.g. Exchanges) for potential external speaker slots; focus on insights/topics, not hard sell on the school.",
-      "source": "content"
+      "detail": "Ira agreed to send the press release to Prof Sun on WeChat after Julie's edits.",
+      "source": "email"
     },
     {
-      "id": "ai33",
-      "text": "Create WeChat group and share initial info by email; Goldman to send email first then add to group.",
-      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
-      "date": "2026-03-04",
-      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
-      "owner": "Goldman Sachs",
+      "id": "e-ai-11",
+      "text": "Review and finalize translation of Prof Zhu Yang's article 'Timing Itself Can Be Strategy'",
+      "meetingId": "email",
+      "meetingTitle": "FW: News Article on 'Disruptive Timing' Paper",
+      "date": "2026-06-24",
+      "owner": "TIAN Xuefang",
       "status": "open",
-      "detail": "Day-to-day communication via WeChat; larger materials by email. Goldman to send initial email and create WeChat group with all participants.",
-      "source": "events"
+      "detail": "Ira sent a rewrite of Prof Zhu Yang's article for Julie to double-check against the Chinese draft and finalize.",
+      "source": "email"
     },
     {
-      "id": "ai34",
-      "text": "MediaMinds to send updated report with corrected LinkedIn spend figures.",
-      "meetingId": "85ea49ad-0258-444f-a840-6f2d1c680b69",
-      "date": "2026-03-04",
-      "meetingTitle": "New note",
-      "owner": "MediaMinds",
+      "id": "e-ai-12",
+      "text": "Publish academic seminars on English website events section",
+      "meetingId": "email",
+      "meetingTitle": "FW: publishing academic seminars on website",
+      "date": "2026-06-24",
+      "owner": "Kaylee and Xuan",
       "status": "open",
-      "detail": "Supermetrics had duplicated a LinkedIn line in the report; headline spend numbers are being corrected. Analysis and findings remain valid. MediaMinds will send the updated report and ensure the issue does not recur.",
-      "source": "content"
+      "detail": "Ira assigned Kaylee and Xuan to take turns publishing academic seminars on the English website going forward.",
+      "source": "email"
     },
     {
-      "id": "ai35",
-      "text": "Sarah and Dave to propose how to allocate the remaining \u00a35k (boosted posts, display, journalist audience test).",
-      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
-      "date": "2026-03-04",
-      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
-      "owner": "Sarah & Dave",
+      "id": "e-ai-13",
+      "text": "Save all final files, including monthly website reports, to school's Cloud",
+      "meetingId": "email",
+      "meetingTitle": "RE: Cloud Archiving",
+      "date": "2026-06-24",
+      "owner": "Joseph Luke Duckworth",
       "status": "open",
-      "detail": "MediaMinds asked Sarah and Dave to come back with thoughts on how to spend the remaining \u00a35k. Options discussed: boosted posts (program to executives, knowledge to journalists), display ads, or testing journalist/editor audience targeting.",
-      "source": "content"
+      "detail": "Joseph confirmed he will save final files to the school's Cloud as instructed by Ira.",
+      "source": "email"
     },
     {
-      "id": "ai36",
-      "text": "MediaMinds to watch the custom program video and advise on testing it with part of the \u00a38k.",
-      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
-      "date": "2026-03-04",
-      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
-      "owner": "MediaMinds",
+      "id": "e-ai-14",
+      "text": "Coordinate with Flow and pencil in 3pm for brochure meeting",
+      "meetingId": "email",
+      "meetingTitle": "答复: 答复:  答复: CKGSB School Brochure (长江商学院学院英文介绍手册)_June 2026",
+      "date": "2026-06-24",
+      "owner": "TIAN Xuefang",
       "status": "open",
-      "detail": "CKGSB want to test the custom program video with ad spend. MediaMinds will review the video and get back with a view on putting a small portion of the \u00a38k into a video test.",
-      "source": "content"
+      "detail": "Julie confirmed she will coordinate with Flow and schedule a meeting at 3pm as per Ira's request.",
+      "source": "email"
     },
     {
-      "id": "ai37",
-      "text": "MediaMinds to share 2026 digital marketing plan and initial allocation ideas, then arrange a call with CKGSB.",
-      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
-      "date": "2026-03-04",
-      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
-      "owner": "MediaMinds",
+      "id": "e-ai-15",
+      "text": "Send meeting request for CKGSB X Tech In ASIA chat tomorrow at 4pm SGT",
+      "meetingId": "email",
+      "meetingTitle": "答复: CKGSB X Tech In ASIA",
+      "date": "2026-06-25",
+      "owner": "LIU Xuan",
       "status": "open",
-      "detail": "MediaMinds are preparing a detailed plan (LinkedIn, SEM, YouTube ads) for internal management. Once agreed, they will share initial ideas on \u201926 budget allocation and program coverage and set a call to discuss with CKGSB.",
-      "source": "content"
-    },
-    {
-      "id": "ai38",
-      "text": "Draft email to Chen Zengchao and EMBA program about Nov 5 event (audience and sales attendance)",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Kaylee",
-      "status": "open",
-      "detail": "EMBA is the primary audience for the Nov 5 event. Draft email so they know it is one weekend / advanced program; sales may attend that day. Send to Chen Zengchao and EMBA (or relevant program).",
-      "source": "events"
-    },
-    {
-      "id": "ai39",
-      "text": "Draft and send HR conference email (tier/cost); reply by tomorrow",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Kaylee",
-      "status": "open",
-      "detail": "HR conference April 17: three tiers (e.g. ¥15k booth+logo no speaking, ¥30k, ¥40k keynote). Team leaning to ~¥15k. Draft email, confirm with relevant contact (e.g. Song Chao), reply by tomorrow.",
-      "source": "events"
-    },
-    {
-      "id": "ai40",
-      "text": "Send Eric (and email/bios); proceed one by one, then invite and recommend campus by scale/dates",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Send Eric the materials and bios. Two options to run sequentially (not both at once). Check scale, level, and dates then invite and recommend our campus for the activity.",
-      "source": "events"
-    },
-    {
-      "id": "ai41",
-      "text": "Joseph & Julie: review economic symposium / new campaign for June 16 or 17",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Joseph & Julie",
-      "status": "open",
-      "detail": "Consider June 16 or 17 for CES / economic symposium; one may be a holiday. Beijing and Shanghai have major events that week; consider week before/after. Budget ~¥25k, ~50 participants, 1–2 ambassador-level speakers (e.g. European delegation).",
-      "source": "events"
-    },
-    {
-      "id": "ai42",
-      "text": "Draft email to Goldman (or CCDC) re CES: 24–25 agenda, women in leadership, EMBA; send by tomorrow",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Focus on CES first. Include 24–25 agenda, training topics, women in leadership material, EMBA/program link. Can send in stages (e.g. agenda first). Draft together and send by tomorrow.",
-      "source": "events"
-    },
-    {
-      "id": "ai43",
-      "text": "Kaylee: send meeting invite for tomorrow afternoon (e.g. 3–4pm) with Joseph",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Kaylee",
-      "status": "open",
-      "detail": "Schedule tomorrow afternoon (3–4pm if no conflict); send invite so any feedback can be addressed quickly.",
-      "source": "events"
-    },
-    {
-      "id": "ai44",
-      "text": "Mark commercial students on CRM (COMB lead system) and review",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Review and update COMB lead system: mark commercial students as discussed last week.",
-      "source": "content"
-    },
-    {
-      "id": "ai45",
-      "text": "Pitch HBR article exclusively one-by-one with 2-day deadline; if no reply try FT",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Piece written in her voice; not for Caixin. Pitch to HBR editors one by one (exclusive), 2 days to reply then try next. If HBR passes, try FT. Put deadline in pitch (e.g. reply by Thursday). Get Phillips to review.",
-      "source": "content"
-    },
-    {
-      "id": "ai46",
-      "text": "Share brand and Asia Start summary with Jim and review",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "Share campaign and budget overview (e.g. which campaigns, how much) and Asia Start context with Jim; align on next steps.",
-      "source": "content"
-    },
-    {
-      "id": "ai47",
-      "text": "Pull top 20 posts, study best performers; focus paid/social on those topics and style",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Review top 20 posts for engagement; see what topics and style perform best. Engage professor (has followers) where relevant. Use learnings for paid and organic; test and double down on better performers.",
-      "source": "content"
-    },
-    {
-      "id": "ai48",
-      "text": "Follow up Sydney (next edition, contract timing e.g. next February)",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Next edition and contract (e.g. next February) not yet decided. Follow up same way as when she was in Sydney; she replies to DMs.",
-      "source": "events"
-    },
-    {
-      "id": "ai49",
-      "text": "Send current Blue Carrot ad copy to relevant contact, then follow up",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Send current Blue Carrot creative/copy first; then we can review and adjust.",
-      "source": "content"
-    },
-    {
-      "id": "ai50",
-      "text": "Explore ICM Global project; start with worse-performing region (e.g. America), get direction",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "ICM Global is a large project. Explore opportunities; consider starting with the worse-performing region (e.g. America) and customising. Get clear direction before scaling.",
-      "source": "events"
-    },
-    {
-      "id": "ai51",
-      "text": "Finalise copy for new campus by April 30; design from early May; send to new campus by June 1",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "April 30 is hard deadline for final text. One month for design after that. Two weeks to lock decisions. June 1 send to each new campus; ideal to have it ready when school opens.",
-      "source": "content"
-    },
-    {
-      "id": "ai52",
-      "text": "Pitch professor pieces one-by-one (HBR, FT, NYT, WSJ, Nikkei, CGTN) with 2-day deadline",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Exclusive pitch: one outlet at a time, 2-day deadline to reply then try next. Prioritise e.g. NYT, WSJ, FT, Nikkei Asian Review, then CGTN. Give each outlet a short window.",
-      "source": "content"
-    },
-    {
-      "id": "ai53",
-      "text": "Attend meeting with dean (English); take notes and summary. Online with Kerry",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "Meeting with dean (and possibly others) will be in English. Attend and record/summarise the discussion. Online; Kerry to join.",
-      "source": "content"
-    },
-    {
-      "id": "ai54",
-      "text": "Polish Chinese companies/politicians article; Phillips review; contribute to global report (March)",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "date": "2026-03-06",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Polish piece; get Phillips to review. Contribute to report on Chinese companies going global; finish March. Business conditions index; consider collecting individual data (professional weight).",
-      "source": "content"
-    },
-    {
-      "id": "ai55",
-      "text": "Get Xiaomong's approval before pitching Zhang Shao Meng article; Joseph to reach out to HBR editors",
-      "meetingId": "b860973e-a7a6-456b-acb9-ca500e8c0191",
-      "date": "2026-03-09",
-      "meetingTitle": "Article pitching and marketing strategy review with Julie",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Translated piece targeting HBR or Forbes, HBR style. Not suitable for SCMP. Joseph identified HBR editors for outreach.",
-      "source": "content"
-    },
-    {
-      "id": "ai56",
-      "text": "Julie to provide regular themed content reminders for weekly Thursday social reviews with BMI",
-      "meetingId": "b860973e-a7a6-456b-acb9-ca500e8c0191",
-      "date": "2026-03-09",
-      "meetingTitle": "Article pitching and marketing strategy review with Julie",
-      "owner": "Julie",
-      "status": "open",
-      "detail": "Boosted posts strategy: weekly Thursday reviews of social accounts; need themed content aligned with campaign topics.",
-      "source": "content"
-    },
-    {
-      "id": "ai57",
-      "text": "LinkedIn audit next week: analyze top 20 organic posts, identify topics and styles, apply to paid optimization",
-      "meetingId": "b860973e-a7a6-456b-acb9-ca500e8c0191",
-      "date": "2026-03-09",
-      "meetingTitle": "Article pitching and marketing strategy review with Julie",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Apply learnings similar to paid ad optimization.",
-      "source": "content"
-    },
-    {
-      "id": "ai58",
-      "text": "Follow up with Morrison for CDPR student breakdown and emails (35 students confirmed by Sydney)",
-      "meetingId": "b860973e-a7a6-456b-acb9-ca500e8c0191",
-      "date": "2026-03-09",
-      "meetingTitle": "Article pitching and marketing strategy review with Julie",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Next cohort timing February or July; contract negotiations ongoing.",
-      "source": "events"
-    },
-    {
-      "id": "ai59",
-      "text": "SEM global homepage: start with worst-performing regions (Americas), export and rewrite copy for regional targeting",
-      "meetingId": "b860973e-a7a6-456b-acb9-ca500e8c0191",
-      "date": "2026-03-09",
-      "meetingTitle": "Article pitching and marketing strategy review with Julie",
-      "owner": "Daisy or copywriter",
-      "status": "open",
-      "detail": "Customize campaign by region.",
-      "source": "content"
-    },
-    {
-      "id": "ai60",
-      "text": "Schedule meeting with Pamela tomorrow or day after (morning); review detailed symposium plan",
-      "meetingId": "985db7aa-2d44-4727-9b32-975149945e44",
-      "date": "2026-03-09",
-      "meetingTitle": "Economic symposium planning for June campus event",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Immediate next steps for June campus event.",
-      "source": "events"
-    },
-    {
-      "id": "ai61",
-      "text": "Begin speaker outreach for June economic symposium; finalize European Chamber partnership terms",
-      "meetingId": "985db7aa-2d44-4727-9b32-975149945e44",
-      "date": "2026-03-09",
-      "meetingTitle": "Economic symposium planning for June campus event",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Determine faculty participation and compensation structure.",
-      "source": "events"
-    },
-    {
-      "id": "ai62",
-      "text": "Joseph: Provide password for design assets/publication access",
-      "meetingId": "59363f50-6585-4197-b8a8-d090bf18ca4c",
-      "date": "2026-03-06",
-      "meetingTitle": "Website design and event page optimization with team",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "Required for implementation.",
-      "source": "content"
-    },
-    {
-      "id": "ai63",
-      "text": "Elaine: Implement new event page design today (featured event white background, others transparent)",
-      "meetingId": "59363f50-6585-4197-b8a8-d090bf18ca4c",
-      "date": "2026-03-06",
-      "meetingTitle": "Website design and event page optimization with team",
-      "owner": "Elaine",
-      "status": "open",
-      "detail": "Design approved; replaces previous blue highlighting per events team feedback.",
-      "source": "content"
-    },
-    {
-      "id": "ai64",
-      "text": "Julie & Joseph: Collaborate on site optimization scope and conclusions",
-      "meetingId": "59363f50-6585-4197-b8a8-d090bf18ca4c",
-      "date": "2026-03-06",
-      "meetingTitle": "Website design and event page optimization with team",
-      "owner": "Julie & Joseph",
-      "status": "open",
-      "detail": "Pages identified for main site optimization this year; scope discussion needed. Julie lead with team collaboration.",
-      "source": "content"
-    },
-    {
-      "id": "ai65",
-      "text": "Ralph to send detailed list of specific knowledge section fixes via email",
-      "meetingId": "63e44e14-c6d4-48a3-9e2c-8def14ac5fa2",
-      "date": "2026-03-06",
-      "meetingTitle": "Website knowledge section redesign and content strategy",
-      "owner": "Ralph",
-      "status": "open",
-      "detail": "Before finalizing navigation and implementation.",
-      "source": "content"
-    },
-    {
-      "id": "ai66",
-      "text": "Team: Categorize content structure before finalizing knowledge section navigation; mobile design review of competitors",
-      "meetingId": "63e44e14-c6d4-48a3-9e2c-8def14ac5fa2",
-      "date": "2026-03-06",
-      "meetingTitle": "Website knowledge section redesign and content strategy",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Content team to decide final topic architecture and video section placement.",
-      "source": "content"
-    },
-    {
-      "id": "ai67",
-      "text": "Clarify paid chamber/partner model: roles, fees, and MOU-style terms for high-level cooperation at new campus",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "When a partner visits the new campus, align on organisation structure, division of labour, and whether fees apply; be ready to sign something like an MOU for premium cooperation.",
-      "source": "events"
-    },
-    {
-      "id": "ai68",
-      "text": "After initial flagship plan is set, align options and messaging with Davos (WEF) track",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Do not over-communicate externally before the plan is mature; then coordinate with Davos so school, forum, and program angles stay consistent.",
-      "source": "events"
-    },
-    {
-      "id": "ai69",
-      "text": "Hold counterpart outreach until early\u2013mid-April dean (Haitao) confirmation; then propose guests, themes, or joint block with Davos + program",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Counterparty has already engaged; avoid extra asks until internal green light. Then invite collaboration on speakers, session topics, or a triangular package with Davos and e.g. CEO programme.",
-      "source": "events"
-    },
-    {
-      "id": "ai70",
-      "text": "Design optional same-city program add-on: school secures VIP speakers; CEO/DBA invite pipeline candidates",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Parallel session model: marketing runs the big stage; programmes can run a dedicated session for their prospects, locally, with school handling marquee guests.",
-      "source": "events"
-    },
-    {
-      "id": "ai71",
-      "text": "Prioritise securing two anchor VIP speakers (EU-level; fallback German ambassador, then Spain/other)",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Leadership can help secure participation once the \u201cstage\u201d is credible; EU headliners first, then national ambassadors as backup.",
-      "source": "events"
-    },
-    {
-      "id": "ai72",
-      "text": "June 17: Dean + Professor Li Wei time locked via assistants\u2014coordinate outreach; defer formal invitations until appropriate",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Joseph & leadership",
-      "status": "open",
-      "detail": "Calendar holds are in place. Use email or delegated follow-up; avoid sending formal invites too early. Brief dean once ambassador/speaker line-up is firmer.",
-      "source": "events"
-    },
-    {
-      "id": "ai73",
-      "text": "Confirm Melbourne (Aug) international cohort + Victorian government forum scope by ~next week",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Sydney cohort may shift to Melbourne in August; government may supply VIPs and visits. If confirmed, plan a small, high-level forum on day one\u2014school likely leads execution.",
-      "source": "events"
-    },
-    {
-      "id": "ai74",
-      "text": "Singapore forum: launch partnership negotiations with Pacific/partner in May\u2013June",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Distance in time is long; target formal kickoff of talks in May or June. Clarify which international programmes (e.g. Asia Star, custom) own recruitment goals.",
-      "source": "events"
-    },
-    {
-      "id": "ai75",
-      "text": "Women\u2019s Leadership forum Q4 (late Oct / early Nov): confirm lead owner and format",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Kelly / Xiao Er",
-      "status": "open",
-      "detail": "Kelly owns Women\u2019s Leadership; Xiao Er owns macro forum. If October is overloaded, Xiao Er may lead women\u2019s event. Align with programme co-delivery model (platform + project session).",
-      "source": "events"
-    },
-    {
-      "id": "ai76",
-      "text": "Document programme\u2013marketing split: platform, speakers, registration vs audience, revenue, and closing conversations",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "School builds prestige and traffic; programmes bring precise prospects and monetise. Define \u201cpublic service\u201d handoffs from registration and repeat the March CEO/Changsha-style conversion logic.",
-      "source": "events"
-    },
-    {
-      "id": "ai77",
-      "text": "VI milestones: internal feedback by 3 Apr; designer round by 10 Apr; dean review; revisions 16\u201320 Apr if needed; end-April assets + on-site screen test",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Coordinate with interior design and Chen Jun; confirm new campus can host upload/screen tests. Distribute BI packs to programmes and brand extensions end of month.",
-      "source": "content"
-    },
-    {
-      "id": "ai78",
-      "text": "June 1 opening ritual: spec dean \u201ctrigger\u201d (e.g. button) to activate wall content with local AV/events vendor",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Separate from static VI design; requires events supplier + campus tech. Follow up with Yanting (~5pm same day as meeting) on wiring and any extra creative.",
-      "source": "events"
-    },
-    {
-      "id": "ai79",
-      "text": "GEO/SEO: compare three shortlisted vendors plus a China candidate; run a small pilot; judge ROI and service quality",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "Add domestic agency to group chat with materials; benchmark vs overseas on responsiveness, scope (not just \u201caudit tool\u201d), and execution. Same project, two providers if useful.",
-      "source": "content"
-    },
-    {
-      "id": "ai80",
-      "text": "Send digital/ads performance summary to senior leadership (per Professor Tao request)",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "Include regional learnings (e.g. Indonesia/Vietnam strength, Sydney vs Asia Star), Q1 vs last year engagement, and programme conversion anecdotes from sales.",
-      "source": "content"
-    },
-    {
-      "id": "ai81",
-      "text": "Outbound report (IE Spain co-publish): propose country-specific angles and key messages to Li Wei team for distribution",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "Target June with Chinese edition or shortly after for English. Suggest geo-tuned hooks (e.g. Indonesia vs Vietnam vs Europe) so paid/organic keywords match reader intent.",
-      "source": "content"
-    },
-    {
-      "id": "ai82",
-      "text": "April: draft English campus open kit (PPT, brochure, video) aligned with Michael on data",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Wait for final BI direction where needed; keep statistics consistent with central sources. Video series for CKGSB + 15\u201330s cutdowns for ads.",
-      "source": "content"
-    },
-    {
-      "id": "ai83",
-      "text": "Monthly one-pager for leadership: domestic + international marketing progress, campus/real-estate notes, dean guidance",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Purpose is situational awareness (not micromanagement): what to tell the dean, cross-team learning, and idea exchange.",
-      "source": "content"
-    },
-    {
-      "id": "ai84",
-      "text": "Assess Singapore / SEA trip (alumni or operators) to support forum pipeline and partnerships",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "If impact justifies cost, visit Singapore/Vietnam/Indonesia with alumni connectors; CKGSB brand resonates strongly with overseas Chinese operators.",
-      "source": "events"
-    },
-    {
-      "id": "ai85",
-      "text": "Pilot one thematic brand package (e.g. women in leadership or international students in China): scope, owner, deadline",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Multi-format campaign (events, video, articles, short posts) under one narrative so year-end story is coherent; start with a single pillar as a test.",
-      "source": "content"
-    },
-    {
-      "id": "ai86",
-      "text": "Align flagship comms launch timing with programmes (avoid projects being surprised when promos go live)",
-      "meetingId": "a204d8e1-7f3b-4c2a-9e11-2b8c3d4e5f60",
-      "date": "2026-04-02",
-      "meetingTitle": "Q2 sync: events platform, VI rollout, digital GEO, H2 roadmap",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Repeat last year\u2019s lesson: when mass promotion starts, programmes should already have assets and invite plans ready.",
-      "source": "events"
+      "detail": "Xuan agreed to send a meeting request for a chat with Miguel at 4pm SGT tomorrow.",
+      "source": "email"
     }
   ],
   "decisions": [
     {
-      "id": "d1",
-      "text": "Minimal effort approach for UN Global Compact report - use existing Chinese report, change cover",
-      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "meetingTitle": "New note",
-      "date": "2026-03",
-      "detail": "Rather than producing new content for the UN Global Compact report, the team agreed to reuse the existing Chinese report and only change the cover. This reduces workload and aligns with the decision to focus on 2\u20133 reports maximum. Saves time for other priorities like the CDP interview and video work.",
-      "source": "content"
+      "id": "m-d-1",
+      "text": "Report will be jointly published by CKGSB and IE Business School.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "source": "meeting"
     },
     {
-      "id": "d2",
-      "text": "Keep knowledge and global websites separate (not merged)",
-      "meetingId": "74862588-118c-4402-b0b4-6bccbd79aae1",
-      "meetingTitle": "Knowledge website design research and content strategy review",
-      "date": "2026-02",
-      "detail": "After reviewing the knowledge website and content strategy, the team decided not to merge the knowledge and global websites into one. Keeping them separate preserves distinct audiences and content flows, and avoids a large migration. Follow-up meetings were planned for Feb 24\u201325 or the week of March 2.",
-      "source": "content"
+      "id": "m-d-2",
+      "text": "Working title: 'The New Chinese Playbook for Going Global'.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "source": "meeting"
     },
     {
-      "id": "d3",
-      "text": "Budget allocation: \u00a328k to AsiaStar campaign, \u00a310k to custom programs, \u00a35.3k for brand awareness",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "date": "2026-03",
-      "detail": "The remaining \u00a343k marketing budget is split three ways: \u00a328k for the AsiaStar LinkedIn campaign (focus markets: Jakarta, Ho Chi Minh City, Kuala Lumpur), \u00a310k for custom programs, and \u00a35.3k for brand awareness. This sits within the broader 90/10 LinkedIn/Instagram campaign strategy.",
-      "source": "content"
+      "id": "m-d-3",
+      "text": "Report to be ready by early September for Singapore events.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "source": "meeting"
     },
     {
-      "id": "d4",
-      "text": "Focus on 2-3 reports maximum (did 4 in prior year, too many)",
-      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
-      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
-      "date": "2026-02",
-      "detail": "The team reflected that doing four reports in the prior year was too many and diluted quality. Going forward, cap at 2\u20133 reports so each gets proper attention. This also supports the minimal-effort approach for the UN Global Compact report (reuse existing Chinese report).",
-      "source": "content"
+      "id": "m-d-4",
+      "text": "Asia Start campaign will run two parallel routes for first month: AI (Joseph) and traditional (Daisy).",
+      "meetingId": "meeting_2026-06-23_15-02-41",
+      "meetingTitle": "Asia Start & New Program Planning",
+      "date": "2026-06-23",
+      "source": "meeting"
     },
     {
-      "id": "d5",
-      "text": "Campaign strategy: Shift to 90/10 budget split (LinkedIn/Instagram) from 80/20",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "date": "2026-02",
-      "detail": "LinkedIn performance justified shifting more spend there: from an 80/20 split (LinkedIn/Instagram) to 90/10. Instagram remains in the mix but at a smaller share. Julie is following up on MediaMinds contract and Instagram placement within this new split.",
-      "source": "content"
+      "id": "m-d-5",
+      "text": "Intelligent China program targets foreigners, is in English, and focuses on module one first.",
+      "meetingId": "meeting_2026-06-23_15-02-41",
+      "meetingTitle": "Asia Start & New Program Planning",
+      "date": "2026-06-23",
+      "source": "meeting"
     },
     {
-      "id": "d6",
-      "text": "Geographic focus for Asia Start: Jakarta, Ho Chi Minh City, Kuala Lumpur",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "date": "2026-02",
-      "detail": "Asia Start campaign focus is narrowed to three high-potential markets: Jakarta, Ho Chi Minh City, and Kuala Lumpur. This concentrates the \u00a328k AsiaStar budget and makes measurement and optimisation more manageable. Julie is responsible for Asia Start LinkedIn campaign updates.",
-      "source": "content"
+      "id": "e-d-6",
+      "text": "Joseph will translate the media monitoring report item (Prof Li Wei's article) as offered.",
+      "meetingId": "email",
+      "meetingTitle": "Re: 长江商学院媒体监测日报2026-6-25",
+      "date": "2026-06-25",
+      "source": "email"
     },
     {
-      "id": "d7",
-      "text": "Consolidate content strategy around four key themes: AI/technology, China going global, leadership, and digital transformation",
-      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "meetingTitle": "New note",
-      "date": "2026-03",
-      "detail": "To give content a clear direction, the team agreed on four overarching themes: AI/technology, China going global, leadership, and digital transformation. New reports, articles, and the CDP CEO interview should align with these. Reduces fragmentation and helps position CKGSB consistently.",
-      "source": "content"
+      "id": "e-d-7",
+      "text": "Ira will send the press release to Prof Sun on WeChat for confirmation.",
+      "meetingId": "email",
+      "meetingTitle": "Re: press release - Sun Tianshu at Summer Davos 2026",
+      "date": "2026-06-24",
+      "source": "email"
     },
     {
-      "id": "d8",
-      "text": "Complete CSP video before launching display ads (strict order of operations)",
-      "meetingId": "f0a45410-66c0-4b7a-bdd9-e72b3c03099b",
-      "meetingTitle": "Project priorities and marketing campaign planning before holiday break",
-      "date": "2026-02",
-      "detail": "The team agreed a strict sequence: (1) finish the CSP video project, then (2) launch display ads. No parallel work on display ads until CSP is done. Joseph is prioritising the video brief by Friday so production can proceed. This avoids spreading capacity too thin before the holiday break.",
-      "source": "content"
+      "id": "e-d-8",
+      "text": "Kaylee and Xuan will take turns publishing academic seminars on the English website.",
+      "meetingId": "email",
+      "meetingTitle": "FW: publishing academic seminars on website",
+      "date": "2026-06-24",
+      "source": "email"
     },
     {
-      "id": "d9",
-      "text": "CDP CEO interview format to be decided within two days to unblock Joseph and Julie's tasks",
-      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "meetingTitle": "New note",
-      "date": "2026-03",
-      "detail": "A two-day deadline was set to decide the CDP CEO interview format (e.g. Q&A, thought-leadership piece, or video). Once format is fixed, Joseph can complete the value check with the Knowledge team and Julie can finalise the profile review and interview angles. The team will consider both inputs when deciding.",
-      "source": "content"
+      "id": "e-d-9",
+      "text": "All final files will be saved to the school's Cloud going forward.",
+      "meetingId": "email",
+      "meetingTitle": "RE: Cloud Archiving",
+      "date": "2026-06-24",
+      "source": "email"
     },
     {
-      "id": "d10",
-      "text": "Move Flo's meetings to Friday to free up the week for VI agency presentations on March 4th",
-      "meetingId": "cc3d8049-540f-43da-a1d8-f15475556a61",
-      "meetingTitle": "New note",
-      "date": "2026-03",
-      "detail": "Six agencies are presenting visual identity (VI) work on March 4th. To keep that week clear for prep and attendance, any meetings involving Flo are to be moved to Friday. Joseph is responsible for rescheduling and sending updated invites.",
-      "source": "events"
+      "id": "e-d-10",
+      "text": "Julie will coordinate with Flow for the brochure meeting at 3pm.",
+      "meetingId": "email",
+      "meetingTitle": "答复: 答复:  答复: CKGSB School Brochure (长江商学院学院英文介绍手册)_June 2026",
+      "date": "2026-06-24",
+      "source": "email"
     },
     {
-      "id": "d11",
-      "text": "Include boosted posts in ongoing LinkedIn strategy; get budget number from MediaMinds",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "date": "2026-03",
-      "detail": "Team agreed to make boosted posts a regular part of the campaign (not just on request). Julie to work with MediaMinds on how many posts per month and how much budget per boosted post; use best-performing organic content (knowledge, faculty posts) as the basis.",
-      "source": "content"
-    },
-    {
-      "id": "d12",
-      "text": "Renew with MediaMinds but simultaneously look for other agencies (procurement)",
-      "meetingId": "2992b053-9113-4bc3-a725-354283ada05f",
-      "meetingTitle": "LinkedIn marketing campaign budget allocation and performance review",
-      "date": "2026-03",
-      "detail": "Continue contract renewal with MediaMinds (they are not terrible and 20% is standard) but in parallel explore other agencies, especially those focused on Chinese companies going global, as procurement has suggested. If a better option emerges, can switch in \u201927.",
-      "source": "content"
-    },
-    {
-      "id": "d13",
-      "text": "Explore CKGSB\u2013Goldman collaboration via economic symposium (June), speakers, Hong Kong roundtable, and podcast.",
-      "meetingId": "f42e0c36-32d8-479c-82f9-96affbc491a7",
-      "meetingTitle": "Potential Goldman Sachs and CKGSB collaboration strategies",
-      "date": "2026-03-04",
-      "detail": "Both sides agreed to explore collaboration: Goldman content specialists speaking at CKGSB events (e.g. June economic symposium), possible co-created Hong Kong roundtable, and CKGSB faculty on Goldman podcasts. Next steps are speaker lists, past event info, and WeChat/email follow-up.",
-      "source": "events"
-    },
-    {
-      "id": "d14",
-      "text": "Do not extend Asia Start campaign on same budget; consider additional funds if extending.",
-      "meetingId": "85ea49ad-0258-444f-a840-6f2d1c680b69",
-      "meetingTitle": "New note",
-      "date": "2026-03-04",
-      "detail": "MediaMinds advised against simply extending the Asia Start campaign with the existing pot\u2014daily budget would drop and hurt ad delivery. They could support an extension with additional funds from this financial year if CKGSB wants to run longer.",
-      "source": "content"
-    },
-    {
-      "id": "d15",
-      "text": "Use boosted posts for remaining funds; Sarah and Dave to propose allocation of remaining \u00a35k",
-      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
-      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
-      "date": "2026-03-04",
-      "detail": "For the limited remaining budget, boosted posts are a good option (e.g. program post to executives, knowledge post to journalists). Display ads may consume funds quickly. Sarah and Dave to come back with thoughts on how to allocate the remaining \u00a35k.",
-      "source": "content"
-    },
-    {
-      "id": "d16",
-      "text": "Test custom program video with a small part of \u00a38k; English first, then consider localization",
-      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
-      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
-      "date": "2026-03-04",
-      "detail": "Message ads remain primary for the HR/corporate audience; video is secondary. Team agreed to test the custom program video with a portion of the \u00a38k. MediaMinds to review and advise. Test English version first; consider localised subtitles (e.g. Indonesian/English) later based on who engages and which companies they are in.",
-      "source": "content"
-    },
-    {
-      "id": "d17",
-      "text": "Consider journalist/editor audience as a targeting strand to build awareness",
-      "meetingId": "c20f8740-6c8f-4d84-abd9-5e0bcd2bd488",
-      "meetingTitle": "Digital marketing strategy for remaining budget and video ad testing",
-      "date": "2026-03-04",
-      "detail": "Cost up and test targeting journalists and editors for a few weeks (e.g. boosted knowledge posts) so they are aware of CKGSB as a source for China business, AI, education content. Part of the thinking for allocating the remaining \u00a35k.",
-      "source": "content"
-    },
-    {
-      "id": "d18",
-      "text": "HR conference sponsorship: use ~¥15,000 tier (booth + logo, no speaking) for April 17 event",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "date": "2026-03-06",
-      "detail": "Three tiers: ¥15k (booth, logo, no speaking), ¥30k, ¥40k (keynote). Team agreed ~¥15k is enough; no need for a speaking slot. April 17 event.",
-      "source": "events"
-    },
-    {
-      "id": "d19",
-      "text": "CES / economic symposium: aim for June 16 or 17; ~¥25k, ~50 participants; 1–2 ambassador-level speakers",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "date": "2026-03-06",
-      "detail": "Check holiday; Beijing/Shanghai have events that week. Prefer ambassador-level speakers (e.g. European delegation). Budget and scale as above.",
-      "source": "events"
-    },
-    {
-      "id": "d20",
-      "text": "CCDC joint session: late March; briefing or roundtable with professor on economic trends; align with 两会",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "date": "2026-03-06",
-      "detail": "March 19 in Shanghai; nothing in Beijing. Could be briefing or roundtable. If after Qingming too late for 两会 relevance; prefer March. Campus is available.",
-      "source": "events"
-    },
-    {
-      "id": "d21",
-      "text": "Tool subscriptions: only subscribe if using; unsubscribe if not useful",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "date": "2026-03-06",
-      "detail": "If a tool is not useful or not being used, do not keep subscribing. Each person can subscribe for tools they use (e.g. GEO). Stop when usage stops.",
-      "source": "content"
-    },
-    {
-      "id": "d22",
-      "text": "New campus copy deadline April 30; design from early May; send to campuses June 1",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "date": "2026-03-06",
-      "detail": "April 30 is hard deadline for final text. One month for design. Two weeks to lock decisions. June 1 send to each new campus.",
-      "source": "content"
-    },
-    {
-      "id": "d23",
-      "text": "Prioritise employee growth and support problems first; then content and pitching",
-      "meetingId": "b81f7a2c-4e5d-4a1b-9f3c-2d6e8a1b5c7d",
-      "meetingTitle": "Program and partnerships sync (EMBA, HR conference, CES, CCDC)",
-      "date": "2026-03-06",
-      "detail": "As a support function, start with growth and their problems; if we solve those we have done well. Then focus on content, pitching, and look-and-feel.",
-      "source": "content"
-    },
-    {
-      "id": "d24",
-      "text": "GEO analytics subscription approved ($100/month); unsubscribe if not useful",
-      "meetingId": "b860973e-a7a6-456b-acb9-ca500e8c0191",
-      "meetingTitle": "Article pitching and marketing strategy review with Julie",
-      "date": "2026-03-09",
-      "detail": "Joseph supports subscribing for testing. Expense tracking flexible.",
-      "source": "content"
-    },
-    {
-      "id": "d25",
-      "text": "AI article pitch: exclusive to one publication at a time, 48-hour response deadline; priority WSJ, NYT, FT, SCMP, Nikkei",
-      "meetingId": "b860973e-a7a6-456b-acb9-ca500e8c0191",
-      "meetingTitle": "Article pitching and marketing strategy review with Julie",
-      "date": "2026-03-09",
-      "detail": "Target editors/bureau chiefs. Piece: \"China's next growth engine may be not more people, but more intelligence\".",
-      "source": "content"
-    },
-    {
-      "id": "d26",
-      "text": "Economic symposium June: avoid June 19 holiday; new campus; 150–300 attendance; European Chamber 25k RMB/50 participants + 1–2 speakers",
-      "meetingId": "985db7aa-2d44-4727-9b32-975149945e44",
-      "meetingTitle": "Economic symposium planning for June campus event",
-      "date": "2026-03-09",
-      "detail": "Upgrade option: 27k RMB for larger collaboration (50–80 senior participants, ambassador-level contacts). Week after June 19 conflicts with Shanghai tech event; week before with Davos Beijing.",
-      "source": "events"
-    },
-    {
-      "id": "d27",
-      "text": "Faculty/alumni pages design updates from April; extend to Programs, Alumni, Faculty, News and events",
-      "meetingId": "985db7aa-2d44-4727-9b32-975149945e44",
-      "meetingTitle": "Economic symposium planning for June campus event",
-      "date": "2026-03-09",
-      "detail": "Current color palette aligned with new design. Motion graphics consideration for campus launch.",
-      "source": "content"
-    },
-    {
-      "id": "d28",
-      "text": "Event page design: featured event on white background, others transparent; Elaine implementing today",
-      "meetingId": "59363f50-6585-4197-b8a8-d090bf18ca4c",
-      "meetingTitle": "Website design and event page optimization with team",
-      "date": "2026-03-06",
-      "detail": "Replaces previous blue highlighting; events team feedback.",
-      "source": "content"
-    },
-    {
-      "id": "d29",
-      "text": "Knowledge section to align with main brand VI; card-style layouts; topics-focused navigation",
-      "meetingId": "63e44e14-c6d4-48a3-9e2c-8def14ac5fa2",
-      "meetingTitle": "Website knowledge section redesign and content strategy",
-      "date": "2026-03-06",
-      "detail": "Consider 30-second summary, auto-audio, large headlines, profile photos. Mobile: 3 articles per row. Content categorization before finalizing navigation.",
-      "source": "content"
+      "id": "e-d-11",
+      "text": "Meeting scheduled for CKGSB X Tech In ASIA chat at 4pm SGT tomorrow.",
+      "meetingId": "email",
+      "meetingTitle": "答复: CKGSB X Tech In ASIA",
+      "date": "2026-06-25",
+      "source": "email"
     }
   ]
 }

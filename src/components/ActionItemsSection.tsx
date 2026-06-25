@@ -107,8 +107,11 @@ function ActionItemRow({ item, isOpen, onToggle, onDismiss }: ActionItemRowProps
         >
           <p className="text-slate-200 font-medium">{item.text}</p>
           <div className="flex flex-wrap gap-x-3 gap-y-1 mt-1 text-xs text-slate-500 items-center">
-            {item.source === 'outlook' && (
+            {(item.source === 'email' || item.source === 'outlook') && (
               <span className="rounded bg-sky-900/60 text-sky-300 px-1.5 py-0.5 font-medium">Email</span>
+            )}
+            {(item.source === 'meeting' || item.source === 'granola') && (
+              <span className="rounded bg-emerald-900/60 text-emerald-300 px-1.5 py-0.5 font-medium">Meeting</span>
             )}
             {item.source === 'events' && (
               <span className="rounded bg-violet-900/60 text-violet-300 px-1.5 py-0.5 font-medium">Events</span>
@@ -180,7 +183,7 @@ export function ActionItemsSection({ items }: Props) {
         </h2>
         <p className="text-slate-500 text-sm">
           {items.length === 0
-            ? 'No action items yet. Pull from Granola to populate.'
+            ? 'No action items yet. They populate automatically from your meeting transcripts and global-marcom emails.'
             : 'No action items from the past two weeks.'}
         </p>
       </section>
