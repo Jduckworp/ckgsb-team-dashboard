@@ -92,7 +92,7 @@ function ActionItemRow({ item, isOpen, onToggle, onDismiss }: ActionItemRowProps
         <button
           type="button"
           onClick={(e) => { e.stopPropagation(); onDismiss() }}
-          className="shrink-0 mt-0.5 rounded border border-slate-600 bg-slate-800/80 hover:bg-slate-700 text-slate-400 hover:text-emerald-400 focus:outline-none focus:ring-2 focus:ring-amber-500 w-5 h-5 flex items-center justify-center"
+          className="shrink-0 mt-0.5 rounded border border-slate-600 bg-slate-800/80 hover:bg-slate-700 text-slate-400 hover:text-ckgsb-blue focus:outline-none focus:ring-2 focus:ring-ckgsb-blue w-5 h-5 flex items-center justify-center"
           aria-label="Tick off / remove action item"
         >
           <span className="text-xs">✓</span>
@@ -108,10 +108,10 @@ function ActionItemRow({ item, isOpen, onToggle, onDismiss }: ActionItemRowProps
           <p className="text-slate-200 font-medium">{item.text}</p>
           <div className="flex flex-wrap gap-x-3 gap-y-1 mt-1 text-xs text-slate-500 items-center">
             {(item.source === 'email' || item.source === 'outlook') && (
-              <span className="rounded bg-sky-900/60 text-sky-300 px-1.5 py-0.5 font-medium">Email</span>
+              <span className="rounded bg-ckgsb-orange/20 text-ckgsb-orange px-1.5 py-0.5 font-medium">Email</span>
             )}
             {(item.source === 'meeting' || item.source === 'granola') && (
-              <span className="rounded bg-emerald-900/60 text-emerald-300 px-1.5 py-0.5 font-medium">Meeting</span>
+              <span className="rounded bg-ckgsb-blue/20 text-ckgsb-blue px-1.5 py-0.5 font-medium">Meeting</span>
             )}
             {item.source === 'events' && (
               <span className="rounded bg-violet-900/60 text-violet-300 px-1.5 py-0.5 font-medium">Events</span>

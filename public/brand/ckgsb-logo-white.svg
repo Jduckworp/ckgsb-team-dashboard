@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177.332" height="27" viewBox="0 0 177.332 27">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1130" data-name="Rectangle 1130" width="12.81" height="21.352" fill="#1495d9"/>
+    </clipPath>
+  </defs>
+  <g id="Group_192" data-name="Group 192" transform="translate(-288.834 -1362.803)">
+    <text id="CKGSB_website" data-name="CKGSB website" transform="translate(359.834 1384.803)" fill="#1495d9" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-70.601" y="0">CKGSB WEBSITE</tspan></text>
+    <g id="Group_169" data-name="Group 169" transform="translate(453.357 1366.673)">
+      <g id="Group_168" data-name="Group 168" clip-path="url(#clip-path)">
+        <path id="Path_240" data-name="Path 240" d="M12.212,12.116a2.034,2.034,0,0,0,0-2.88L3.508.6A2.074,2.074,0,0,0,.6.6a2.036,2.036,0,0,0,0,2.881l7.258,7.2L.6,17.874a2.036,2.036,0,0,0,0,2.881,2.074,2.074,0,0,0,2.911,0Z" transform="translate(0 0)" fill="#1495d9"/>
+      </g>
+    </g>
+  </g>
+</svg>

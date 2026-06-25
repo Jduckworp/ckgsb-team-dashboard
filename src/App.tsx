@@ -44,14 +44,23 @@ function App() {
 
   return (
     <div className="min-h-screen">
-      <header className="border-b border-slate-800/80 bg-slate-900/50 backdrop-blur sticky top-0 z-10">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4">
-          <h1 className="font-display font-semibold text-xl text-white tracking-tight">
-            CKGSB Team Dashboard
-          </h1>
-          <p className="text-slate-400 text-sm mt-0.5">
-            Last updated {data.lastUpdated}
-          </p>
+      <header className="border-b border-ckgsb-blue/30 bg-ckgsb-navy/80 backdrop-blur sticky top-0 z-10">
+        <div className="h-1 bg-gradient-to-r from-ckgsb-blue via-ckgsb-blue/60 to-ckgsb-orange" />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center gap-4">
+          <img
+            src="/brand/ckgsb-logo.svg"
+            alt="CKGSB"
+            className="h-8 w-auto shrink-0"
+            style={{ filter: 'brightness(0) invert(1)' }}
+          />
+          <div className="border-l border-white/15 pl-4">
+            <h1 className="font-display font-bold text-xl text-white tracking-tight">
+              Team Dashboard
+            </h1>
+            <p className="text-ckgsb-blue text-sm mt-0.5">
+              Last updated {data.lastUpdated}
+            </p>
+          </div>
         </div>
       </header>
 

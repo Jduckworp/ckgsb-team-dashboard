@@ -52,10 +52,10 @@ function DecisionRow({ decision, noteDateDisplay, isOpen, onToggle }: DecisionRo
           <p className="text-slate-200 font-medium">{decision.text}</p>
           <div className="flex flex-wrap gap-x-3 gap-y-1 mt-2 text-xs text-slate-500 items-center">
             {(decision.source === 'email' || decision.source === 'outlook') && (
-              <span className="rounded bg-sky-900/60 text-sky-300 px-1.5 py-0.5 font-medium">Email</span>
+              <span className="rounded bg-ckgsb-orange/20 text-ckgsb-orange px-1.5 py-0.5 font-medium">Email</span>
             )}
             {(decision.source === 'meeting' || decision.source === 'granola') && (
-              <span className="rounded bg-emerald-900/60 text-emerald-300 px-1.5 py-0.5 font-medium">Meeting</span>
+              <span className="rounded bg-ckgsb-blue/20 text-ckgsb-blue px-1.5 py-0.5 font-medium">Meeting</span>
             )}
             {decision.source === 'events' && (
               <span className="rounded bg-violet-900/60 text-violet-300 px-1.5 py-0.5 font-medium">Events</span>
@@ -128,7 +128,7 @@ export function DecisionsSection({ decisions, meetings }: Props) {
   if (!decisions.length) {
     return (
       <section className="rounded-2xl bg-slate-900/60 border border-slate-700/50 p-6">
-        <h2 className="font-display font-semibold text-slate-300 text-sm uppercase tracking-wider mb-3">
+        <h2 className="font-display font-semibold text-ckgsb-blue text-sm uppercase tracking-wider mb-3">
           Decisions
         </h2>
         <p className="text-slate-500 text-sm">No decisions captured yet. They populate automatically from your meeting transcripts and global-marcom emails.</p>
@@ -138,7 +138,7 @@ export function DecisionsSection({ decisions, meetings }: Props) {
 
   return (
     <section className="rounded-2xl bg-slate-900/60 border border-slate-700/50 p-6 sm:p-8">
-      <h2 className="font-display font-semibold text-slate-300 text-sm uppercase tracking-wider mb-4">
+      <h2 className="font-display font-semibold text-ckgsb-blue text-sm uppercase tracking-wider mb-4">
         Decisions
       </h2>
       <p className="text-slate-400 text-sm mb-4">Up to 10 decisions from the past week (newest first). Click to expand.</p>

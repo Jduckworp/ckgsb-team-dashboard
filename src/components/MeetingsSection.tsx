@@ -17,7 +17,7 @@ export function MeetingsSection({ meetings }: Props) {
   if (!meetings.length) {
     return (
       <section className="rounded-2xl bg-slate-900/60 border border-slate-700/50 p-6">
-        <h2 className="font-display font-semibold text-slate-300 text-sm uppercase tracking-wider mb-3">
+        <h2 className="font-display font-semibold text-ckgsb-blue text-sm uppercase tracking-wider mb-3">
           Recent meetings
         </h2>
         <p className="text-slate-500 text-sm">No meetings loaded yet. They sync automatically from your VPS meeting transcripts.</p>
@@ -27,7 +27,7 @@ export function MeetingsSection({ meetings }: Props) {
 
   return (
     <section className="rounded-2xl bg-slate-900/60 border border-slate-700/50 p-6 sm:p-8">
-      <h2 className="font-display font-semibold text-slate-300 text-sm uppercase tracking-wider mb-4">
+      <h2 className="font-display font-semibold text-ckgsb-blue text-sm uppercase tracking-wider mb-4">
         Recent meetings
       </h2>
       <ul className="space-y-4">
@@ -53,7 +53,7 @@ export function MeetingsSection({ meetings }: Props) {
                 href={m.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-emerald-400 hover:text-emerald-300 text-sm shrink-0"
+                className="text-ckgsb-blue hover:text-ckgsb-blue/80 text-sm shrink-0"
               >
                 Open →
               </a>

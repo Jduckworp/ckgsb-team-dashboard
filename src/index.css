@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+/* CKGSB brand typeface: DIN */
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/DIN-Regular.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/DIN-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/DIN-Bold.woff') format('woff');
+  font-weight: 600 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/DIN-ProBold.woff') format('woff');
+  font-weight: 800 900;
+  font-display: swap;
+}
+
 body {
-  @apply bg-slate-950 text-slate-100 antialiased;
+  /* CKGSB navy brand base */
+  @apply text-slate-100 antialiased;
+  background-color: #041440;
+  background-image: radial-gradient(1200px 600px at 50% -10%, #0a1f5c 0%, #041440 55%, #020c28 100%);
+  background-attachment: fixed;
 }
