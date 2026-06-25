@@ -1,19 +1,19 @@
 {
   "lastUpdated": "2026-06-25",
-  "summary": "Team is advancing the China Going Global report and Asia Start campaign with parallel AI and traditional routes.",
-  "summaryDetail": "The report, jointly published with IE, is set for a mid-September launch in Singapore, with events at Tech in Asia and Tyson. The Asia Start campaign is running two parallel routes for the first month, while the Intelligent China program targets foreigners with an English-language focus on module one. Key tasks include translating articles, finalizing drafts, and coordinating meetings.",
+  "summary": "The team is in full execution mode for the September launch of the joint CKGSB-IE ‘New Chinese Playbook’ report on Chinese companies going global to Southeast Asia, while simultaneously launching the Asia Start campaign and building the new Intelligent China program.",
+  "summaryDetail": "The top priority is the ‘New Chinese Playbook’ report, with a one-pager proposal due from Felix, bulk translation underway, and op-ed contributors and alumni case studies being sourced by Julie. The report is set to launch at events in Singapore in mid-September, with Felix confirming the Tech in Asia or Tyson event. Simultaneously, the Asia Start campaign has just launched with two routes (AI vs traditional), and the Intelligent China program website is being built by Joseph, with SCM campaign planning starting. This week’s urgent tasks include finalizing Prof Zhu Yang’s article, translating Prof Li Wei’s FT Chinese piece, and sending the Summer Davos press release to Prof Sun. Upcoming: a Monday 3pm meeting with Flow for brochure review, and continued work on the report and program launches.",
   "meetings": [
     {
       "id": "meeting_2026-06-25_13-01-40",
-      "title": "Joint Report Planning for Chinese Companies Going Global",
+      "title": "New Chinese Playbook Report Planning",
       "date": "2026-06-25",
       "attendees": [
         "Felix",
         "Julian",
         "Julie",
-        "Mapping"
+        "Tyson"
       ],
-      "summary": "Team discusses joint report between CKGSB and IE on Chinese companies globalizing to Southeast Asia, with op-eds from both schools' leadership and industry case studies. Report to launch at Tech in Asia or Tyson event in Singapore in September."
+      "summary": "Team discusses joint report with CKGSB on Chinese companies globalizing to Southeast Asia, planning content, events, and distribution for September launch."
     },
     {
       "id": "meeting_2026-06-23_15-02-41",
@@ -24,275 +24,277 @@
         "Contran",
         "Joseph"
       ],
-      "summary": "Discussed Asia Start campaign with two routes (AI vs traditional) and a new Intelligent China program launching in December. Need to finalize campaign approach and start SCM for the new program."
+      "summary": "Discussed Asia Start campaign with two routes (AI vs traditional), reviewed results, and introduced a new 'Intelligent China' program targeting foreigners with modules in Beijing, Shanghai, and Shenzhen."
     },
     {
       "id": "meeting_2026-06-17_16-41-19",
-      "title": "Europe-China Cooperation Discussion",
+      "title": "EU-China Cooperation Discussion",
       "date": "2026-06-17",
       "attendees": [],
-      "summary": "Discussion on the importance of Europe-China relations, geopolitical tensions, and the role of companies in navigating de-risking and market constraints."
+      "summary": "Discussion on EU-China relations, focusing on geopolitical tensions, de-risking, and the role of companies versus governments in market operations."
     }
   ],
   "actionItems": [
     {
       "id": "m-ai-1",
-      "text": "Meet with Tech in Asia tomorrow to confirm event theme and possibility of launching report there.",
+      "text": "Draft one-pager proposal for report structure and promotion plan",
       "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning for Chinese Companies Going Global",
+      "meetingTitle": "New Chinese Playbook Report Planning",
       "date": "2026-06-25",
       "owner": "Felix",
       "status": "open",
-      "detail": "Determine if Tech in Asia session will focus on Chinese companies globalizing, and if report can be launched at their event.",
-      "source": "meeting"
+      "detail": "Create a one-pager summarizing the report structure, title, and promotion plan to show to the president.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
     },
     {
       "id": "m-ai-2",
-      "text": "Meet with Tyson tomorrow to discuss report launch or distribution at their event.",
+      "text": "Translate bulk of Chinese report into English",
       "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning for Chinese Companies Going Global",
+      "meetingTitle": "New Chinese Playbook Report Planning",
       "date": "2026-06-25",
-      "owner": "Felix",
+      "owner": "Team",
       "status": "open",
-      "detail": "Ask Tyson about featuring CKGSB panel and launching report at their event on Sep 29-30.",
-      "source": "meeting"
+      "detail": "Translate the core research from Professor Leeway's Chinese report for the English version.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
     },
     {
       "id": "m-ai-3",
-      "text": "Translate the bulk of the Chinese report into English.",
+      "text": "Identify op-ed contributors from CKGSB",
       "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning for Chinese Companies Going Global",
-      "date": "2026-06-25",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Translate Professor Leeway's research for the English report.",
-      "source": "meeting"
-    },
-    {
-      "id": "m-ai-4",
-      "text": "Prepare a one-pager proposal for the report structure, title, and promotion plan.",
-      "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning for Chinese Companies Going Global",
-      "date": "2026-06-25",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Create a one-page document to show to the president, including report structure, title, and promotion plan.",
-      "source": "meeting"
-    },
-    {
-      "id": "m-ai-5",
-      "text": "Look into WeChat official account articles for alumni case studies to translate.",
-      "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning for Chinese Companies Going Global",
+      "meetingTitle": "New Chinese Playbook Report Planning",
       "date": "2026-06-25",
       "owner": "Julie",
       "status": "open",
-      "detail": "Search WeChat accounts for relevant alumni stories about going global to use as industry perspective.",
-      "source": "meeting"
+      "detail": "Find CKGSB contributors like President Santiago or Professor Ma Ping for op-eds.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-4",
+      "text": "Explore alumni case studies from WeChat accounts",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "New Chinese Playbook Report Planning",
+      "date": "2026-06-25",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "Look at CKGSB WeChat accounts for alumni stories about going global to translate as industry perspectives.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-5",
+      "text": "Confirm Tech in Asia event theme and report launch possibility",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "New Chinese Playbook Report Planning",
+      "date": "2026-06-25",
+      "owner": "Felix",
+      "status": "open",
+      "detail": "Meet with Tech in Asia tomorrow to see if the event theme aligns and if report can be launched there.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
     },
     {
       "id": "m-ai-6",
-      "text": "Contact Professor Santiago about writing an op-ed or case study on Haier.",
+      "text": "Confirm Tyson event for report distribution",
       "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning for Chinese Companies Going Global",
+      "meetingTitle": "New Chinese Playbook Report Planning",
       "date": "2026-06-25",
-      "owner": "Mapping",
+      "owner": "Felix",
       "status": "open",
-      "detail": "Ask if Santiago can contribute a case study on Haier's acquisition model.",
-      "source": "meeting"
+      "detail": "Meet with Tyson tomorrow to discuss using their event for report distribution.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
     },
     {
       "id": "m-ai-7",
-      "text": "Start Asia Start campaign with two routes: AI (Joseph) and traditional (Daisy).",
+      "text": "Launch Asia Start campaign with two routes for first month",
       "meetingId": "meeting_2026-06-23_15-02-41",
       "meetingTitle": "Asia Start & New Program Planning",
       "date": "2026-06-23",
-      "owner": "Joseph",
+      "owner": "Daisy",
       "status": "open",
-      "detail": "Joseph will lead AI route, Daisy traditional route for first month.",
-      "source": "meeting"
+      "detail": "Daisy to execute traditional strategy, Joseph to use AI approach.",
+      "source": "meeting",
+      "category": "Asia Start Campaign"
     },
     {
       "id": "m-ai-8",
-      "text": "Get website for Intelligent China program ready.",
+      "text": "Complete website for Intelligent China program",
       "meetingId": "meeting_2026-06-23_15-02-41",
       "meetingTitle": "Asia Start & New Program Planning",
       "date": "2026-06-23",
       "owner": "Joseph",
       "status": "open",
-      "detail": "Joseph working with team on website; nearly ready.",
-      "source": "meeting"
+      "detail": "Joseph to work with Daisy and Contran to finalize the webpage.",
+      "source": "meeting",
+      "category": "Intelligent China Program"
     },
     {
       "id": "m-ai-9",
-      "text": "Begin SCM campaign for Intelligent China program after webpage is done.",
+      "text": "Plan SCM campaign for Intelligent China program",
       "meetingId": "meeting_2026-06-23_15-02-41",
       "meetingTitle": "Asia Start & New Program Planning",
       "date": "2026-06-23",
       "owner": "Team",
       "status": "open",
-      "detail": "Simultaneously start SCM campaign once webpage is live.",
-      "source": "meeting"
+      "detail": "Decide on campaign approach (AI or traditional) after webpage is ready.",
+      "source": "meeting",
+      "category": "Intelligent China Program"
     },
     {
-      "id": "m-ai-10",
-      "text": "Decide on campaign route for Intelligent China program.",
-      "meetingId": "meeting_2026-06-23_15-02-41",
-      "meetingTitle": "Asia Start & New Program Planning",
-      "date": "2026-06-23",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Choose between AI (Joseph) or traditional (Daisy) route for this program.",
-      "source": "meeting"
-    },
-    {
-      "id": "e-ai-11",
-      "text": "Translate Prof Li Wei's FT Chinese article related to China going global report",
+      "id": "e-ai-10",
+      "text": "Translate Prof Li Wei's FT Chinese article for potential publication on CKGSB Knowledge.",
       "meetingId": "email",
       "meetingTitle": "FW: 长江商学院媒体监测日报2026-6-25",
       "date": "2026-06-25",
       "owner": "Joseph Luke Duckworth",
       "status": "open",
-      "detail": "Ira suggested translating the article as it relates to one of our reports.",
-      "source": "email"
+      "detail": "Ira suggested translating Prof Li Wei's article on FT Chinese related to his China going global report.",
+      "source": "email",
+      "category": "PR & Media"
     },
     {
-      "id": "e-ai-12",
-      "text": "Finalize Prof Zhu Yang's article 'Timing Itself Can Be Strategy' against Chinese near-final draft",
+      "id": "e-ai-11",
+      "text": "Finalize Prof Zhu Yang's article 'Timing Itself Can Be Strategy' by double-checking against Chinese draft.",
       "meetingId": "email",
       "meetingTitle": "FW: News Article on 'Disruptive Timing' Paper",
       "date": "2026-06-24",
-      "owner": "TIAN Xuefang",
+      "owner": "Julie (TIAN Xuefang)",
       "status": "open",
-      "detail": "Ira sent a rewrite of Prof Zhu Yang's article and asked Julie to double check against the Chinese draft and finalize.",
-      "source": "email"
+      "detail": "Ira sent a rewrite of Prof Zhu Yang's article and asked Julie to finalize it.",
+      "source": "email",
+      "category": "PR & Media"
     },
     {
-      "id": "e-ai-13",
-      "text": "Send Prof Sun Tianshu the press release about his Summer Davos presence on WeChat",
+      "id": "e-ai-12",
+      "text": "Send Prof Sun Tianshu the press release about his Summer Davos presence on WeChat.",
       "meetingId": "email",
       "meetingTitle": "Re: press release - Sun Tianshu at Summer Davos 2026",
       "date": "2026-06-24",
       "owner": "Ira ZAKA",
       "status": "open",
-      "detail": "Julie asked Ira to send the press release to Prof Sun on WeChat after she made edits.",
-      "source": "email"
+      "detail": "Julie asked Ira to send the press release to Prof Sun on WeChat for confirmation.",
+      "source": "email",
+      "category": "PR & Media"
     },
     {
-      "id": "e-ai-14",
-      "text": "Review Joseph's translation of Prof Ouyang Hui's article for Knowledge platform",
-      "meetingId": "email",
-      "meetingTitle": "Re: Translation: Ouyang Hui — The Resilience Code",
-      "date": "2026-06-24",
-      "owner": "Ira ZAKA",
-      "status": "open",
-      "detail": "Joseph translated the article and asked for review; Ira will look at it and revert.",
-      "source": "email"
-    },
-    {
-      "id": "e-ai-15",
-      "text": "Publish academic seminars on English website events section going forward",
+      "id": "e-ai-13",
+      "text": "Publish academic seminars on English website events section going forward.",
       "meetingId": "email",
       "meetingTitle": "FW: publishing academic seminars on website",
       "date": "2026-06-24",
-      "owner": "Team",
+      "owner": "Kaylee and Xuan",
       "status": "open",
-      "detail": "Ira asked Kaylee and Xuan to take turns publishing academic seminars on the English website's events section.",
-      "source": "email"
+      "detail": "Ira asked Kaylee and Xuan to take turns publishing academic seminars on the English website.",
+      "source": "email",
+      "category": "Website & SEO"
     },
     {
-      "id": "e-ai-16",
-      "text": "Save all final files, including monthly website reports, to school's Cloud",
+      "id": "e-ai-14",
+      "text": "Save all final files, including monthly website reports, to the school's Cloud.",
       "meetingId": "email",
       "meetingTitle": "RE: Cloud Archiving",
       "date": "2026-06-24",
       "owner": "Joseph Luke Duckworth",
       "status": "open",
       "detail": "Joseph confirmed he will save final files to the school's Cloud going forward.",
-      "source": "email"
+      "source": "email",
+      "category": "Other"
     },
     {
-      "id": "e-ai-17",
-      "text": "Coordinate with Flow and pencil in meeting on Monday afternoon for brochure review",
+      "id": "e-ai-15",
+      "text": "Coordinate with Flow and schedule a meeting at 3pm on Monday for brochure review.",
       "meetingId": "email",
       "meetingTitle": "答复: 答复:  答复: CKGSB School Brochure (长江商学院学院英文介绍手册)_June 2026",
       "date": "2026-06-24",
-      "owner": "TIAN Xuefang",
+      "owner": "Julie (TIAN Xuefang)",
       "status": "open",
-      "detail": "Julie will coordinate with Flow to schedule a meeting with Ira on Monday afternoon.",
-      "source": "email"
+      "detail": "Julie agreed to coordinate with Flow for a Monday 3pm meeting as per Ira's availability.",
+      "source": "email",
+      "category": "School Brochure"
     },
     {
-      "id": "e-ai-18",
-      "text": "Attend meeting with Miguel from Tech In Asia on June 26 at 4pm SGT",
+      "id": "e-ai-16",
+      "text": "Review Joseph's translation of Prof Ouyang Hui's article for suitability on Knowledge.",
       "meetingId": "email",
-      "meetingTitle": "答复: CKGSB X Tech In ASIA",
-      "date": "2026-06-25",
-      "owner": "LIU Xuan",
+      "meetingTitle": "Re: Translation: Ouyang Hui — The Resilience Code",
+      "date": "2026-06-24",
+      "owner": "Ira ZAKA",
       "status": "open",
-      "detail": "Xuan confirmed a meeting with Miguel for tomorrow at 4pm SGT to discuss collaboration.",
-      "source": "email"
+      "detail": "Ira will review the translation and revert to Joseph.",
+      "source": "email",
+      "category": "PR & Media"
     }
   ],
   "decisions": [
     {
       "id": "m-d-1",
-      "text": "Report will be jointly published by CKGSB and IE, with main research from Professor Leeway and op-eds from both schools' leadership.",
+      "text": "Report will be jointly published by CKGSB and IE Business School.",
       "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning for Chinese Companies Going Global",
+      "meetingTitle": "New Chinese Playbook Report Planning",
       "date": "2026-06-25",
       "source": "meeting"
     },
     {
       "id": "m-d-2",
-      "text": "Working title is 'The New Chinese Playbook for Going Global'.",
+      "text": "Working title: 'The New Chinese Playbook for Going Global'.",
       "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning for Chinese Companies Going Global",
+      "meetingTitle": "New Chinese Playbook Report Planning",
       "date": "2026-06-25",
       "source": "meeting"
     },
     {
       "id": "m-d-3",
-      "text": "Report will be ready by early September for launch in Singapore in mid-September.",
+      "text": "Report will include a main research feature, op-eds from both schools, and industry case studies.",
       "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning for Chinese Companies Going Global",
+      "meetingTitle": "New Chinese Playbook Report Planning",
       "date": "2026-06-25",
       "source": "meeting"
     },
     {
       "id": "m-d-4",
-      "text": "At least one of the two events (Tech in Asia or Tyson) will be used for launch; the other for distribution.",
+      "text": "Target launch at events in Singapore in mid-September (Tech in Asia or Tyson).",
       "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning for Chinese Companies Going Global",
+      "meetingTitle": "New Chinese Playbook Report Planning",
       "date": "2026-06-25",
       "source": "meeting"
     },
     {
       "id": "m-d-5",
-      "text": "Asia Start campaign will run two parallel routes for first month: AI and traditional.",
-      "meetingId": "meeting_2026-06-23_15-02-41",
-      "meetingTitle": "Asia Start & New Program Planning",
-      "date": "2026-06-23",
+      "text": "Report will be digital first, with promotion through end of year.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "New Chinese Playbook Report Planning",
+      "date": "2026-06-25",
       "source": "meeting"
     },
     {
       "id": "m-d-6",
-      "text": "Intelligent China program targets foreigners, is in English, and focuses on module one first.",
+      "text": "Asia Start will run two parallel routes for the first month: AI-driven and traditional.",
       "meetingId": "meeting_2026-06-23_15-02-41",
       "meetingTitle": "Asia Start & New Program Planning",
       "date": "2026-06-23",
       "source": "meeting"
     },
     {
-      "id": "e-d-7",
-      "text": "Joseph will translate the FT Chinese article by Prof Li Wei.",
+      "id": "m-d-7",
+      "text": "Intelligent China program will target foreigners with English-language modules, starting with module one in Beijing.",
+      "meetingId": "meeting_2026-06-23_15-02-41",
+      "meetingTitle": "Asia Start & New Program Planning",
+      "date": "2026-06-23",
+      "source": "meeting"
+    },
+    {
+      "id": "e-d-8",
+      "text": "Joseph will translate Prof Li Wei's FT Chinese article.",
       "meetingId": "email",
-      "meetingTitle": "FW: 长江商学院媒体监测日报2026-6-25",
+      "meetingTitle": "Re: 长江商学院媒体监测日报2026-6-25",
       "date": "2026-06-25",
       "source": "email"
     },
     {
-      "id": "e-d-8",
+      "id": "e-d-9",
       "text": "Julie will finalize Prof Zhu Yang's article against the Chinese draft.",
       "meetingId": "email",
       "meetingTitle": "FW: News Article on 'Disruptive Timing' Paper",
@@ -300,7 +302,7 @@
       "source": "email"
     },
     {
-      "id": "e-d-9",
+      "id": "e-d-10",
       "text": "Ira will send the press release to Prof Sun on WeChat.",
       "meetingId": "email",
       "meetingTitle": "Re: press release - Sun Tianshu at Summer Davos 2026",
@@ -308,16 +310,8 @@
       "source": "email"
     },
     {
-      "id": "e-d-10",
-      "text": "Ira will review Joseph's translation of Prof Ouyang's article.",
-      "meetingId": "email",
-      "meetingTitle": "Re: Translation: Ouyang Hui — The Resilience Code",
-      "date": "2026-06-24",
-      "source": "email"
-    },
-    {
       "id": "e-d-11",
-      "text": "Kaylee and Xuan will take turns publishing academic seminars on the English website.",
+      "text": "Kaylee and Xuan will take over publishing academic seminars on the website.",
       "meetingId": "email",
       "meetingTitle": "FW: publishing academic seminars on website",
       "date": "2026-06-24",
@@ -325,7 +319,7 @@
     },
     {
       "id": "e-d-12",
-      "text": "Joseph will save all final files to the school's Cloud.",
+      "text": "All final files will be saved to the school's Cloud.",
       "meetingId": "email",
       "meetingTitle": "RE: Cloud Archiving",
       "date": "2026-06-24",
@@ -333,18 +327,10 @@
     },
     {
       "id": "e-d-13",
-      "text": "Julie will coordinate with Flow for a meeting on Monday afternoon.",
+      "text": "Meeting scheduled for Monday 3pm with Flow for brochure review.",
       "meetingId": "email",
       "meetingTitle": "答复: 答复:  答复: CKGSB School Brochure (长江商学院学院英文介绍手册)_June 2026",
       "date": "2026-06-24",
-      "source": "email"
-    },
-    {
-      "id": "e-d-14",
-      "text": "Xuan will meet with Miguel from Tech In Asia on June 26 at 4pm SGT.",
-      "meetingId": "email",
-      "meetingTitle": "答复: CKGSB X Tech In ASIA",
-      "date": "2026-06-25",
       "source": "email"
     }
   ]
