@@ -173,6 +173,29 @@ export function ActionItemsSection({ items }: Props) {
   const sortedOpen = useMemo(() => [...open].sort((a, b) => sortKey(b).localeCompare(sortKey(a))), [open])
   const sortedDone = useMemo(() => [...done].sort((a, b) => sortKey(b).localeCompare(sortKey(a))), [done])
 
+  // Group open items by project/theme. Order by size (most active project first); "Other" always last.
+  const groupedOpen = useMemo(() => {
+    const m = new Map<string, ActionItem[]>()
+    for (const it of sortedOpen) {
+      const c = it.category?.trim() || 'Other'
+      if (!m.has(c)) m.set(c, [])
+      m.get(c)!.push(it)
+    }
+    return [...m.entries()].sort((a, b) => {
+      if (a[0] === 'Other') return 1
+      if (b[0] === 'Other') return -1
+      return b[1].length - a[1].length
+    })
+  }, [sortedOpen])
+
+  const [collapsedCats, setCollapsedCats] = useState<Set<string>>(new Set())
+  const toggleCat = (cat: string) =>
+    setCollapsedCats((s) => {
+      const n = new Set(s)
+      n.has(cat) ? n.delete(cat) : n.add(cat)
+      return n
+    })
+
   const handleDismiss = (id: string) => setDismissedIds((s) => new Set(s).add(id))
 
   if (!lastTwoWeeks.length) {
@@ -195,22 +218,48 @@ export function ActionItemsSection({ items }: Props) {
       <h2 className="font-display font-semibold text-amber-400 text-sm uppercase tracking-wider mb-4">
         Action items
       </h2>
-      <p className="text-slate-400 text-sm mb-4">Showing items from the past two weeks. Sorted by note date (newest first). Click to expand. Tick to remove from list.</p>
+      <p className="text-slate-400 text-sm mb-4">Grouped by project. From the past two weeks. Click a project to collapse it, an item to expand it, or tick to remove.</p>
       <div className="space-y-6">
-        {sortedOpen.length > 0 && (
-          <div>
-            <h3 className="text-xs font-medium text-amber-500/90 uppercase tracking-wider mb-2">Open</h3>
-            <ul className="space-y-2">
-              {sortedOpen.map((item) => (
-                <ActionItemRow
-                  key={item.id}
-                  item={item}
-                  isOpen={expandedId === item.id}
-                  onToggle={() => setExpandedId((id) => (id === item.id ? null : item.id))}
-                  onDismiss={() => handleDismiss(item.id)}
-                />
-              ))}
-            </ul>
+        {groupedOpen.length > 0 && (
+          <div className="space-y-3">
+            {groupedOpen.map(([cat, catItems]) => {
+              const collapsed = collapsedCats.has(cat)
+              return (
+                <div key={cat} className="rounded-xl border border-slate-700/40 bg-slate-900/30 overflow-hidden">
+                  <button
+                    type="button"
+                    onClick={() => toggleCat(cat)}
+                    className="w-full flex items-center gap-3 px-4 py-3 hover:bg-slate-800/40 focus:outline-none focus:ring-1 focus:ring-ckgsb-blue/40"
+                    aria-expanded={!collapsed}
+                  >
+                    <span
+                      className="text-ckgsb-blue shrink-0 transition-transform text-xs"
+                      aria-hidden
+                      style={{ transform: collapsed ? 'rotate(-90deg)' : 'rotate(0deg)' }}
+                    >
+                      ▼
+                    </span>
+                    <span className="font-display font-semibold text-slate-100 text-left flex-1">{cat}</span>
+                    <span className="text-xs rounded-full bg-ckgsb-blue/20 text-ckgsb-blue px-2 py-0.5 shrink-0">
+                      {catItems.length}
+                    </span>
+                  </button>
+                  {!collapsed && (
+                    <ul className="space-y-2 px-3 pb-3">
+                      {catItems.map((item) => (
+                        <ActionItemRow
+                          key={item.id}
+                          item={item}
+                          isOpen={expandedId === item.id}
+                          onToggle={() => setExpandedId((id) => (id === item.id ? null : item.id))}
+                          onDismiss={() => handleDismiss(item.id)}
+                        />
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              )
+            })}
           </div>
         )}
         {sortedDone.length > 0 && (

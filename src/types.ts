@@ -22,6 +22,8 @@ export interface ActionItem {
   /** Origin of the item. 'meeting' = VPS meeting transcript; 'email' = global-marcom email.
    * Legacy values ('granola'/'outlook') still render for older data. */
   source?: 'meeting' | 'email' | 'granola' | 'outlook' | 'events' | 'content'
+  /** Project/theme the task belongs to (e.g. "China Going-Global Report"), assigned by the pipeline. */
+  category?: string
 }
 
 export interface Decision {
