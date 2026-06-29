@@ -1,19 +1,30 @@
 {
-  "lastUpdated": "2026-06-28",
-  "summary": "The team is in full execution mode for the joint report 'The New Chinese Playbook for Going Global' with IE, while simultaneously launching the Asia Start campaign and building the Intelligent China program.",
-  "summaryDetail": "The top priority is the joint report with IE, which must be structured and promoted with a one-pager by Felix, translated by the team, and aligned with events at Tech in Asia and Tyson in Singapore for a September digital release. Concurrently, the Asia Start campaign is live with two routes (AI and traditional) for the first month, and the Intelligent China program website and SCM campaign are under development to offer a deeper dive for foreign audiences. Urgent this week: finalize the 'Disruptive Timing' article with Professor Zhu Yang's feedback, confirm report launch events with Tyson and Tech in Asia, and review Professor Li Wei's FT piece for overlap. Upcoming: the farewell reception for Martin Matter on July 1 and continued progress on the joint report and new programs.",
+  "lastUpdated": "2026-06-29",
+  "summary": "The team is sprinting toward a mid-September launch of the joint CKGSB-IE report 'The New Chinese Playbook for Going Global' while simultaneously activating the Asia Start campaign and preparing the Intelligent China program for December.",
+  "summaryDetail": "The single most important initiative is the joint report with IE Business School on Chinese companies going global, targeting a mid-September launch at Tech in Asia or the Tyson event in Singapore. This week, Felix must finalize the one-pager proposal and confirm the launch event, while the team begins translating the Chinese report and identifying alumni case studies. Simultaneously, the Asia Start campaign is launching with two parallel routes—AI-focused (Joseph) and traditional (Daisy)—for the first month, requiring immediate execution. For Intelligent China (December launch), Joseph needs to get the webpage ready, and Xuan must produce a one-pager plan for events in Beijing and Shanghai. Urgent this week: finalize the Shun Tian Shu press release (Julie), prioritize Media Minds for social media agency (Xuan), and send the CES press release to Professor Sun (Ira). Upcoming: decide on the Intelligent China campaign route and begin SCM campaign once the webpage is live.",
   "meetings": [
     {
+      "id": "meeting_2026-06-29_10-09-34",
+      "title": "Marketing Team Meeting",
+      "date": "2026-06-29",
+      "attendees": [
+        "Joseph",
+        "Julie",
+        "Xuan"
+      ],
+      "summary": "Team discussed website menu feedback, brochure updates, social media agency search, and IE report translation. Decisions made on Shun Tian Shu press release approach and prioritizing Media Minds for social media."
+    },
+    {
       "id": "meeting_2026-06-25_13-01-40",
-      "title": "Joint Report Planning: New Chinese Playbook for Going Global",
+      "title": "Joint Report on Chinese Companies Going Global",
       "date": "2026-06-25",
       "attendees": [
         "Felix",
         "Julian",
         "Julie",
-        "Tyson"
+        "Mapping"
       ],
-      "summary": "Team discusses joint report between CKGSB and IE on Chinese companies globalizing to Southeast Asia, including op-eds, case studies, and launch events at Tech in Asia and Tyson conferences in Singapore."
+      "summary": "Team discusses a joint report with CKGSB on Chinese companies globalizing to Southeast Asia, to be launched at Tech in Asia or Tyson events in Singapore in September. They plan to include op-eds from deans and case studies, with a working title 'The New Chinese Playbook for Going Global'."
     },
     {
       "id": "meeting_2026-06-23_15-02-41",
@@ -24,225 +35,309 @@
         "Contran",
         "Joseph"
       ],
-      "summary": "Discussed Asia Start campaign with two routes (AI vs traditional), reviewed results, and introduced a new in-depth program 'Intelligent China' targeting foreigners with modules in Beijing, Shanghai, Hangzhou, and Shenzhen."
+      "summary": "Discussed Asia Start campaign with two routes (AI vs traditional) and a new Intelligent China program launching in December. Need to start SCM campaign for the new program once the webpage is ready."
     },
     {
       "id": "meeting_2026-06-17_16-41-19",
-      "title": "China-Europe Cooperation Discussion",
+      "title": "Europe-China Cooperation Discussion",
       "date": "2026-06-17",
       "attendees": [],
-      "summary": "Discussion on China-Europe relations, focusing on geopolitical tensions, de-risking, and the role of companies versus governments in market operations."
+      "summary": "Discussion on geopolitical tensions affecting European companies in China, with emphasis on de-risking and the role of companies versus governments."
     }
   ],
   "actionItems": [
     {
       "id": "m-ai-1",
-      "text": "Create a one-pager proposal for the report structure and promotion plan.",
-      "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning: New Chinese Playbook for Going Global",
-      "date": "2026-06-25",
-      "owner": "Felix",
+      "text": "Provide feedback on website menu",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting",
+      "date": "2026-06-29",
+      "owner": "Joseph",
       "status": "open",
-      "detail": "To share with president Santiago and other stakeholders.",
+      "detail": "Joseph to review and share feedback in writing or meeting.",
       "source": "meeting",
-      "category": "China Going-Global Report"
+      "category": "Website & SEO"
     },
     {
       "id": "m-ai-2",
-      "text": "Translate the bulk of the Chinese report into English.",
-      "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning: New Chinese Playbook for Going Global",
-      "date": "2026-06-25",
-      "owner": "Team",
+      "text": "Join Google program brochure meeting",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting",
+      "date": "2026-06-29",
+      "owner": "Xuan",
       "status": "open",
-      "detail": "For review and inclusion in the joint English report.",
+      "detail": "Xuan to join Julie's meeting with Lee at 3 PM.",
       "source": "meeting",
-      "category": "China Going-Global Report"
+      "category": "School Brochure"
     },
     {
       "id": "m-ai-3",
-      "text": "Identify and translate relevant WeChat alumni articles as industry perspectives.",
-      "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning: New Chinese Playbook for Going Global",
-      "date": "2026-06-25",
+      "text": "Send Asia Start spotlight article",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting",
+      "date": "2026-06-29",
       "owner": "Julie",
       "status": "open",
-      "detail": "To add practitioner case studies to the report.",
-      "source": "meeting",
-      "category": "China Going-Global Report"
-    },
-    {
-      "id": "m-ai-4",
-      "text": "Confirm with Tyson about launching the report at their event.",
-      "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning: New Chinese Playbook for Going Global",
-      "date": "2026-06-25",
-      "owner": "Felix",
-      "status": "open",
-      "detail": "Meeting tomorrow to discuss feasibility.",
-      "source": "meeting",
-      "category": "China Going-Global Report"
-    },
-    {
-      "id": "m-ai-5",
-      "text": "Confirm with Tech in Asia about aligning session theme with report launch.",
-      "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning: New Chinese Playbook for Going Global",
-      "date": "2026-06-25",
-      "owner": "Felix",
-      "status": "open",
-      "detail": "Meeting tomorrow to discuss.",
-      "source": "meeting",
-      "category": "China Going-Global Report"
-    },
-    {
-      "id": "m-ai-6",
-      "text": "Launch Asia Start campaign with two routes for first month",
-      "meetingId": "meeting_2026-06-23_15-02-41",
-      "meetingTitle": "Asia Start & New Program Planning",
-      "date": "2026-06-23",
-      "owner": "Daisy",
-      "status": "open",
-      "detail": "Daisy to execute traditional strategy; Joseph to use AI route.",
+      "detail": "Julie to send the ready article and work on rest this week.",
       "source": "meeting",
       "category": "Asia Start Campaign"
     },
     {
+      "id": "m-ai-4",
+      "text": "Adjust Shun Tian Shu press release",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting",
+      "date": "2026-06-29",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "Incorporate 10 points into current release or turn into 10-point article.",
+      "source": "meeting",
+      "category": "PR & Media"
+    },
+    {
+      "id": "m-ai-5",
+      "text": "Follow up with social media agencies",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting",
+      "date": "2026-06-29",
+      "owner": "Xuan",
+      "status": "open",
+      "detail": "Xuan to respond to Carnegie and have call with Impactable.",
+      "source": "meeting",
+      "category": "PR & Media"
+    },
+    {
+      "id": "m-ai-6",
+      "text": "Wait for Li Wei's recommended sections for IE report",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting",
+      "date": "2026-06-29",
+      "owner": "Xuan",
+      "status": "open",
+      "detail": "Xuan to split translation work after receiving sections.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
       "id": "m-ai-7",
-      "text": "Complete website for Intelligent China program",
+      "text": "Prepare a one-pager proposal for the report structure and promotion plan",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report on Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Felix",
+      "status": "open",
+      "detail": "To show to the president for approval.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-8",
+      "text": "Translate the bulk of the Chinese report into English",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report on Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Team",
+      "status": "open",
+      "detail": "For the joint report.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-9",
+      "text": "Identify relevant alumni case studies from WeChat accounts for translation",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report on Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "To add industry perspective to the report.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-10",
+      "text": "Ask Tyson about launching the report at their event",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report on Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Felix",
+      "status": "open",
+      "detail": "During the meeting tomorrow.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-11",
+      "text": "Confirm the theme of the Tech in Asia session",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report on Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Felix",
+      "status": "open",
+      "detail": "To decide if the report can be launched there.",
+      "source": "meeting",
+      "category": "Asia Start Campaign"
+    },
+    {
+      "id": "m-ai-12",
+      "text": "Start Asia Start campaign with two routes for first month",
+      "meetingId": "meeting_2026-06-23_15-02-41",
+      "meetingTitle": "Asia Start & New Program Planning",
+      "date": "2026-06-23",
+      "owner": "Daisy & Joseph",
+      "status": "open",
+      "detail": "Joseph uses AI route, Daisy uses traditional strategy; evaluate after first month.",
+      "source": "meeting",
+      "category": "Asia Start Campaign"
+    },
+    {
+      "id": "m-ai-13",
+      "text": "Get webpage for Intelligent China program ready",
       "meetingId": "meeting_2026-06-23_15-02-41",
       "meetingTitle": "Asia Start & New Program Planning",
       "date": "2026-06-23",
       "owner": "Joseph",
       "status": "open",
-      "detail": "Website nearly ready; Joseph to work with team to finalize.",
+      "detail": "Webpage is nearly ready; needed to start SCM campaign.",
       "source": "meeting",
       "category": "Intelligent China Program"
     },
     {
-      "id": "m-ai-8",
-      "text": "Plan SCM campaign for Intelligent China program",
+      "id": "m-ai-14",
+      "text": "Decide on campaign route for Intelligent China program",
       "meetingId": "meeting_2026-06-23_15-02-41",
       "meetingTitle": "Asia Start & New Program Planning",
       "date": "2026-06-23",
       "owner": "Team",
       "status": "open",
-      "detail": "Decide on route (AI or traditional) once webpage is done.",
+      "detail": "Choose between AI or traditional route for the new program's SCM campaign.",
       "source": "meeting",
       "category": "Intelligent China Program"
     },
     {
-      "id": "e-ai-9",
-      "text": "Revise news article on 'Disruptive Timing' paper based on Professor Zhu Yang's feedback",
+      "id": "e-ai-15",
+      "text": "Send final version of CES press release to Professor Sun",
       "meetingId": "email",
-      "meetingTitle": "Re: News Article on 'Disruptive Timing' Paper",
-      "date": "2026-06-26",
+      "meetingTitle": "Re: CES press release - PR Newswire figures",
+      "date": "2026-06-29",
       "owner": "Ira ZAKA",
       "status": "open",
-      "detail": "Professor Zhu Yang provided suggestions to sharpen the title and opening of the article.",
+      "detail": "Ira will send the final press release to Professor Sun after Julie agreed on the title.",
       "source": "email",
       "category": "PR & Media"
     },
     {
-      "id": "e-ai-10",
-      "text": "Finalize article on behalf of Dean with chosen title and send to Shouhuo for Dean's confirmation",
+      "id": "e-ai-16",
+      "text": "Produce a one-pager plan for Intelligent China events in Beijing and Shanghai",
+      "meetingId": "email",
+      "meetingTitle": "Events to promote Intelligent China",
+      "date": "2026-06-29",
+      "owner": "LIU Xuan",
+      "status": "open",
+      "detail": "Xuan will create an outline for events with Professor Li Wei to promote the Intelligent China program.",
+      "source": "email",
+      "category": "Intelligent China Program"
+    },
+    {
+      "id": "e-ai-17",
+      "text": "Produce a framework for collaboration between CKGSB and EUCCC Beijing/Shanghai",
+      "meetingId": "email",
+      "meetingTitle": "答复: 答复: Events to promote Intelligent China",
+      "date": "2026-06-29",
+      "owner": "LIU Xuan",
+      "status": "open",
+      "detail": "Xuan shared a draft framework for collaboration with EUCCC offices.",
+      "source": "email",
+      "category": "Intelligent China Program"
+    },
+    {
+      "id": "e-ai-18",
+      "text": "Coordinate with IE University on joint report 'China's New Playbook for Going Global'",
+      "meetingId": "email",
+      "meetingTitle": "Report with IE University",
+      "date": "2026-06-29",
+      "owner": "Ira ZAKA",
+      "status": "open",
+      "detail": "Ira discussed with Professor Li Wei about partnering with IE University on an English version of his report.",
+      "source": "email",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "e-ai-19",
+      "text": "Revise article on 'Disruptive Timing' paper based on Professor Zhu's feedback",
+      "meetingId": "email",
+      "meetingTitle": "Re: News Article on 'Disruptive Timing' Paper",
+      "date": "2026-06-26",
+      "owner": "TIAN Xuefang",
+      "status": "open",
+      "detail": "Julie and Ira revised the article and sent it to Professor Zhu for further review.",
+      "source": "email",
+      "category": "PR & Media"
+    },
+    {
+      "id": "e-ai-20",
+      "text": "Finalize article on behalf of Dean and reach out to Shouhuo for confirmation",
       "meetingId": "email",
       "meetingTitle": "Re: Article on Behalf of Dean",
       "date": "2026-06-26",
       "owner": "Ira ZAKA",
       "status": "open",
-      "detail": "Julie updated the article; Ira will reach out to Shouhuo once she receives feedback on the final version.",
+      "detail": "Ira will contact Shouhuo to confirm the final article with the Dean after Julie's edits.",
       "source": "email",
       "category": "PR & Media"
-    },
-    {
-      "id": "e-ai-11",
-      "text": "Prepare joint report with IE on Chinese companies going global",
-      "meetingId": "email",
-      "meetingTitle": "Re: Sum up",
-      "date": "2026-06-26",
-      "owner": "Ira ZAKA",
-      "status": "open",
-      "detail": "Ira coordinated with Professor Li Wei, who agreed to collaborate; plan shared with team for review.",
-      "source": "email",
-      "category": "China Going-Global Report"
-    },
-    {
-      "id": "e-ai-12",
-      "text": "Review Professor Li Wei's FT Chinese piece for overlap with China Going Global report",
-      "meetingId": "email",
-      "meetingTitle": "RE: 长江商学院媒体监测日报2026-6-25",
-      "date": "2026-06-25",
-      "owner": "Joseph Luke Duckworth",
-      "status": "open",
-      "detail": "Joseph will check if the FT piece can be repurposed for marketing.",
-      "source": "email",
-      "category": "China Going-Global Report"
-    },
-    {
-      "id": "e-ai-13",
-      "text": "Translate media monitoring report for June 25",
-      "meetingId": "email",
-      "meetingTitle": "Re: 长江商学院媒体监测日报2026-6-25",
-      "date": "2026-06-25",
-      "owner": "Joseph Luke Duckworth",
-      "status": "open",
-      "detail": "Joseph volunteered to translate the daily media monitoring report.",
-      "source": "email",
-      "category": "Other"
-    },
-    {
-      "id": "e-ai-14",
-      "text": "Update team dashboard with new link",
-      "meetingId": "email",
-      "meetingTitle": "Re: Team Dashboard",
-      "date": "2026-06-25",
-      "owner": "Joseph Luke Duckworth",
-      "status": "open",
-      "detail": "Joseph provided a corrected link to the team dashboard.",
-      "source": "email",
-      "category": "Other"
-    },
-    {
-      "id": "e-ai-15",
-      "text": "Attend farewell reception for Martin Matter on July 1",
-      "meetingId": "email",
-      "meetingTitle": "FW: [Invitation] Farewell Reception for Mr. Martin Matter",
-      "date": "2026-06-26",
-      "owner": "Ira ZAKA",
-      "status": "open",
-      "detail": "Ira plans to attend and asked if others want to join.",
-      "source": "email",
-      "category": "Other"
     }
   ],
   "decisions": [
     {
       "id": "m-d-1",
-      "text": "Report will be jointly published by CKGSB and IE, with main research from Professor Leeway and op-eds from both schools' leadership and alumni.",
-      "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning: New Chinese Playbook for Going Global",
-      "date": "2026-06-25",
+      "text": "Only one Shun Tian Shu press release needed, either incorporating 10 points or turning into 10-point article.",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting",
+      "date": "2026-06-29",
       "source": "meeting"
     },
     {
       "id": "m-d-2",
-      "text": "Working title: 'The New Chinese Playbook for Going Global'.",
-      "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning: New Chinese Playbook for Going Global",
-      "date": "2026-06-25",
+      "text": "Prioritize Media Minds for social media agency due to small budget and time constraints.",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting",
+      "date": "2026-06-29",
       "source": "meeting"
     },
     {
       "id": "m-d-3",
-      "text": "Target to have digital version ready by early September for Singapore events.",
+      "text": "The report will be jointly published by CKGSB and IE Business School.",
       "meetingId": "meeting_2026-06-25_13-01-40",
-      "meetingTitle": "Joint Report Planning: New Chinese Playbook for Going Global",
+      "meetingTitle": "Joint Report on Chinese Companies Going Global",
       "date": "2026-06-25",
       "source": "meeting"
     },
     {
       "id": "m-d-4",
+      "text": "The working title is 'The New Chinese Playbook for Going Global'.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report on Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-5",
+      "text": "The report will include a main research feature by Professor Leeway, op-eds from deans, and industry case studies.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report on Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-6",
+      "text": "Target launch in mid-September at either Tech in Asia or Tyson event in Singapore.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report on Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-7",
       "text": "Asia Start campaign will run two parallel routes for the first month: AI (Joseph) and traditional (Daisy).",
       "meetingId": "meeting_2026-06-23_15-02-41",
       "meetingTitle": "Asia Start & New Program Planning",
@@ -250,27 +345,27 @@
       "source": "meeting"
     },
     {
-      "id": "m-d-5",
-      "text": "Intelligent China program will be marketed as a deeper dive compared to Asia Start to avoid cannibalization.",
+      "id": "m-d-8",
+      "text": "Intelligent China program will target foreigners, with focus on module one in Beijing.",
       "meetingId": "meeting_2026-06-23_15-02-41",
       "meetingTitle": "Asia Start & New Program Planning",
       "date": "2026-06-23",
       "source": "meeting"
     },
     {
-      "id": "e-d-6",
-      "text": "Go with the title 'China’s Gateway' for the article on behalf of Dean",
+      "id": "e-d-9",
+      "text": "Agreed to use the first title option for the CES press release: 'CKGSB Professor Sun Tianshu at Summer Davos: AI’s Second Half Needs 1,000 Henry Fords'",
       "meetingId": "email",
-      "meetingTitle": "Re: Article on Behalf of Dean",
-      "date": "2026-06-26",
+      "meetingTitle": "Re: CES press release - PR Newswire figures",
+      "date": "2026-06-29",
       "source": "email"
     },
     {
-      "id": "e-d-7",
-      "text": "Professor Li Wei is happy to collaborate with IE on the joint report about Chinese companies going global",
+      "id": "e-d-10",
+      "text": "Professor Li Wei agreed to collaborate with IE University on the joint report 'China's New Playbook for Going Global'",
       "meetingId": "email",
-      "meetingTitle": "Re: Sum up",
-      "date": "2026-06-26",
+      "meetingTitle": "Report with IE University",
+      "date": "2026-06-29",
       "source": "email"
     }
   ]
