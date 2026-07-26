@@ -1,8 +1,556 @@
 {
-  "lastUpdated": "2026-07-25",
-  "summary": "Team activity across recent meetings and emails.",
-  "summaryDetail": "",
-  "meetings": [],
-  "actionItems": [],
-  "decisions": []
+  "lastUpdated": "2026-07-26",
+  "summary": "Marketing is accelerating on two major fronts: the China Going-Global joint report with IE targeting a September launch in Singapore, and the knowledge website redesign with SEO prioritization of Asia Star and Intelligent China programs, while urgent actions this week include finalizing the overseas social media agency and launching the Intelligent China webpage.",
+  "summaryDetail": "The China Going-Global report with IE is the top priority, with a working title 'The New Chinese Playbook for Going Global' and a target launch at Singapore events (Tech in Asia and Tyson) in early September. This week, Felix needs to confirm event partnerships and push for paperwork, while Julie secures op-eds and the team translates content. Simultaneously, the knowledge website redesign is advancing: Joseph and Joker are iterating on designs that combine more articles, indices on the homepage, and improved UX, with a decision to remove videos as a separate category. SEO efforts are focused on Asia Star and Intelligent China programs, with the Intelligent China webpage launching this week and marketing driving traffic from July. Urgent this week: submit scoring for overseas social media advertising bid selection by July 23 noon, and prepare the Indonesia Emerging Markets program webpage. Also, publish the 'Disruptive Timing' paper news article and incorporate art indices into the summary for Professor Mei.",
+  "meetings": [
+    {
+      "id": "meeting_2026-07-20_17-41-18",
+      "title": "Outlook账号锁定问题排查",
+      "date": "2026-07-20",
+      "attendees": [],
+      "summary": "讨论并解决了Outlook账号因使用旧密码被锁定的问题，建议删除账号重新登录并更新密码。"
+    },
+    {
+      "id": "meeting_2026-07-20_14-49-12",
+      "title": "Marketing Team Meeting",
+      "date": "2026-07-20",
+      "attendees": [],
+      "summary": "The team discussed worship and a three-tier hall, but no clear marketing topics emerged."
+    },
+    {
+      "id": "meeting_2026-07-09_16-07-28",
+      "title": "Knowledge Website Redesign Review",
+      "date": "2026-07-09",
+      "attendees": [
+        "Joseph",
+        "Julie",
+        "Joker"
+      ],
+      "summary": "The team reviewed two design proposals for the knowledge website, noting that Joker's version is too similar to the current site, while Joseph's offers a more editorial layout with more articles displayed. They discussed combining elements from both, such as showing more articles, bringing indices to the homepage, and improving UX with distinct card designs."
+    },
+    {
+      "id": "meeting_2026-06-30_15-12-49",
+      "title": "SEO & Program Prioritization Meeting",
+      "date": "2026-06-30",
+      "attendees": [],
+      "summary": "Team discussed SEO strategy to rank in top 5 for China executive programs, prioritized Asia Star and Intelligent China programs, and reviewed Google Analytics conversion tracking setup."
+    },
+    {
+      "id": "meeting_2026-06-29_10-09-34",
+      "title": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "attendees": [
+        "Joseph",
+        "Julie",
+        "Xuan",
+        "Jimmy",
+        "Kayleigh"
+      ],
+      "summary": "Team discussed feedback on website menu, school brochure updates, CES quotes for social media, Ding Hight Hall video, Asia Start articles, Davos press release, and social media agency search. Concerns raised about Zhu Yang's ChatGPT-generated feedback and timeline for agency selection."
+    },
+    {
+      "id": "meeting_2026-06-25_13-01-40",
+      "title": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "attendees": [
+        "Felix",
+        "Julian",
+        "Julie",
+        "Mapping"
+      ],
+      "summary": "Meeting to plan a joint report between CKGSB and IE on Chinese companies globalizing to Southeast Asia, with a working title 'The New Chinese Playbook for Going Global'. The report will feature research from Professor Leeway, op-eds from leadership, and case studies, aiming for a September launch at events in Singapore."
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "m-ai-1",
+      "text": "检查所有设备上的Outlook账号，删除并重新登录",
+      "meetingId": "meeting_2026-07-20_17-41-18",
+      "meetingTitle": "Outlook账号锁定问题排查",
+      "date": "2026-07-20",
+      "owner": "用户",
+      "status": "open",
+      "detail": "包括电脑和手机，确保使用新密码，避免再次锁定。",
+      "source": "meeting",
+      "category": "Other"
+    },
+    {
+      "id": "m-ai-2",
+      "text": "联系IT部门解锁后台锁定",
+      "meetingId": "meeting_2026-07-20_17-41-18",
+      "meetingTitle": "Outlook账号锁定问题排查",
+      "date": "2026-07-20",
+      "owner": "用户",
+      "status": "open",
+      "detail": "后台锁定已解锁，但需确认。",
+      "source": "meeting",
+      "category": "Other"
+    },
+    {
+      "id": "m-ai-3",
+      "text": "Mark specific feedback on Joker's design",
+      "meetingId": "meeting_2026-07-09_16-07-28",
+      "meetingTitle": "Knowledge Website Redesign Review",
+      "date": "2026-07-09",
+      "owner": "Joseph, Julie",
+      "status": "open",
+      "detail": "Sit down for half an hour to mark specific feedback on Joker's version for changes.",
+      "source": "meeting",
+      "category": "School Brochure"
+    },
+    {
+      "id": "m-ai-4",
+      "text": "Adjust design based on feedback",
+      "meetingId": "meeting_2026-07-09_16-07-28",
+      "meetingTitle": "Knowledge Website Redesign Review",
+      "date": "2026-07-09",
+      "owner": "Joker",
+      "status": "open",
+      "detail": "Make changes to the design based on the marked feedback and own judgment.",
+      "source": "meeting",
+      "category": "School Brochure"
+    },
+    {
+      "id": "m-ai-5",
+      "text": "Share HTML file of Joseph's design",
+      "meetingId": "meeting_2026-07-09_16-07-28",
+      "meetingTitle": "Knowledge Website Redesign Review",
+      "date": "2026-07-09",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "Share the HTML file of the inspirational layout for further review.",
+      "source": "meeting",
+      "category": "School Brochure"
+    },
+    {
+      "id": "m-ai-6",
+      "text": "Provide detailed description of Google Analytics conversion tracking setup",
+      "meetingId": "meeting_2026-06-30_15-12-49",
+      "meetingTitle": "SEO & Program Prioritization Meeting",
+      "date": "2026-06-30",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "Need brief explaining each conversion event (download report, BCI time, etc.) for the marketing team.",
+      "source": "meeting",
+      "category": "Website & SEO"
+    },
+    {
+      "id": "m-ai-7",
+      "text": "Audit existing participant profiles from Asia Star and CRM leads",
+      "meetingId": "meeting_2026-06-30_15-12-49",
+      "meetingTitle": "SEO & Program Prioritization Meeting",
+      "date": "2026-06-30",
+      "owner": "Team",
+      "status": "open",
+      "detail": "Analyze profiles to inform target audience and search behavior for SEO strategy.",
+      "source": "meeting",
+      "category": "Asia Start Campaign"
+    },
+    {
+      "id": "m-ai-8",
+      "text": "Draft list of areas to show up in search results",
+      "meetingId": "meeting_2026-06-30_15-12-49",
+      "meetingTitle": "SEO & Program Prioritization Meeting",
+      "date": "2026-06-30",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "Create initial list of topics and prompts for SEO targeting, to be reviewed by manager.",
+      "source": "meeting",
+      "category": "Website & SEO"
+    },
+    {
+      "id": "m-ai-9",
+      "text": "Review website menu and provide feedback",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "Joseph to take a closer look and share feedback; Julie may also provide input.",
+      "source": "meeting",
+      "category": "Website & SEO"
+    },
+    {
+      "id": "m-ai-10",
+      "text": "Update school brochure with program figures",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "Julie to adjust ballpark figures like NBA cohort size.",
+      "source": "meeting",
+      "category": "School Brochure"
+    },
+    {
+      "id": "m-ai-11",
+      "text": "Design Google program brochure with Lee",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "Julie has a meeting with Lee this afternoon; others welcome to join.",
+      "source": "meeting",
+      "category": "School Brochure"
+    },
+    {
+      "id": "m-ai-12",
+      "text": "Turn CES quotes into posters for social media",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "Use good quotes from CES for promotional posters.",
+      "source": "meeting",
+      "category": "PR & Media"
+    },
+    {
+      "id": "m-ai-13",
+      "text": "Finalize Ding Hight Hall video",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "George is updating video; Julie to send new version to Shou Hu for final approval.",
+      "source": "meeting",
+      "category": "Events"
+    },
+    {
+      "id": "m-ai-14",
+      "text": "Send Asia Start spotlight article and work on rest",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "One article ready; send to team and work on remaining articles this week.",
+      "source": "meeting",
+      "category": "Asia Start Campaign"
+    },
+    {
+      "id": "m-ai-15",
+      "text": "Incorporate Shun Tian Shu's 10 points into press release",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "owner": "Jimmy",
+      "status": "open",
+      "detail": "Decide whether to turn current release into 10-point article or incorporate points as subheadings.",
+      "source": "meeting",
+      "category": "PR & Media"
+    },
+    {
+      "id": "m-ai-16",
+      "text": "Follow up with social media agencies",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "owner": "Kayleigh",
+      "status": "open",
+      "detail": "Get back to Carnegie account manager and have call with Impactable tomorrow night.",
+      "source": "meeting",
+      "category": "PR & Media"
+    },
+    {
+      "id": "m-ai-17",
+      "text": "Expedite social media agency selection",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "owner": "Team",
+      "status": "open",
+      "detail": "Consider Media Minds to avoid delays; aim to start within two months.",
+      "source": "meeting",
+      "category": "PR & Media"
+    },
+    {
+      "id": "m-ai-18",
+      "text": "Wait for Li Wei's recommended sections for IE report translation",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "owner": "Kayleigh",
+      "status": "open",
+      "detail": "Li Wei to send sections; then split translation work among team.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-19",
+      "text": "Draft a one-pager proposal for the report structure and promotion plan.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Felix",
+      "status": "open",
+      "detail": "To be shared with the president for approval, aiming to finish by tomorrow or early next week.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-20",
+      "text": "Translate the bulk of the Chinese report into English.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Team",
+      "status": "open",
+      "detail": "The core research from Professor Leeway needs translation for the English version.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-21",
+      "text": "Identify and translate relevant alumni case studies from WeChat accounts.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Mapping",
+      "status": "open",
+      "detail": "Look for articles about alumni going global to use as industry perspective pieces.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-22",
+      "text": "Confirm with Tech in Asia and Tyson events about launching the report.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Felix",
+      "status": "open",
+      "detail": "Meeting with Tech in Asia tomorrow to see if the report can be launched at their event; Tyson event is also a possibility.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "m-ai-23",
+      "text": "Secure op-ed contributions from President Santiago and Dean.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "owner": "Julie",
+      "status": "open",
+      "detail": "President Santiago to write on Haier case; Dean to write on Chinese companies going to Global South.",
+      "source": "meeting",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "e-ai-24",
+      "text": "Push for paperwork confirmation for Tech in Asia collaboration by W1 August",
+      "meetingId": "email",
+      "meetingTitle": "CKGSB X Tech In ASIA - Next steps",
+      "date": "2026-07-24",
+      "owner": "LIU Xuan",
+      "status": "open",
+      "detail": "Miguel Ochosa requested paperwork confirmation by the first week of August to officially loop in an Account Manager.",
+      "source": "email",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "e-ai-25",
+      "text": "Prioritize Mats Harborn from Traton for EV event speaker",
+      "meetingId": "email",
+      "meetingTitle": "答复: CKGSB-EuroCham event collaboration on EV",
+      "date": "2026-07-24",
+      "owner": "LIU Xuan",
+      "status": "open",
+      "detail": "Xuan confirmed to prioritize Mats Harborn from Traton before considering other speakers for the EV event.",
+      "source": "email",
+      "category": "Events"
+    },
+    {
+      "id": "e-ai-26",
+      "text": "Review and use new version of China Going Global report with edited chapter 3",
+      "meetingId": "email",
+      "meetingTitle": "China Going Global - New Version",
+      "date": "2026-07-24",
+      "owner": "Ira ZAKA, TIAN Xuefang",
+      "status": "open",
+      "detail": "Joseph edited chapter 3 and provided a new translation; Ira and Julie should use this version for their sections.",
+      "source": "email",
+      "category": "China Going-Global Report"
+    },
+    {
+      "id": "e-ai-27",
+      "text": "Submit scoring for overseas social media advertising bid selection by July 23 noon",
+      "meetingId": "email",
+      "meetingTitle": "【请评分】2026-2027年度海外社交媒体广告比选",
+      "date": "2026-07-23",
+      "owner": "Team",
+      "status": "open",
+      "detail": "All reviewers must submit their scoring sheets to Fanfan by July 23, 12:00 Beijing time.",
+      "source": "email",
+      "category": "PR & Media"
+    },
+    {
+      "id": "e-ai-28",
+      "text": "Prepare webpage for Indonesia Emerging Markets program",
+      "meetingId": "email",
+      "meetingTitle": "关于Global Program新开印尼新兴市场项目的审批",
+      "date": "2026-07-23",
+      "owner": "Joseph Luke Duckworth",
+      "status": "open",
+      "detail": "Joseph will create the webpage; Ben confirmed the title and provided feedback on program details.",
+      "source": "email",
+      "category": "Intelligent China Program"
+    },
+    {
+      "id": "e-ai-29",
+      "text": "Publish news article on 'Disruptive Timing' paper on English website and promote on social media",
+      "meetingId": "email",
+      "meetingTitle": "News Article on 'Disruptive Timing' Paper",
+      "date": "2026-07-22",
+      "owner": "TIAN Xuefang",
+      "status": "open",
+      "detail": "Professor Zhu confirmed the article; Julie will publish on the school's English website and global social media.",
+      "source": "email",
+      "category": "Website & SEO"
+    },
+    {
+      "id": "e-ai-30",
+      "text": "Incorporate Spring 2026 MM Art Indices distribution performance into summary for Professor Mei",
+      "meetingId": "email",
+      "meetingTitle": "Spring 2026 MM Art Indices - distribution performance",
+      "date": "2026-07-21",
+      "owner": "TIAN Xuefang",
+      "status": "open",
+      "detail": "Julie summarized the distribution performance and shared with Gao Qing for inclusion in the overall summary.",
+      "source": "email",
+      "category": "Intelligent China Program"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "m-d-1",
+      "text": "删除所有设备上的Outlook账号并重新登录以更新密码。",
+      "meetingId": "meeting_2026-07-20_17-41-18",
+      "meetingTitle": "Outlook账号锁定问题排查",
+      "date": "2026-07-20",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-2",
+      "text": "Remove videos as a separate category; they will be dispersed by topic.",
+      "meetingId": "meeting_2026-07-09_16-07-28",
+      "meetingTitle": "Knowledge Website Redesign Review",
+      "date": "2026-07-09",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-3",
+      "text": "Keep the school menu at the top left and knowledge menu centered.",
+      "meetingId": "meeting_2026-07-09_16-07-28",
+      "meetingTitle": "Knowledge Website Redesign Review",
+      "date": "2026-07-09",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-4",
+      "text": "Show more articles on the homepage, with a pinned article at top left and latest articles displayed.",
+      "meetingId": "meeting_2026-07-09_16-07-28",
+      "meetingTitle": "Knowledge Website Redesign Review",
+      "date": "2026-07-09",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-5",
+      "text": "Bring indices (BCI, BSI) to the knowledge homepage.",
+      "meetingId": "meeting_2026-07-09_16-07-28",
+      "meetingTitle": "Knowledge Website Redesign Review",
+      "date": "2026-07-09",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-6",
+      "text": "Prioritize Asia Star and Intelligent China programs over US partnerships for initial SEO focus.",
+      "meetingId": "meeting_2026-06-30_15-12-49",
+      "meetingTitle": "SEO & Program Prioritization Meeting",
+      "date": "2026-06-30",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-7",
+      "text": "Intelligent China webpage to launch this week; marketing efforts to drive traffic starting July.",
+      "meetingId": "meeting_2026-06-30_15-12-49",
+      "meetingTitle": "SEO & Program Prioritization Meeting",
+      "date": "2026-06-30",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-8",
+      "text": "Only one press release for Shun Tian Shu, not two.",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-9",
+      "text": "Zhu Yang to be blacklisted due to unproductive ChatGPT-generated feedback.",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-10",
+      "text": "Media Minds likely best agency choice given small budget and time constraints.",
+      "meetingId": "meeting_2026-06-29_10-09-34",
+      "meetingTitle": "Marketing Team Meeting - June 29, 2026",
+      "date": "2026-06-29",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-11",
+      "text": "The report will be jointly published by CKGSB and IE, with joint distribution.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-12",
+      "text": "Working title: 'The New Chinese Playbook for Going Global'.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-13",
+      "text": "Target launch: early September 2026, to be promoted at Singapore events (Tech in Asia and Tyson) and via social media through year-end.",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "source": "meeting"
+    },
+    {
+      "id": "m-d-14",
+      "text": "Report composition: main research feature by Professor Leeway, op-eds from leadership, and industry perspective pieces (case studies or alumni articles).",
+      "meetingId": "meeting_2026-06-25_13-01-40",
+      "meetingTitle": "Joint Report Planning: Chinese Companies Going Global",
+      "date": "2026-06-25",
+      "source": "meeting"
+    },
+    {
+      "id": "e-d-15",
+      "text": "Proceed with the new program title for Indonesia Emerging Markets program as suggested by Joseph",
+      "meetingId": "email",
+      "meetingTitle": "关于Global Program新开印尼新兴市场项目的审批",
+      "date": "2026-07-23",
+      "source": "email"
+    },
+    {
+      "id": "e-d-16",
+      "text": "Publish 'Disruptive Timing' paper news article on English website and promote on social media",
+      "meetingId": "email",
+      "meetingTitle": "News Article on 'Disruptive Timing' Paper",
+      "date": "2026-07-22",
+      "source": "email"
+    }
+  ]
 }
