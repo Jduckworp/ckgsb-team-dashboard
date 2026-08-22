@@ -1,14 +1,14 @@
 {
   "lastUpdated": "2026-08-22",
-  "summary": "Marketing is in active execution mode, prioritizing Asia Star and Intelligent China for SEO while advancing the knowledge website redesign and preparing for the Tech in Asia event, with urgent attention needed on conversion tracking and event logistics.",
-  "summaryDetail": "The team is executing on the decision to prioritize Asia Star and Intelligent China programs for SEO and marketing, with Joseph tasked to create SEO target drafts and the team analyzing participant data to define target audiences; conversion tracking is being audited to ensure effectiveness. The knowledge website redesign is progressing with a review of Joseph's alternative design, incorporating his ideas to show more articles and bring indices to the homepage, while removing the videos panel and integrating videos into topic sections. For the upcoming Tech in Asia event (Aug 21), logistics are in motion: booth G1 is reserved, F&B and KV feedback are pending from LIU Xuan, and RSVPs and event details are being finalized for the Aug 25 event with Professor Li Wei. Additionally, content tasks are underway: English translations of Li Haitao articles are being sent for Dean's approval, the Indonesia program page is live, and the Worldwide Locations sub-heading is being reworked. This week, urgent priorities include completing the conversion tracking audit, providing feedback on Joseph's design, and confirming Tech in Asia event details to avoid last-minute issues.",
+  "summary": "The team is juggling urgent Tech in Asia event preparations and SEO prioritization for Asia Star and Intelligent China, alongside a website redesign and internal email issues, with a clear focus on high-impact program visibility and event execution in the coming weeks.",
+  "summaryDetail": "The most pressing matter is the upcoming Tech in Asia event on Aug 25, with booth G1 secured and branded segment time set for 12:30–2:30 PM SGT; Liu Xuan must finalize RSVPs, agenda, and panel questions for Professor Li Wei by Aug 20, and confirm F&B and KV feedback by Aug 21. In parallel, the SEO strategy is now centered on Asia Star and Intelligent China, with Joseph drafting target areas and prompts, and the team analyzing participant and CRM data for audience profiles; the Berkeley program is a potential third priority. The knowledge website redesign is in feedback phase, with decisions to remove the videos panel and integrate Joseph's design ideas to showcase more articles, but specific feedback is still pending from Joseph, Julie, and the speaker. Additionally, internal Outlook login issues are being resolved across devices, requiring password updates and backend unlock coordination with JSB. Other ongoing tasks include sending Li Haitao's article translations for Dean's approval, reworking the Worldwide Locations sub-heading, and preparing content for the Brazilian delegation session.",
   "meetings": [
     {
       "id": "meeting_2026-07-20_17-41-18",
-      "title": "Outlook 账号锁定问题排查",
+      "title": "Outlook 邮箱登录问题排查",
       "date": "2026-07-20",
       "attendees": [],
-      "summary": "会议讨论了 Outlook 账号因使用旧密码被锁定的问题，并指导重新登录和更新密码以解决。"
+      "summary": "会议讨论了 Outlook 邮箱登录问题，涉及多台设备上的账号和密码更新，以及后台锁定解锁。"
     },
     {
       "id": "meeting_2026-07-20_14-49-12",
@@ -26,65 +26,65 @@
         "Julie",
         "Joker"
       ],
-      "summary": "The team reviewed the proposed knowledge website redesign, noting that while the menu categorization is improved, the overall layout remains similar to the current site. They discussed incorporating elements from Joseph's alternative design to show more articles and bring indices to the homepage."
+      "summary": "The team reviewed the proposed knowledge website redesign, noting that while the menu categorization is improved, the overall layout remains similar to the current site. They discussed incorporating elements from Joseph's alternative design to showcase more articles and indices, and agreed to provide more specific feedback before finalizing changes."
     },
     {
       "id": "meeting_2026-06-30_15-12-49",
-      "title": "SEO and Program Promotion Strategy",
+      "title": "SEO Strategy and Program Prioritization",
       "date": "2026-06-30",
       "attendees": [
         "Joseph",
-        "Speaker 2"
+        "Speaker 1"
       ],
-      "summary": "The team discussed prioritizing Asia Star and Intelligent China programs for SEO and marketing, with a focus on optimizing content to match search queries. They also reviewed conversion tracking setup and agreed to audit it."
+      "summary": "The team discussed improving search visibility for China-focused executive programs, prioritizing Asia Star and Intelligent China, and auditing Google Analytics conversion tracking."
     }
   ],
   "actionItems": [
     {
       "id": "m-ai-1",
-      "text": "检查并重新登录所有设备上的 Outlook 账号",
+      "text": "检查并更新所有设备上的 Outlook 账号密码",
       "meetingId": "meeting_2026-07-20_17-41-18",
-      "meetingTitle": "Outlook 账号锁定问题排查",
+      "meetingTitle": "Outlook 邮箱登录问题排查",
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "包括电脑和手机，确保使用新密码并更新密码信息。",
+      "detail": "确保所有设备（包括电脑和手机）上的 Outlook 账号使用最新密码，避免因旧密码导致锁定。",
       "source": "meeting",
       "category": "Other"
     },
     {
       "id": "m-ai-2",
-      "text": "联系 JSB 确认后台解锁状态",
+      "text": "删除并重新登录 Outlook 账号",
       "meetingId": "meeting_2026-07-20_17-41-18",
-      "meetingTitle": "Outlook 账号锁定问题排查",
+      "meetingTitle": "Outlook 邮箱登录问题排查",
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "后台锁定已解锁，需确认是否完全解决。",
+      "detail": "在受影响的设备上删除账号并重新登录，以更新密码和解决连接问题。",
       "source": "meeting",
       "category": "Other"
     },
     {
       "id": "m-ai-3",
-      "text": "回家后检查其他设备",
+      "text": "联系 JSB 确认后台解锁",
       "meetingId": "meeting_2026-07-20_17-41-18",
-      "meetingTitle": "Outlook 账号锁定问题排查",
+      "meetingTitle": "Outlook 邮箱登录问题排查",
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "确保没有其他设备使用旧密码导致再次锁定。",
+      "detail": "后台锁定已解锁，但需联系 JSB 确认后续操作。",
       "source": "meeting",
       "category": "Other"
     },
     {
       "id": "m-ai-4",
-      "text": "Provide specific feedback on Joseph's design",
+      "text": "Provide specific feedback on the redesign",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Redesign Review",
       "date": "2026-07-09",
-      "owner": "Joseph, Julie, and team lead",
+      "owner": "Joseph, Julie, and the speaker",
       "status": "open",
-      "detail": "Sit down for half an hour to mark detailed feedback on what to take from Joseph's version.",
+      "detail": "Sit down for half an hour to mark specific feedback on Joker's version, including likes, information categorization, and inner pages.",
       "source": "meeting",
       "category": "Website & SEO"
     },
@@ -96,7 +96,7 @@
       "date": "2026-07-09",
       "owner": "Joseph",
       "status": "open",
-      "detail": "Share the HTML file for the alternative design for further review.",
+      "detail": "Joseph will share the HTML file of his alternative design for reference.",
       "source": "meeting",
       "category": "Website & SEO"
     },
@@ -104,112 +104,100 @@
       "id": "m-ai-6",
       "text": "Create a draft of target areas and prompts for SEO",
       "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "SEO and Program Promotion Strategy",
+      "meetingTitle": "SEO Strategy and Program Prioritization",
       "date": "2026-06-30",
       "owner": "Joseph",
       "status": "open",
-      "detail": "Draft the areas where the school wants to appear in search results and the prompts to capture, to be reviewed by the other attendee.",
+      "detail": "Draft areas and prompts to capture searches like AI in China and EVs in China.",
       "source": "meeting",
       "category": "Website & SEO"
     },
     {
       "id": "m-ai-7",
-      "text": "Analyze existing Asia Star participants and CRM leads to define target audience profiles",
+      "text": "Analyze existing Asia Star participants and CRM leads for target audience profiles",
       "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "SEO and Program Promotion Strategy",
+      "meetingTitle": "SEO Strategy and Program Prioritization",
       "date": "2026-06-30",
       "owner": "Team",
       "status": "open",
-      "detail": "Use data from past participants and scored leads to understand who the target audience is, including company type, age, and location.",
+      "detail": "Identify common profiles to inform geographic and demographic targeting.",
       "source": "meeting",
       "category": "Asia Start Campaign"
     },
     {
       "id": "m-ai-8",
-      "text": "Get a brief on conversion tracking setup from SEO manager",
+      "text": "Get a brief on Google Analytics conversion tracking setup",
       "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "SEO and Program Promotion Strategy",
+      "meetingTitle": "SEO Strategy and Program Prioritization",
       "date": "2026-06-30",
-      "owner": "Joseph",
+      "owner": "SEO Manager",
       "status": "open",
-      "detail": "Obtain a detailed description of each conversion event in Google Analytics to ensure tracking is correctly set up and understood.",
+      "detail": "Request detailed descriptions of each conversion event to verify tracking accuracy.",
       "source": "meeting",
       "category": "Website & SEO"
     },
     {
-      "id": "m-ai-9",
-      "text": "Audit conversion tracking to ensure it is working as intended",
-      "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "SEO and Program Promotion Strategy",
-      "date": "2026-06-30",
-      "owner": "Team",
-      "status": "open",
-      "detail": "After receiving the brief, verify that each conversion event is correctly tracked and meaningful for campaign optimization.",
-      "source": "meeting",
-      "category": "Website & SEO"
-    },
-    {
-      "id": "e-ai-10",
+      "id": "e-ai-9",
       "text": "Confirm F&B for Tech in Asia event",
       "meetingId": "email",
       "meetingTitle": "Re: 答复: 答复: CKGSB X Tech In ASIA",
       "date": "2026-08-21",
       "owner": "LIU Xuan",
       "status": "open",
-      "detail": "Melvin Lim asked to double-check if F&B has been confirmed for the CKGSB booth at Tech in Asia.",
+      "detail": "Melvin asked to double-check if F&B has been confirmed for the event.",
       "source": "email",
       "category": "Events"
     },
     {
-      "id": "e-ai-11",
+      "id": "e-ai-10",
       "text": "Provide feedback on KV for Tech in Asia event",
       "meetingId": "email",
       "meetingTitle": "Re: 答复: 答复: CKGSB X Tech In ASIA",
       "date": "2026-08-21",
       "owner": "LIU Xuan",
       "status": "open",
-      "detail": "Xuan said she would let Melvin know about the KV feedback on Monday.",
+      "detail": "Xuan said she will let Melvin know about the KV on Monday.",
       "source": "email",
       "category": "Events"
     },
     {
-      "id": "e-ai-12",
-      "text": "Send both English translations of Li Haitao articles to Zongchao for Dean's approval",
+      "id": "e-ai-11",
+      "text": "Send both English translations of Li Haitao's articles to Zongchao for Dean's approval",
       "meetingId": "email",
       "meetingTitle": "RE: Li Haitao — Both English Translations for Review",
       "date": "2026-08-21",
       "owner": "Joseph Luke Duckworth",
       "status": "open",
-      "detail": "Joseph will give one more read and then send both articles to Zongchao for the Dean's approval.",
+      "detail": "Joseph will give one more read and then send both articles to Zongchao for approval.",
       "source": "email",
-      "category": "PR & Media"
+      "category": "China Going-Global Report"
     },
     {
-      "id": "e-ai-13",
+      "id": "e-ai-12",
       "text": "Rework sub-heading on Worldwide Locations page",
       "meetingId": "email",
       "meetingTitle": "RE: New Campus Photos",
       "date": "2026-08-21",
       "owner": "Joseph Luke Duckworth",
       "status": "open",
-      "detail": "Joseph agreed to rework 'Our new Beijing campus is strategically located' to better capture the paragraph below it.",
+      "detail": "Joseph agreed to rework 'Our new Beijing campus is strategically located' to better capture the paragraph.",
       "source": "email",
       "category": "Website & SEO"
     },
     {
-      "id": "e-ai-14",
+      "id": "e-ai-13",
       "text": "Incorporate amendments to Indonesia program page and go public",
       "meetingId": "email",
       "meetingTitle": "Re: 关于Global Program新开印尼新兴市场项目的审批",
       "date": "2026-08-21",
       "owner": "Joseph Luke Duckworth",
       "status": "open",
-      "detail": "Ben asked when the amendments can be incorporated and go public; Joseph had made the page live but amendments pending.",
+      "detail": "Ben asked when amendments can be incorporated and go public; Joseph had made the page live but amendments pending.",
       "source": "email",
       "category": "Website & SEO"
     },
     {
-      "id": "e-ai-15",
+      "id": "e-ai-14",
       "text": "Provide RSVP list, event agenda, arrival time, and panel questions to Professor Li Wei for Aug 25 event",
       "meetingId": "email",
       "meetingTitle": "Re: 答复: Beijing and Shanghai EV Events for Intelligent China Program",
@@ -221,7 +209,7 @@
       "category": "Events"
     },
     {
-      "id": "e-ai-16",
+      "id": "e-ai-15",
       "text": "Give update to Global Programs on RSVPs for Aug 25 event",
       "meetingId": "email",
       "meetingTitle": "Re: 答复: Beijing and Shanghai EV Events for Intelligent China Program",
@@ -233,28 +221,28 @@
       "category": "Events"
     },
     {
-      "id": "e-ai-17",
-      "text": "Follow up with Doug for more details on Brazilian delegation session",
+      "id": "e-ai-16",
+      "text": "Follow up with Doug to get more details for Brazilian delegation session",
       "meetingId": "email",
       "meetingTitle": "Re: Brazilian executive delegation in China, 17–24 September — a request to visit CKGSB",
       "date": "2026-08-20",
       "owner": "DONG Kunyu",
       "status": "open",
-      "detail": "Kaylee will follow up with Doug to get more details about the closed-door session.",
+      "detail": "Kaylee will follow up with Doug to get details for the closed-door session.",
       "source": "email",
       "category": "Events"
     },
     {
-      "id": "e-ai-18",
-      "text": "Add or replace campus photos with new ones on website where suitable",
+      "id": "e-ai-17",
+      "text": "Prepare content for Brazilian delegation session",
       "meetingId": "email",
-      "meetingTitle": "New Campus Photos",
+      "meetingTitle": "Re: Brazilian executive delegation in China, 17–24 September — a request to visit CKGSB",
       "date": "2026-08-20",
-      "owner": "Joseph Luke Duckworth",
+      "owner": "Professor (to be assigned)",
       "status": "open",
-      "detail": "Ira requested Joseph to add or replace campus photos with the new one on locations pages.",
+      "detail": "Kaylee noted the professor may need to prepare content for the session.",
       "source": "email",
-      "category": "Website & SEO"
+      "category": "Events"
     }
   ],
   "decisions": [
@@ -268,7 +256,7 @@
     },
     {
       "id": "m-d-2",
-      "text": "Integrate videos into topic-based sections rather than a separate category.",
+      "text": "Incorporate ideas from Joseph's design to show more articles and bring indices to the homepage.",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Redesign Review",
       "date": "2026-07-09",
@@ -276,31 +264,31 @@
     },
     {
       "id": "m-d-3",
-      "text": "Keep the two-menu structure with knowledge menu and school menu.",
-      "meetingId": "meeting_2026-07-09_16-07-28",
-      "meetingTitle": "Knowledge Website Redesign Review",
-      "date": "2026-07-09",
+      "text": "Prioritize Asia Star and Intelligent China programs over US partnerships for initial SEO focus.",
+      "meetingId": "meeting_2026-06-30_15-12-49",
+      "meetingTitle": "SEO Strategy and Program Prioritization",
+      "date": "2026-06-30",
       "source": "meeting"
     },
     {
       "id": "m-d-4",
-      "text": "Prioritize Asia Star and Intelligent China programs for marketing efforts.",
+      "text": "Consider Berkeley program as a third priority for overseas programs.",
       "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "SEO and Program Promotion Strategy",
+      "meetingTitle": "SEO Strategy and Program Prioritization",
       "date": "2026-06-30",
       "source": "meeting"
     },
     {
-      "id": "m-d-5",
-      "text": "Defer US partnership programs (Stanford, Columbia) for now, but consider Berkeley as a possible third priority.",
-      "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "SEO and Program Promotion Strategy",
-      "date": "2026-06-30",
-      "source": "meeting"
+      "id": "e-d-5",
+      "text": "CKGSB will take booth G1 at Tech in Asia event",
+      "meetingId": "email",
+      "meetingTitle": "Re: 答复: 答复: CKGSB X Tech In ASIA",
+      "date": "2026-08-21",
+      "source": "email"
     },
     {
       "id": "e-d-6",
-      "text": "Reserve booth G1 for CKGSB at Tech in Asia event",
+      "text": "Branded segment time updated to 12:30–2:30 PM SGT for Tech in Asia event",
       "meetingId": "email",
       "meetingTitle": "Re: 答复: 答复: CKGSB X Tech In ASIA",
       "date": "2026-08-21",
@@ -308,17 +296,9 @@
     },
     {
       "id": "e-d-7",
-      "text": "Send both English translations of Li Haitao articles to Zongchao together for Dean's approval",
+      "text": "Dean Xiang's possible topics for Tech in Asia main stage slot",
       "meetingId": "email",
-      "meetingTitle": "RE: Li Haitao — Both English Translations for Review",
-      "date": "2026-08-21",
-      "source": "email"
-    },
-    {
-      "id": "e-d-8",
-      "text": "Program page for Indonesia emerging markets project is live on website",
-      "meetingId": "email",
-      "meetingTitle": "Re: 关于Global Program新开印尼新兴市场项目的审批",
+      "meetingTitle": "Re: 答复: 答复: CKGSB X Tech In ASIA",
       "date": "2026-08-21",
       "source": "email"
     }
