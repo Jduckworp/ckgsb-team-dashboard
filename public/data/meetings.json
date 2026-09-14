@@ -1,21 +1,21 @@
 {
   "lastUpdated": "2026-09-14",
-  "summary": "The team is in the final push for the CKGSB-IE 'China Going-Global' report launch tomorrow, while simultaneously advancing the Intelligent China and Asia Start programs and resolving a lingering Outlook account lockout.",
-  "summaryDetail": "The most urgent priority is the CKGSB-IE report launch on September 15: the webpage must be shared by Ira, Xuan, and Julie, the press release needs final edits from Felix and Ira, and Joseph must update the page with edited copy—all today. In parallel, the Intelligent China program is gaining momentum with the webpage launch, email campaigns, and rewritten copy awaiting sign-off from Cao Yi and Jay, while the Emerging Tech Management Week page rewrite is under review by Alan, Renee, and Xin. The Asia Start program remains a strategic focus for SEO and marketing, with Joseph drafting target areas and the team analyzing participant profiles. This week also requires finalizing alumni confirmations and registrant approvals for the September 14 luncheon, and ensuring the BCI/BSI indices are featured on the knowledge homepage. The Outlook account lockout, though less strategic, still needs resolution across all devices and backend confirmation from JSB to prevent further disruption.",
+  "summary": "CKGSB's global marketing team is in launch week for the CKGSB-IE China Going-Global report while finalizing the Intelligent China program page and the knowledge website redesign, with Asia Star and Intelligent China as the top marketing priorities.",
+  "summaryDetail": "The immediate priority is the CKGSB-IE report launch on September 15: Ira, Xuan, and Julie must share the report webpage ahead of the launch, Felix needs to review the press release (now titled 'CKGSB-IE University Report Reveals New Models for Chinese Companies Going Global'), and the team must promote it on social media. In parallel, the Intelligent China program page copy requires sign-off from Cao Yi and Jay, and the Emerging Tech Management Week webpage rewrite by Manaferra needs review from Alan, Renee, and Xin. The knowledge website redesign is also active, with Joseph to share the HTML design file and a half-hour feedback meeting to be scheduled, while Joker implements changes based on feedback. This week also demands operational follow-through: finalizing alumni confirmations and approvals for the Tech in Asia luncheon (Melvin Lim to confirm Caroline Tang and Loh Yiwen and approve Zachary Zhou, Yvonne Song, and Yijia Wang), sharing the August 2026 CKGSB Business Conditions Index with the network, and resolving lingering Outlook login issues across devices. Looking ahead, the team must continue prioritizing Asia Star and Intelligent China for SEO and marketing, analyze existing participant profiles, and get a brief on conversion tracking setup, all while keeping US partnerships on hold for the first quarter.",
   "meetings": [
     {
       "id": "meeting_2026-07-20_17-41-18",
-      "title": "Outlook Account Password Reset & Device Check",
+      "title": "Outlook Account Password Reset & Device Login",
       "date": "2026-07-20",
       "attendees": [],
-      "summary": "The team troubleshoots an Outlook account lockout caused by stale saved passwords on multiple devices, resetting the password and re-logging in across laptops and phones. They also briefly discuss a meeting summarization tool and a class-related matter."
+      "summary": "The team troubleshoots Outlook login lockouts caused by stale saved passwords across multiple devices, resetting accounts and re-authenticating each device."
     },
     {
       "id": "meeting_2026-07-20_14-49-12",
       "title": "Untitled Meeting",
       "date": "2026-07-20",
       "attendees": [],
-      "summary": "Transcript is largely unintelligible with no substantive content."
+      "summary": "The transcript contains only brief, unintelligible fragments with no discernible meeting content."
     },
     {
       "id": "meeting_2026-07-09_16-07-28",
@@ -26,7 +26,7 @@
         "Joker",
         "Julie"
       ],
-      "summary": "The team reviewed the proposed knowledge website design, noting it is similar to the current site except for improved menu categorization. They discussed incorporating elements from Joseph's editorial-style inspiration and agreed on next steps for feedback."
+      "summary": "The team reviewed the proposed knowledge website design, noting it is similar to the current site with menu categorization as the main improvement. They discussed incorporating inspiration from Joseph's editorial-style layout to display more articles and indices, and agreed on next steps for refinement."
     },
     {
       "id": "meeting_2026-06-30_15-12-49",
@@ -35,61 +35,73 @@
       "attendees": [
         "Joseph"
       ],
-      "summary": "The team discussed prioritizing China-based programs (Asia Star and Intelligent China) for SEO and marketing, with a focus on AI, EVs, and smart manufacturing. They also reviewed conversion tracking setup and planned next steps for audits and content optimization."
+      "summary": "The team discussed prioritizing China-based programs (Asia Star and Intelligent China) for SEO and marketing, with US programs as secondary. They also reviewed conversion tracking setup and agreed on next steps for research and content optimization."
     }
   ],
   "actionItems": [
     {
       "id": "m-ai-1",
-      "text": "Delete and re-add the account on all devices to refresh the saved password",
+      "text": "Delete and re-add email accounts on all devices",
       "meetingId": "meeting_2026-07-20_17-41-18",
-      "meetingTitle": "Outlook Account Password Reset & Device Check",
+      "meetingTitle": "Outlook Account Password Reset & Device Login",
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "Stale saved passwords keep hitting the backend server, causing repeated errors that lock the account.",
+      "detail": "Remove saved accounts and log in again so stale passwords stop triggering server lockouts.",
       "source": "meeting",
-      "category": "Account & Access"
+      "category": "Email Account Security"
     },
     {
       "id": "m-ai-2",
-      "text": "Re-login Outlook on the phone with the new password",
+      "text": "Update password on the second computer's Outlook client",
       "meetingId": "meeting_2026-07-20_17-41-18",
-      "meetingTitle": "Outlook Account Password Reset & Device Check",
+      "meetingTitle": "Outlook Account Password Reset & Device Login",
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "The phone hadn't used Outlook for a while, so it also needs the updated password.",
+      "detail": "That machine's Outlook was not updating and kept using the old password.",
       "source": "meeting",
-      "category": "Account & Access"
+      "category": "Email Account Security"
     },
     {
       "id": "m-ai-3",
-      "text": "Check home devices for the account and remove it if not needed",
+      "text": "Re-login Outlook on the phone",
       "meetingId": "meeting_2026-07-20_17-41-18",
-      "meetingTitle": "Outlook Account Password Reset & Device Check",
+      "meetingTitle": "Outlook Account Password Reset & Device Login",
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "Any device that changed the password must be updated or removed to avoid further lockouts.",
+      "detail": "The phone had not used Outlook for a while and needs the new password.",
       "source": "meeting",
-      "category": "Account & Access"
+      "category": "Email Account Security"
     },
     {
       "id": "m-ai-4",
-      "text": "Contact JSB to confirm the backend account lock has been unlocked",
+      "text": "Check home devices for saved accounts",
       "meetingId": "meeting_2026-07-20_17-41-18",
-      "meetingTitle": "Outlook Account Password Reset & Device Check",
+      "meetingTitle": "Outlook Account Password Reset & Device Login",
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "The backend lock was reportedly unlocked, so they need to verify with JSB.",
+      "detail": "Verify whether any home device still holds the old credentials and remove them if unused.",
       "source": "meeting",
-      "category": "Account & Access"
+      "category": "Email Account Security"
     },
     {
       "id": "m-ai-5",
-      "text": "Share HTML file of Joseph's design",
+      "text": "Contact JSB to confirm backend lock is cleared",
+      "meetingId": "meeting_2026-07-20_17-41-18",
+      "meetingTitle": "Outlook Account Password Reset & Device Login",
+      "date": "2026-07-20",
+      "owner": "Team",
+      "status": "open",
+      "detail": "The backend account lock was unlocked and needs confirmation.",
+      "source": "meeting",
+      "category": "Email Account Security"
+    },
+    {
+      "id": "m-ai-6",
+      "text": "Share HTML file of the design",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Design Review",
       "date": "2026-07-09",
@@ -100,7 +112,7 @@
       "category": "Website & SEO"
     },
     {
-      "id": "m-ai-6",
+      "id": "m-ai-7",
       "text": "Meet for half an hour to provide specific feedback",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Design Review",
@@ -112,98 +124,86 @@
       "category": "Website & SEO"
     },
     {
-      "id": "m-ai-7",
-      "text": "Draft areas and target focus for SEO",
+      "id": "m-ai-8",
+      "text": "Make changes based on feedback and own judgment",
+      "meetingId": "meeting_2026-07-09_16-07-28",
+      "meetingTitle": "Knowledge Website Design Review",
+      "date": "2026-07-09",
+      "owner": "Joker",
+      "status": "open",
+      "detail": "Joker will implement design changes after receiving the team's feedback.",
+      "source": "meeting",
+      "category": "Website & SEO"
+    },
+    {
+      "id": "m-ai-9",
+      "text": "Draft areas to show up in and target focus",
       "meetingId": "meeting_2026-06-30_15-12-49",
       "meetingTitle": "CKGSB Global Marketing Strategy Meeting",
       "date": "2026-06-30",
       "owner": "Joseph",
       "status": "open",
-      "detail": "Joseph will put together a draft of the areas they want to show up in and the target audience focus, including prompts.",
+      "detail": "Joseph will put together a draft on the areas they want to show up in and the target focus, including prompts.",
       "source": "meeting",
-      "category": "Website & SEO"
+      "category": "Asia Start Campaign"
     },
     {
-      "id": "m-ai-8",
+      "id": "m-ai-10",
       "text": "Analyze existing participant profiles",
       "meetingId": "meeting_2026-06-30_15-12-49",
       "meetingTitle": "CKGSB Global Marketing Strategy Meeting",
       "date": "2026-06-30",
       "owner": "Team",
       "status": "open",
-      "detail": "Look at Asia Star existing participants and CRM leads to identify representative profiles and key geographic regions.",
+      "detail": "Look at Asia Star existing participants and CRM leads to identify profiles and geographic regions.",
       "source": "meeting",
       "category": "Asia Start Campaign"
-    },
-    {
-      "id": "m-ai-9",
-      "text": "Provide conversion tracking brief",
-      "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "CKGSB Global Marketing Strategy Meeting",
-      "date": "2026-06-30",
-      "owner": "Joseph",
-      "status": "open",
-      "detail": "Joseph will ask the SEO manager to provide a detailed description of each conversion event in Google Analytics.",
-      "source": "meeting",
-      "category": "Website & SEO"
-    },
-    {
-      "id": "m-ai-10",
-      "text": "Launch Intelligent China webpage",
-      "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "CKGSB Global Marketing Strategy Meeting",
-      "date": "2026-06-30",
-      "owner": "Team",
-      "status": "open",
-      "detail": "The webpage for Intelligent China will be ready this week to drive traffic and applications.",
-      "source": "meeting",
-      "category": "Intelligent China Program"
     },
     {
       "id": "m-ai-11",
-      "text": "Start email campaigns",
+      "text": "Get brief on conversion tracking setup",
       "meetingId": "meeting_2026-06-30_15-12-49",
       "meetingTitle": "CKGSB Global Marketing Strategy Meeting",
       "date": "2026-06-30",
       "owner": "Team",
       "status": "open",
-      "detail": "From July, email campaigns will be sent to own network and partner networks like AmCham Shanghai and AmCham Beijing.",
+      "detail": "Request a detailed description of each conversion event from the SEO manager to ensure correct tracking.",
       "source": "meeting",
       "category": "Asia Start Campaign"
     },
     {
-      "id": "e-ai-12",
+      "id": "m-ai-12",
+      "text": "Prioritize Asia Star and Intelligent China in marketing",
+      "meetingId": "meeting_2026-06-30_15-12-49",
+      "meetingTitle": "CKGSB Global Marketing Strategy Meeting",
+      "date": "2026-06-30",
+      "owner": "Team",
+      "status": "open",
+      "detail": "Focus marketing efforts on Asia Star (November) and Intelligent China (December) programs, with US programs on hold initially.",
+      "source": "meeting",
+      "category": "Asia Start Campaign"
+    },
+    {
+      "id": "e-ai-13",
       "text": "Confirm two more alumni for the luncheon: Caroline Tang and Loh Yiwen",
       "meetingId": "email",
       "meetingTitle": "Re: CKGSB X Tech In ASIA",
       "date": "2026-09-14",
-      "owner": "Melvin",
+      "owner": "Melvin Lim",
       "status": "open",
-      "detail": "Xuan asks Melvin to confirm these alumni for the CKGSB luncheon at Tech in Asia Conference.",
-      "source": "email",
-      "category": "Events"
-    },
-    {
-      "id": "e-ai-13",
-      "text": "Approve registrants Zachary Zhou, Yvonne Song, and Yijia Wang for the event",
-      "meetingId": "email",
-      "meetingTitle": "Re: CKGSB X Tech In ASIA",
-      "date": "2026-09-14",
-      "owner": "Melvin",
-      "status": "open",
-      "detail": "Xuan requests Melvin to approve these CKGSB alumni registrants for the Tech in Asia Conference.",
+      "detail": "Xuan asked Melvin to confirm these alumni for the CKGSB luncheon at Tech in Asia.",
       "source": "email",
       "category": "Events"
     },
     {
       "id": "e-ai-14",
-      "text": "Provide sign-off on the rewritten Intelligent China program page copy and supply necessary details",
+      "text": "Provide sign-off on the rewritten Intelligent China program page copy and supply required details",
       "meetingId": "email",
       "meetingTitle": "RE: Details for Intelligent China",
       "date": "2026-09-14",
       "owner": "Cao Yi and Jay",
       "status": "open",
-      "detail": "Joseph asks Cao Yi and Jay to review and approve the copy rewrite by Manaferra and provide details only they can supply.",
+      "detail": "Joseph requested approval of the copy and specific information for the page rewrite by Manaferra.",
       "source": "email",
       "category": "Intelligent China Program"
     },
@@ -215,7 +215,7 @@
       "date": "2026-09-14",
       "owner": "Alan, Renee, and Xin",
       "status": "open",
-      "detail": "Joseph requests Alan, Renee, and Xin to review the rewritten webpage and provide feedback.",
+      "detail": "Joseph shared the rewritten page for their review and feedback.",
       "source": "email",
       "category": "Website & SEO"
     },
@@ -227,79 +227,79 @@
       "date": "2026-09-14",
       "owner": "Ira, Xuan, Julie",
       "status": "open",
-      "detail": "Joseph informs Ira, Xuan, and Julie that the webpage is live and encourages them to share it before the launch.",
+      "detail": "Joseph provided the live link and encouraged sharing before the official launch.",
       "source": "email",
       "category": "China Going-Global Report"
     },
     {
       "id": "e-ai-17",
+      "text": "Approve the following registrants who are CKGSB alumni: Zachary Zhou, Yvonne Song, Yijia Wang",
+      "meetingId": "email",
+      "meetingTitle": "Re: CKGSB X Tech In ASIA",
+      "date": "2026-09-14",
+      "owner": "Melvin Lim",
+      "status": "open",
+      "detail": "Xuan requested approval for these alumni to attend the Tech in Asia conference.",
+      "source": "email",
+      "category": "Events"
+    },
+    {
+      "id": "e-ai-18",
       "text": "CC future emails to Guoli.chen@insead.edu",
       "meetingId": "email",
       "meetingTitle": "RE: Invitation to Speak at CKGSB Luncheon at Tech in Asia Conference – Sept. 15",
       "date": "2026-09-14",
       "owner": "Xuan",
       "status": "open",
-      "detail": "Chen Guoli requests Xuan to include his INSEAD email in future communications.",
+      "detail": "Chen Guoli requested that Xuan include his INSEAD email in future communications.",
       "source": "email",
-      "category": "Other"
-    },
-    {
-      "id": "e-ai-18",
-      "text": "Review and provide thoughts on the drafted email about the new report for Zongchao",
-      "meetingId": "email",
-      "meetingTitle": "CKGSB × IE University 英文联合报告将于新加坡正式发布",
-      "date": "2026-09-11",
-      "owner": "Julie",
-      "status": "open",
-      "detail": "Ira asks Julie to review the draft email about the CKGSB-IE University report before sending to Zongchao.",
-      "source": "email",
-      "category": "China Going-Global Report"
+      "category": "Email Account Security"
     },
     {
       "id": "e-ai-19",
-      "text": "Share the press release with the marketing team and make edits",
+      "text": "Review and send the draft email to Zongchao about TIA progress",
       "meetingId": "email",
-      "meetingTitle": "Re: CKGSB-IE Report Launch",
+      "meetingTitle": "答复: 答复: 答复: CKGSB x Tech in Asia collaboration, Sept 15-16, Singapore",
       "date": "2026-09-11",
-      "owner": "Felix",
+      "owner": "Ira",
       "status": "open",
-      "detail": "Julie sends the press release for the CKGSB-IE report and asks Felix to share it with his team and edit as needed.",
+      "detail": "Xuan shared a draft email for Ira to review and send to Zongchao.",
       "source": "email",
       "category": "PR & Media"
     },
     {
       "id": "e-ai-20",
-      "text": "Review and provide edits on the press release for the CKGSB-IE report",
+      "text": "Share the CKGSB Business Conditions Index for August 2026 with network",
       "meetingId": "email",
-      "meetingTitle": "Re: CKGSB_IE_Chinese Companies’ New Playbook for Going Global_Report",
+      "meetingTitle": "CKGSB Business Conditions Index — August 2026",
       "date": "2026-09-11",
-      "owner": "Ira",
+      "owner": "Team",
       "status": "open",
-      "detail": "Julie drafts the press release and Ira provides suggested edits.",
+      "detail": "Joseph shared the English version and encouraged sharing with networks.",
       "source": "email",
       "category": "PR & Media"
     },
     {
       "id": "e-ai-21",
-      "text": "Update the webpage with edited copy for the CKGSB-IE report",
+      "text": "Review and provide feedback on the press release for the CKGSB-IE report",
       "meetingId": "email",
-      "meetingTitle": "Re: CKGSB_IE_Chinese Companies’ New Playbook for Going Global_Report",
+      "meetingTitle": "Re: CKGSB-IE Report Launch",
       "date": "2026-09-11",
-      "owner": "Joseph",
+      "owner": "Felix",
       "status": "open",
-      "detail": "Joseph updates the webpage based on Ira's edits.",
+      "detail": "Julie shared the press release for Felix to review and share with his marketing team.",
       "source": "email",
-      "category": "Website & SEO"
+      "category": "PR & Media"
     },
     {
       "id": "e-ai-22",
-      "text": "Share the CKGSB Business Conditions Index for August 2026 with network",
+      "text": "Promote the CKGSB-IE report on social media",
       "meetingId": "email",
-      "meetingTitle": "CKGSB Business Conditions Index — August 2026",
+      "meetingTitle": "Re: CKGSB-IE Report Launch",
       "date": "2026-09-11",
-      "owner": "All",
+      "owner": "Team",
       "status": "open",
-      "detail": "Joseph shares the English version of the report and encourages sharing it with networks.",
+      "detail": "Julie mentioned that the report will be promoted on social media.",
       "source": "email",
       "category": "PR & Media"
     }
@@ -307,9 +307,9 @@
   "decisions": [
     {
       "id": "m-d-1",
-      "text": "Reset the Outlook password and re-login on all devices to resolve the account lockout.",
+      "text": "Reset passwords by deleting and re-adding accounts on all devices rather than updating in place.",
       "meetingId": "meeting_2026-07-20_17-41-18",
-      "meetingTitle": "Outlook Account Password Reset & Device Check",
+      "meetingTitle": "Outlook Account Password Reset & Device Login",
       "date": "2026-07-20",
       "source": "meeting"
     },
@@ -323,7 +323,7 @@
     },
     {
       "id": "m-d-3",
-      "text": "Keep the two-menu structure (Knowledge and School) at the top.",
+      "text": "Keep the knowledge menu centered rather than left-aligned.",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Design Review",
       "date": "2026-07-09",
@@ -331,7 +331,7 @@
     },
     {
       "id": "m-d-4",
-      "text": "Use Joseph's design as inspiration but not follow it exactly; combine ideas with the current version.",
+      "text": "Incorporate BCI and BSI indices into the knowledge section, similar to the school homepage.",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Design Review",
       "date": "2026-07-09",
@@ -339,7 +339,7 @@
     },
     {
       "id": "m-d-5",
-      "text": "Bring BCI and BSI indices to the knowledge homepage.",
+      "text": "Use Joseph's design as inspiration, particularly for displaying more articles and indices, but not adopt it wholesale.",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Design Review",
       "date": "2026-07-09",
@@ -347,7 +347,7 @@
     },
     {
       "id": "m-d-6",
-      "text": "Prioritize Asia Star and Intelligent China programs for marketing efforts.",
+      "text": "Prioritize Asia Star and Intelligent China as top two marketing priorities, with Berkeley as a possible third.",
       "meetingId": "meeting_2026-06-30_15-12-49",
       "meetingTitle": "CKGSB Global Marketing Strategy Meeting",
       "date": "2026-06-30",
@@ -355,23 +355,23 @@
     },
     {
       "id": "m-d-7",
-      "text": "Put US partnership programs (Stanford, Berkeley, Columbia) on hold initially, but consider Berkeley as a third priority.",
+      "text": "Put US partnerships on hold for the first quarter to focus on China programs.",
       "meetingId": "meeting_2026-06-30_15-12-49",
       "meetingTitle": "CKGSB Global Marketing Strategy Meeting",
       "date": "2026-06-30",
       "source": "meeting"
     },
     {
-      "id": "m-d-8",
-      "text": "Focus on China-based programs due to higher demand from overseas executives.",
-      "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "CKGSB Global Marketing Strategy Meeting",
-      "date": "2026-06-30",
-      "source": "meeting"
+      "id": "e-d-8",
+      "text": "Approved attendees for Tech in Asia: Zachary Zhou, Yvonne Song, Yijia Wang, Loh Yiwen",
+      "meetingId": "email",
+      "meetingTitle": "Re: CKGSB X Tech In ASIA",
+      "date": "2026-09-14",
+      "source": "email"
     },
     {
       "id": "e-d-9",
-      "text": "Keep Dean Xiang's keynote speech to 10 minutes from 12:35–12:45 PM, followed by Ira's report presentation",
+      "text": "Keep Dean Xiang's keynote speech to 10 minutes, from 12:35–12:45 PM, followed by Ira's report presentation",
       "meetingId": "email",
       "meetingTitle": "Re: 答复: 答复: 答复: CKGSB X Tech In ASIA",
       "date": "2026-09-12",
@@ -379,7 +379,7 @@
     },
     {
       "id": "e-d-10",
-      "text": "Change the press release title from 'CKGSB-IE University Report Reveals New Playbook for Chinese Companies Going Global' to 'CKGSB-IE University Report Reveals New Models...'",
+      "text": "Change the press release title to 'CKGSB-IE University Report Reveals New Models for Chinese Companies Going Global'",
       "meetingId": "email",
       "meetingTitle": "Re: CKGSB_IE_Chinese Companies’ New Playbook for Going Global_Report",
       "date": "2026-09-11",
