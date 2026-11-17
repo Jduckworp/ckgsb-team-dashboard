@@ -1,37 +1,41 @@
 {
-  "lastUpdated": "2026-11-16",
-  "summary": "The team is pivoting to prioritize China-based programs (Asia Star and Intelligent China) while finalizing the knowledge website redesign and resolving IT lockout issues.",
-  "summaryDetail": "The most urgent focus this week is resolving the Outlook account lockout across all devices, which requires deleting and re-adding accounts and confirming backend unlock with JSB. In parallel, the knowledge website redesign is nearing completion: the team has chosen to keep the current design with menu categorization improvements, incorporate BCI/BSI indices, and disperse videos by topic; a working session is needed to finalize feedback and make design changes. Program promotion is shifting to Asia Star and Intelligent China as top priorities, with the Berkeley program as a potential third, while US partnerships (Stanford, Columbia) are on hold for Q1. Upcoming actions include drafting a target audience document for search visibility, analyzing participant profiles and CRM leads, and providing a Google Analytics conversion tracking brief. Later in the year, attention will turn to updating event materials for Professor Xiaomeng's revised speech topic, finalizing the Western MBA faculty training press release, and following up on Stanford enrollment leads.",
+  "lastUpdated": "2026-11-17",
+  "summary": "The Intelligent China webpage launches this week, anchoring the team's SEO/AI-search push alongside Asia Star, while the Knowledge website redesign nears final feedback and a lingering Outlook lockout needs a quick team-wide fix.",
+  "summaryDetail": "The top priority right now is the launch of the Intelligent China webpage this week, which—together with Asia Star—forms the core of the global marketing strategy to boost SEO and AI-search visibility; US partner programs like Berkeley remain secondary. In parallel, the Knowledge website redesign is in final review: the team has settled on the two-menu structure, card-based content types, and a BCI banner in the Knowledge section, and Joseph must share the HTML concept before a 30-minute feedback session leads to Joker's design changes. This week also requires clearing the Outlook account lockout by re-logging in and updating stale credentials across all devices, and kicking off promotion for the 2026 Women in Leadership Forum now that speakers are confirmed. Upcoming milestones include Joseph's target-audience and prompt document for SEO, an audit of Google Ads conversion tracking, and finalizing the Western MBA teacher training press release; the website redesign PPT and email to Zongchao should wait until the new English homepage and both URLs are live.",
   "meetings": [
     {
       "id": "meeting_2026-07-20_17-41-18",
       "title": "Outlook Account Lockout Troubleshooting",
       "date": "2026-07-20",
       "attendees": [],
-      "summary": "The team discussed a recurring Outlook account lockout caused by stale saved passwords on multiple devices, and walked through re-logging into accounts and updating passwords on laptops and phones."
+      "summary": "The team troubleshoots an Outlook account lockout caused by stale saved passwords on multiple devices, re-logging in and updating credentials on laptops and phones."
     },
     {
       "id": "meeting_2026-07-20_14-49-12",
       "title": "Untitled Meeting",
       "date": "2026-07-20",
       "attendees": [],
-      "summary": "The transcript contains only brief, unclear fragments with no substantive discussion, so no meaningful content could be identified."
+      "summary": "The transcript contains only unintelligible fragments with no discernible discussion content."
     },
     {
       "id": "meeting_2026-07-09_16-07-28",
       "title": "Knowledge Website Redesign Review",
       "date": "2026-07-09",
-      "attendees": [],
-      "summary": "The team reviewed two homepage redesign concepts for the knowledge website, favoring the current design with menu categorization improvements while considering editorial-style layouts to display more articles and surface indices like BCI/BSI."
+      "attendees": [
+        "Joseph",
+        "Joker",
+        "Julie"
+      ],
+      "summary": "The team reviewed two homepage redesign concepts for the Knowledge website, favoring the current design with menu categorization improvements while drawing inspiration from Joseph's editorial-style layout to display more articles and surface indices like BCI/BSI."
     },
     {
       "id": "meeting_2026-06-30_15-12-49",
-      "title": "Marketing Strategy Meeting: Program Promotion & Analytics",
+      "title": "CKGSB Global Marketing Strategy Sync",
       "date": "2026-06-30",
       "attendees": [
         "Joseph"
       ],
-      "summary": "The team discussed prioritizing promotion of China-based programs (Asia Star and Intelligent China) over US partnerships, and reviewed Google Analytics conversion tracking setup to ensure accurate measurement."
+      "summary": "The team aligned on prioritizing Asia Star and the new Intelligent China program for SEO/AI-search visibility, with US partner programs (Berkeley as possible third) secondary. They also discussed auditing existing Google Ads conversion tracking setup."
     }
   ],
   "actionItems": [
@@ -43,231 +47,219 @@
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "Remove all email accounts and sign in again to refresh credentials.",
+      "detail": "Remove accounts and sign in again to refresh saved credentials.",
       "source": "meeting",
-      "category": "Email & Account Access"
+      "category": "IT & Accounts"
     },
     {
       "id": "m-ai-2",
-      "text": "Update saved password on the other laptop's Outlook client",
+      "text": "Update password on the phone's Outlook",
       "meetingId": "meeting_2026-07-20_17-41-18",
       "meetingTitle": "Outlook Account Lockout Troubleshooting",
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "The non-updated client keeps using the old password and triggers lockouts.",
+      "detail": "The phone hasn't used Outlook in a while and needs a password update.",
       "source": "meeting",
-      "category": "Email & Account Access"
+      "category": "IT & Accounts"
     },
     {
       "id": "m-ai-3",
-      "text": "Re-login Outlook on mobile phone",
+      "text": "Check home devices for stale credentials",
       "meetingId": "meeting_2026-07-20_17-41-18",
       "meetingTitle": "Outlook Account Lockout Troubleshooting",
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "Phone hasn't used Outlook in a while and needs a password update.",
+      "detail": "Verify any home devices and remove accounts if not needed to avoid re-locking.",
       "source": "meeting",
-      "category": "Email & Account Access"
+      "category": "IT & Accounts"
     },
     {
       "id": "m-ai-4",
-      "text": "Check home devices for stale accounts and remove if unneeded",
-      "meetingId": "meeting_2026-07-20_17-41-18",
-      "meetingTitle": "Outlook Account Lockout Troubleshooting",
-      "date": "2026-07-20",
-      "owner": "Team",
-      "status": "open",
-      "detail": "Any device with an old password could re-lock the account.",
-      "source": "meeting",
-      "category": "Email & Account Access"
-    },
-    {
-      "id": "m-ai-5",
       "text": "Contact JSB to confirm backend account unlock",
       "meetingId": "meeting_2026-07-20_17-41-18",
       "meetingTitle": "Outlook Account Lockout Troubleshooting",
       "date": "2026-07-20",
       "owner": "Team",
       "status": "open",
-      "detail": "Backend lock was cleared; follow up to verify access.",
+      "detail": "The backend account lock was unlocked; follow up with JSB to confirm.",
       "source": "meeting",
-      "category": "Email & Account Access"
+      "category": "IT & Accounts"
     },
     {
-      "id": "m-ai-6",
-      "text": "Hold a 30-minute working session to mark specific feedback on the designs",
-      "meetingId": "meeting_2026-07-09_16-07-28",
-      "meetingTitle": "Knowledge Website Redesign Review",
-      "date": "2026-07-09",
-      "owner": "Joseph, Julie, and team lead",
-      "status": "open",
-      "detail": "The group will sit down together to give detailed feedback so Joker can make changes based on their input and his own judgment.",
-      "source": "meeting",
-      "category": "Design Feedback & Revisions"
-    },
-    {
-      "id": "m-ai-7",
-      "text": "Share the HTML file of the inspiration design",
+      "id": "m-ai-5",
+      "text": "Share HTML file of the design concept",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Redesign Review",
       "date": "2026-07-09",
       "owner": "Joseph",
       "status": "open",
-      "detail": "Joseph offered to share the HTML file of the alternative editorial-style layout for reference.",
+      "detail": "Joseph offered to share the HTML file for his editorial-style design for reference.",
       "source": "meeting",
-      "category": "Design Feedback & Revisions"
+      "category": "Design Feedback"
     },
     {
-      "id": "m-ai-8",
+      "id": "m-ai-6",
+      "text": "Hold a 30-minute session to mark specific feedback on the designs",
+      "meetingId": "meeting_2026-07-09_16-07-28",
+      "meetingTitle": "Knowledge Website Redesign Review",
+      "date": "2026-07-09",
+      "owner": "Joseph, Julie, and team lead",
+      "status": "open",
+      "detail": "The group will meet to give detailed feedback so Joker can make changes based on their input and his judgment.",
+      "source": "meeting",
+      "category": "Design Feedback"
+    },
+    {
+      "id": "m-ai-7",
       "text": "Make design changes based on team feedback",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Redesign Review",
       "date": "2026-07-09",
       "owner": "Joker",
       "status": "open",
-      "detail": "Joker will revise the design after receiving the team's specific feedback.",
+      "detail": "Joker will adjust the design after receiving specific feedback from the review session.",
       "source": "meeting",
-      "category": "Design Feedback & Revisions"
+      "category": "Design Feedback"
     },
     {
-      "id": "m-ai-9",
-      "text": "Draft a document outlining target audience areas and prompts for search visibility",
+      "id": "m-ai-8",
+      "text": "Draft the target areas/prompts and audience focus document",
       "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "Marketing Strategy Meeting: Program Promotion & Analytics",
+      "meetingTitle": "CKGSB Global Marketing Strategy Sync",
       "date": "2026-06-30",
       "owner": "Joseph",
       "status": "open",
-      "detail": "Joseph will put together a draft on the areas they want to show up in and the prompts to capture, which the speaker will review.",
+      "detail": "Joseph to prepare a draft covering the areas they want to show up in, target focus, and search prompts, for review together.",
       "source": "meeting",
-      "category": "Website & SEO"
+      "category": "Asia Start Campaign"
+    },
+    {
+      "id": "m-ai-9",
+      "text": "Analyze existing Asia Star participant profiles and CRM hot leads",
+      "meetingId": "meeting_2026-06-30_15-12-49",
+      "meetingTitle": "CKGSB Global Marketing Strategy Sync",
+      "date": "2026-06-30",
+      "owner": "Joseph",
+      "status": "open",
+      "detail": "Review 3-4 representative customer profiles (company, age, location) and CRM-scored leads to inform geographic and audience targeting.",
+      "source": "meeting",
+      "category": "Asia Start Campaign"
     },
     {
       "id": "m-ai-10",
-      "text": "Analyze existing participant profiles and CRM leads to identify key geographic regions and customer profiles",
+      "text": "Obtain brief on Google Ads conversion tracking setup",
       "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "Marketing Strategy Meeting: Program Promotion & Analytics",
+      "meetingTitle": "CKGSB Global Marketing Strategy Sync",
       "date": "2026-06-30",
       "owner": "Team",
       "status": "open",
-      "detail": "The team will look at Asia Star participants and CRM leads to determine representative profiles and important geographic regions.",
+      "detail": "Request a detailed description with examples of each conversion event from the SEO manager, then verify tracking works as intended.",
       "source": "meeting",
       "category": "Website & SEO"
     },
     {
       "id": "m-ai-11",
-      "text": "Provide a brief on Google Analytics conversion tracking setup",
+      "text": "Prioritize Asia Star and Intelligent China in audit and plan",
       "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "Marketing Strategy Meeting: Program Promotion & Analytics",
+      "meetingTitle": "CKGSB Global Marketing Strategy Sync",
       "date": "2026-06-30",
       "owner": "Team",
       "status": "open",
-      "detail": "The team needs a detailed description of each conversion event and examples to ensure accurate tracking and avoid acting on wrong data.",
+      "detail": "Focus initial audit and optimization on the two China programs, with Berkeley as a possible third priority.",
       "source": "meeting",
-      "category": "Website & SEO"
+      "category": "Asia Start Campaign"
     },
     {
       "id": "e-ai-12",
+      "text": "Send the draft summary message to Cheng Zongchao",
+      "meetingId": "email",
+      "meetingTitle": "Summary message on Nov 13 event",
+      "date": "2026-11-17",
+      "owner": "Ira ZAKA",
+      "status": "open",
+      "detail": "LIU Xuan prepared a Chinese draft report to Cheng Zongchao on the Nov 13 European Chamber event and asked Ira to send it.",
+      "source": "email",
+      "category": "PR & Media"
+    },
+    {
+      "id": "e-ai-13",
       "text": "Update event agendas and posters with Professor Xiaomeng's revised speech topic before sharing",
       "meetingId": "email",
       "meetingTitle": "Re: 2026 Women in Leadership Forum_Promotion",
       "date": "2026-11-15",
       "owner": "Team",
       "status": "open",
-      "detail": "Kaylee relayed that Professor Xiaomeng changed her speech topic, so all shared materials must reflect the latest agendas and posters.",
+      "detail": "DONG Kunyu noted the speaker updated her topic and asked the team to use the latest agendas and posters when promoting.",
       "source": "email",
       "category": "Events"
     },
     {
-      "id": "e-ai-13",
-      "text": "Send the updated PPT and email to Zongchao once the two website URLs are launched, including both URLs in the email and PPT",
-      "meetingId": "email",
-      "meetingTitle": "Re: PPT on Flow Design Work",
-      "date": "2026-11-12",
-      "owner": "Ira ZAKA",
-      "status": "open",
-      "detail": "Joseph and Julie agreed to wait for the homepage launch, then Ira should forward the materials to Zongchao with both site URLs included.",
-      "source": "email",
-      "category": "Website & SEO"
-    },
-    {
       "id": "e-ai-14",
-      "text": "Review Joseph's proposed YouTube edit plan covering all 233 public videos and provide feedback",
+      "text": "Review Joseph's proposed YouTube edit plan covering all 233 public videos",
       "meetingId": "email",
       "meetingTitle": "YouTube channel improvements: proposed edit plan for review",
       "date": "2026-11-12",
       "owner": "Ira ZAKA",
       "status": "open",
-      "detail": "Joseph prepared a title and description edit plan for the YouTube channel following Manaferra's audit and asked Ira and team to review it.",
+      "detail": "Joseph prepared an edit plan with proposed titles and descriptions following Manaferra's YouTube audit and requested review.",
       "source": "email",
-      "category": "PR & Media"
+      "category": "Website & SEO"
     },
     {
       "id": "e-ai-15",
-      "text": "Review Manaferra's AI Search Campaign report and clarify whether the 52% first-mention stat refers only to tracked prompts",
+      "text": "Send the updated PPT and email on website redesign to Zongchao once the homepage and both URLs are launched",
       "meetingId": "email",
-      "meetingTitle": "Re: CKGSB <> Manaferra: AI Search Campaign Summary",
+      "meetingTitle": "Re: PPT on Flow Design Work",
       "date": "2026-11-12",
-      "owner": "Team",
+      "owner": "Ira ZAKA",
       "status": "open",
-      "detail": "Joseph flagged that the headline stat likely applies only to tracked prompts and asked the team to verify and contextualize it.",
+      "detail": "Joseph asked Ira to send the email to Zongchao, and the team agreed to wait until the homepage launches and include both website URLs.",
       "source": "email",
-      "category": "PR & Media"
+      "category": "Website & SEO"
     },
     {
       "id": "e-ai-16",
-      "text": "Review Joseph's comments and suggested additional brand prompts in Manaferra's prompt document",
-      "meetingId": "email",
-      "meetingTitle": "Manaferra Branding Prompts",
-      "date": "2026-11-11",
-      "owner": "Ira ZAKA",
-      "status": "open",
-      "detail": "Joseph marked comments and proposed extra prompts in the shared spreadsheet for Ira and Julie to review.",
-      "source": "email",
-      "category": "PR & Media"
-    },
-    {
-      "id": "e-ai-17",
-      "text": "Finalize the English press release on the Western MBA faculty training program and get Xueming's confirmation before publishing",
+      "text": "Finalize the Western MBA teacher training press release with Xueming's confirmation",
       "meetingId": "email",
       "meetingTitle": "答复: 2026年西部MBA师资培训项目新闻稿",
       "date": "2026-11-12",
       "owner": "TIAN Xuefang",
       "status": "open",
-      "detail": "Julie edited Ira's draft and is checking the added paragraph with Xueming before sending it for final confirmation.",
+      "detail": "Julie edited Ira's draft press release and is checking the added paragraph with Xueming before sending it for confirmation.",
       "source": "email",
       "category": "PR & Media"
+    },
+    {
+      "id": "e-ai-17",
+      "text": "Review Joseph's comments and suggested additional prompts on Manaferra's branding prompts document",
+      "meetingId": "email",
+      "meetingTitle": "Manaferra Branding Prompts",
+      "date": "2026-11-11",
+      "owner": "Ira ZAKA",
+      "status": "open",
+      "detail": "Joseph marked comments and proposed extra brand prompts for Manaferra to consider adding.",
+      "source": "email",
+      "category": "Design Feedback"
     },
     {
       "id": "e-ai-18",
-      "text": "Follow up with Professor Li to get greenlight on the translated Business Sentiment Index Q3 2026 English report before publishing",
+      "text": "Kick off promotion for the 2026 Women in Leadership Forum now that speakers are confirmed and registration is open",
       "meetingId": "email",
-      "meetingTitle": "Re: Business Sentiment Index_BSI_中国产业经济景气指数_Q3 2026_English",
+      "meetingTitle": "2026 Women in Leadership Forum_Promotion",
       "date": "2026-11-11",
-      "owner": "TIAN Xuefang",
+      "owner": "Team",
       "status": "open",
-      "detail": "Julie is awaiting Professor Li's approval on the translated BSI report prior to publication.",
+      "detail": "DONG Kunyu confirmed all speakers and live EN/CN event pages, and said official event promotion can now begin.",
       "source": "email",
-      "category": "PR & Media"
-    },
-    {
-      "id": "e-ai-19",
-      "text": "Continue following up on Stanford program enrollment leads and report status to Alan",
-      "meetingId": "email",
-      "meetingTitle": "Re: Invitation | CKGSB x European Chamber Shanghai Event – November 13",
-      "date": "2026-11-16",
-      "owner": "Sarah Elizabeth Kochling",
-      "status": "open",
-      "detail": "Sarah noted pricing and year-end scheduling are barriers for prospects and will keep Alan posted on enrollment progress.",
-      "source": "email",
-      "category": "Other"
+      "category": "Events"
     }
   ],
   "decisions": [
     {
       "id": "m-d-1",
-      "text": "Resolve lockouts by deleting and re-adding accounts with updated passwords across all devices.",
+      "text": "Re-login and update passwords across all devices to prevent repeated lockouts.",
       "meetingId": "meeting_2026-07-20_17-41-18",
       "meetingTitle": "Outlook Account Lockout Troubleshooting",
       "date": "2026-07-20",
@@ -275,7 +267,7 @@
     },
     {
       "id": "m-d-2",
-      "text": "Remove the standalone videos section and disperse videos by topic instead",
+      "text": "Remove the dedicated videos section; videos will be dispersed by topic across the site.",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Redesign Review",
       "date": "2026-07-09",
@@ -283,7 +275,7 @@
     },
     {
       "id": "m-d-3",
-      "text": "Keep the two-menu structure with school menu at top and knowledge menu centered",
+      "text": "Keep the two-menu structure (Knowledge menu and School menu) at the top.",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Redesign Review",
       "date": "2026-07-09",
@@ -291,7 +283,7 @@
     },
     {
       "id": "m-d-4",
-      "text": "Bring BCI and BSI indices into the knowledge section",
+      "text": "Bring the BCI banner into the Knowledge section, similar to the school homepage.",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Redesign Review",
       "date": "2026-07-09",
@@ -299,7 +291,7 @@
     },
     {
       "id": "m-d-5",
-      "text": "Do not add a stock-market ticker at the top of the homepage",
+      "text": "Do not display a stock-market ticker at the very top of the homepage.",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Redesign Review",
       "date": "2026-07-09",
@@ -307,7 +299,7 @@
     },
     {
       "id": "m-d-6",
-      "text": "Keep the current knowledge design largely as-is rather than a full revamp, taking select ideas from the editorial-style concept",
+      "text": "Use card designs to visually distinguish content types (professor analysis, articles, etc.) for better UX.",
       "meetingId": "meeting_2026-07-09_16-07-28",
       "meetingTitle": "Knowledge Website Redesign Review",
       "date": "2026-07-09",
@@ -315,23 +307,31 @@
     },
     {
       "id": "m-d-7",
-      "text": "Prioritize Asia Star and Intelligent China programs for promotion, with Berkeley program as a potential third priority.",
+      "text": "Asia Star and Intelligent China are the top two program priorities; US partner programs (Stanford, Columbia, Berkeley) are secondary.",
       "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "Marketing Strategy Meeting: Program Promotion & Analytics",
+      "meetingTitle": "CKGSB Global Marketing Strategy Sync",
       "date": "2026-06-30",
       "source": "meeting"
     },
     {
       "id": "m-d-8",
-      "text": "Put US partnerships (Stanford, Columbia) on hold for the first quarter to focus on China programs.",
+      "text": "Berkeley is the preferred third priority among US programs if a third is added.",
       "meetingId": "meeting_2026-06-30_15-12-49",
-      "meetingTitle": "Marketing Strategy Meeting: Program Promotion & Analytics",
+      "meetingTitle": "CKGSB Global Marketing Strategy Sync",
       "date": "2026-06-30",
       "source": "meeting"
     },
     {
-      "id": "e-d-9",
-      "text": "Wait until the new English homepage is launched before sending the website redesign PPT and email to Zongchao, and include both website URLs",
+      "id": "m-d-9",
+      "text": "Intelligent China webpage launches this week, enabling SEO optimization alongside Asia Star.",
+      "meetingId": "meeting_2026-06-30_15-12-49",
+      "meetingTitle": "CKGSB Global Marketing Strategy Sync",
+      "date": "2026-06-30",
+      "source": "meeting"
+    },
+    {
+      "id": "e-d-10",
+      "text": "Wait until the new English homepage is launched before sending the website redesign PPT and email to Zongchao, and include both website URLs.",
       "meetingId": "email",
       "meetingTitle": "Re: PPT on Flow Design Work",
       "date": "2026-11-12",
